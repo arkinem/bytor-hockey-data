@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { EntityIdSchema, EntityStatusSchema } from "./common.js";
+import { EntityIdSchema } from "./common.js";
 
 export const SeasonSchema = z.object({
 	startYear: z.number().int().min(1900).max(2200),
@@ -12,6 +12,16 @@ export const SeasonSchema = z.object({
 
 export type Season = z.infer<typeof SeasonSchema>;
 
+export const CompetitionSeasonStatusSchema = z.enum([
+	"upcoming",
+	"active",
+	"completed",
+	"cancelled",
+	"unknown",
+]);
+
+export type CompetitionSeasonStatus = z.infer<typeof CompetitionSeasonStatusSchema>;
+
 export const CompetitionSeasonSchema = z.object({
 	id: EntityIdSchema,
 
@@ -19,7 +29,7 @@ export const CompetitionSeasonSchema = z.object({
 
 	season: SeasonSchema,
 
-	status: EntityStatusSchema,
+	status: CompetitionSeasonStatusSchema,
 
 	sourceIds: z.array(EntityIdSchema).default([]),
 

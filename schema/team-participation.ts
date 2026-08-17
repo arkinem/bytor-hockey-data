@@ -1,6 +1,17 @@
 import { z } from "zod";
 
-import { EntityIdSchema, EntityStatusSchema } from "./common.js";
+import { EntityIdSchema } from "./common.js";
+
+export const TeamParticipationStatusSchema = z.enum([
+	"confirmed",
+	"active",
+	"completed",
+	"withdrawn",
+	"disqualified",
+	"unknown",
+]);
+
+export type TeamParticipationStatus = z.infer<typeof TeamParticipationStatusSchema>;
 
 export const TeamParticipationSchema = z.object({
 	id: EntityIdSchema,
@@ -9,7 +20,7 @@ export const TeamParticipationSchema = z.object({
 
 	competitionSeasonId: EntityIdSchema,
 
-	status: EntityStatusSchema,
+	status: TeamParticipationStatusSchema,
 
 	displayName: z.string().min(1).optional(),
 

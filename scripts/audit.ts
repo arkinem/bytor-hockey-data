@@ -4,6 +4,7 @@ import { extname, join } from "node:path";
 import { parse } from "yaml";
 
 import { OrganisationSchema, RinkSchema, TeamSchema } from "../schema/index.js";
+import { EntityNameIndex } from "./lib/entity-name-index.js";
 
 async function loadYamlDirectory(directory: string): Promise<unknown[]> {
 	const files = await readdir(join("data", directory));
@@ -52,6 +53,37 @@ async function main() {
 		teamsByRole.set(team.role, (teamsByRole.get(team.role) ?? 0) + 1);
 	}
 
+	const teamNameIndex = new EntityNameIndex();
+
+	for (const team of teams) {
+		teamNameIndex.add(team);
+	}
+
+	const teamNames = new Set<string>();
+
+	for (const team of teams) {
+		teamNames.add(team.name);
+
+		for (const alias of team.aliases) {
+			teamNames.add(alias);
+		}
+
+		for (const historicalName of team.historicalNames) {
+			teamNames.add(historicalName.name);
+		}
+	}
+
+	const ambiguousTeamNames = [...teamNames]
+		.map((name) => ({
+			name,
+			matches: teamNameIndex.find(name),
+		}))
+		.filter(({ matches }) => {
+			const uniqueIds = new Set(matches.map((match) => match.id));
+
+			return uniqueIds.size > 1;
+		});
+
 	const rinksWithoutCoordinates = rinks.filter((rink) => !rink.coordinates);
 
 	const rinksWithoutCity = rinks.filter((rink) => !rink.city);
@@ -91,6 +123,18 @@ async function main() {
 	console.log("");
 	console.log(`Rinks without coordinates: ${rinksWithoutCoordinates.length}`);
 	console.log(`Rinks without city: ${rinksWithoutCity.length}`);
+
+	console.log("");
+	console.log("Entity identity");
+	console.log("---------------");
+
+	console.log(`Ambiguous team names/aliases: ${ambiguousTeamNames.length}`);
+
+	for (const ambiguity of ambiguousTeamNames) {
+		const ids = [...new Set(ambiguity.matches.map((match) => match.id))];
+
+		console.log(`- "${ambiguity.name}" -> ${ids.join(", ")}`);
+	}
 }
 
 await main();

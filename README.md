@@ -164,6 +164,10 @@ Generated datasets / applications / analysis
 
 AI-assisted research may contribute to later enrichment and investigation, but uncertain AI-generated conclusions should not silently become canonical facts.
 
+## Documentation
+
+- [Domain model](docs/architecture/domain-model.md)
+
 ## Status
 
 Early development.
