@@ -1,0 +1,24 @@
+id: peterborough-warriors
+name: Peterborough Warriors
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - peterborough
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Sandis Miljons
+  email: sandis.miljons@gmail.com
+  phone: 01733 260222
+training:
+  raw: Mondays @ 21:45 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "297"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=297

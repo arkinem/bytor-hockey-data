@@ -1,0 +1,28 @@
+id: oxford-shooting-stars
+name: Oxford Shooting Stars
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - oxford
+website: https://www.eiharec.co.uk/www.oxfordshootingstars.co.uk
+contact:
+  name: Jasper Syms
+  email: jasper.syms@gmail.com
+  phone: 01865 467000
+training:
+  raw: "Term time: Tue 00:00-01:00, Holidays: Fri 00:00-01:00 Games Saturdays 23:00-01:00 This site is
+    copyright 2002 EIHA, Tony Wood, hyperality"
+logo:
+  path: /team-logos/191.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "191"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=191

@@ -1,0 +1,27 @@
+id: riverside-raiders
+name: Riverside Raiders
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - widnes
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Mike Teinert
+  email: miketeinert@aol.com
+  phone: WA8 0TA
+training:
+  raw: Monday 22:15 Games Varies This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/234.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "234"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=234

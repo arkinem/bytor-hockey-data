@@ -1,0 +1,14 @@
+id: cambridge
+name: CAMBRIDGE
+aliases: []
+country: GB
+city: Cambridge
+coordinates:
+  latitude: 52.2055314
+  longitude: 0.1186637
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "65"
+sourceIds:
+  - eiharec

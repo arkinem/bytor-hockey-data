@@ -1,0 +1,27 @@
+{
+	"name": "bytor-hockey-data",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"typecheck": "tsc --noEmit",
+		"validate": "tsx scripts/validate.ts",
+		"data-audit": "tsx scripts/audit.ts",
+		"import:eiharec:rinks": "tsx scripts/import-eiharec-rinks.ts",
+		"import:eiharec:teams": "tsx scripts/import-eiharec-teams.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@9.9.0+sha1.3edbe440f4e570aa8f049adbd06b9483d55cc2d2",
+	"dependencies": {
+		"yaml": "^2.9.0",
+		"zod": "^4.4.3"
+	},
+	"devDependencies": {
+		"@types/node": "^26.2.0",
+		"tsx": "^4.23.12",
+		"typescript": "^7.0.2"
+	}
+}

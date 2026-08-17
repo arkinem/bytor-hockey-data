@@ -1,0 +1,27 @@
+id: streatham-chiefs
+name: Streatham Chiefs
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - streatham
+website: http://www.chiefs.co.uk/
+contact:
+  name: Gavin Wilmot
+  email: gavin.wilmot@gmail.com
+  phone: 020 8677 5758
+training:
+  raw: Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/36.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "36"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=36

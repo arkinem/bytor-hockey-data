@@ -1,0 +1,28 @@
+id: grimsby-trawlers
+name: Grimsby Trawlers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - grimsby
+website: https://www.grimsbytrawlers.com/
+contact:
+  name: Dale Wright
+  email: info@grimsbytrawlers.com
+  phone: 01472 323100
+training:
+  raw: Sundays @ 19.00 Games Saturdays & Sundays @ 16.30 This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/265.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "265"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=265

@@ -1,0 +1,14 @@
+id: hamilton-ice-rink-lanarkshire
+name: Hamilton Ice Rink (Lanarkshire)
+aliases: []
+country: GB
+city: Hamilton
+coordinates:
+  latitude: 55.7795241
+  longitude: -4.0341685
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "49"
+sourceIds:
+  - eiharec

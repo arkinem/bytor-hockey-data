@@ -1,0 +1,24 @@
+id: tri-base-lightning
+name: Tri-Base Lightning
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - cambridge
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Jacob Churchbourne
+  email: jchurch1204@gmail.com
+  phone: CB5 8AA
+training:
+  raw: Wednesdays@ 21:00 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "280"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=280

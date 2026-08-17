@@ -1,0 +1,14 @@
+id: murrayfield-ice-rink-edinburgh
+name: Murrayfield Ice Rink (Edinburgh)
+aliases: []
+country: GB
+city: Edinburgh
+coordinates:
+  latitude: 55.9431173
+  longitude: -3.2436245
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "53"
+sourceIds:
+  - eiharec

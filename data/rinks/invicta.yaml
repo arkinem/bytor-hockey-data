@@ -1,0 +1,14 @@
+id: invicta
+name: Invicta
+aliases: []
+country: GB
+city: Gillingham
+coordinates:
+  latitude: 51.3873373
+  longitude: 0.5522466
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "5"
+sourceIds:
+  - eiharec

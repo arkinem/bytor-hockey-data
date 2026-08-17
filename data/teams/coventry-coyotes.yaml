@@ -1,0 +1,27 @@
+id: coventry-coyotes
+name: Coventry Coyotes
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - coventry
+website: https://www.facebook.com/CoventryPhoenixHockey
+socials:
+  facebook: https://www.facebook.com/CoventryPhoenixHockey
+contact:
+  name: Alfie Crabtree
+  email: alfiejack2004.ac@gmail.com
+  phone: 02476 630693
+training:
+  raw: Tuesdays @ 22:00 Games Weekends @ Various Times This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+externalIds:
+  - system: eiharec
+    value: "315"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=315

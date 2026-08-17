@@ -1,0 +1,27 @@
+id: sheffield-blazers
+name: Sheffield Blazers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - sheffield
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Ashley Wheelhouse
+  email: hockey.ashley.17@gmail.com
+  phone: 0114 233 3900
+training:
+  raw: Sunday @ 20.00 - 22.00 Games Weekends This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/31.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "31"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=31

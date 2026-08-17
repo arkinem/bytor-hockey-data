@@ -1,0 +1,24 @@
+id: benchwarmers
+name: Benchwarmers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - planet-ice-leeds
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Gary Clough
+  email: garyclough10@gmail.com
+  phone: 0113 3979700
+training:
+  raw: TBC Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "335"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=335

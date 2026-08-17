@@ -1,0 +1,23 @@
+id: kingston-reapers
+name: Kingston Reapers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - hull
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Carly Hayward
+  email: kingstonreapers@hotmail.com
+training:
+  raw: Tuesdays @ 21:30 Games Saturdays @ 12:30 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "292"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=292

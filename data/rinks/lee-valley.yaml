@@ -1,0 +1,14 @@
+id: lee-valley
+name: Lee Valley
+aliases: []
+country: GB
+city: Leyton
+coordinates:
+  latitude: 51.5635811
+  longitude: -0.0443274
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "25"
+sourceIds:
+  - eiharec

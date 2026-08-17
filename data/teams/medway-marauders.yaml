@@ -1,0 +1,27 @@
+id: medway-marauders
+name: Medway Marauders
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - invicta
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Neil Spratling
+  email: neilspratling13@gmail.com
+  phone: 01634 388477
+training:
+  raw: Friday @ 23.30 Games Friday @ 23.30 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/256.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "256"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=256

@@ -1,0 +1,24 @@
+id: swindon-steelhawks
+name: Swindon Steelhawks
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - swindon
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Scott Thorne
+  email: swindonsteelhawks@gmail.com
+  phone: 01793 445566
+training:
+  raw: Wednesday 23:15 Games N/A This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "327"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=327

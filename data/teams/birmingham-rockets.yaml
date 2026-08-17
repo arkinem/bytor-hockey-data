@@ -1,0 +1,27 @@
+id: birmingham-rockets
+name: Birmingham Rockets
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - solihull
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Tom Hooper
+  email: tom.hooper@me.com
+  phone: 0121 742 5561
+training:
+  raw: Tuesdays @ 21:15 Games TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/206.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "206"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=206

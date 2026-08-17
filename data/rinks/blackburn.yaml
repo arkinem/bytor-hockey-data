@@ -1,0 +1,14 @@
+id: blackburn
+name: Blackburn
+aliases: []
+country: GB
+city: Blackburn
+coordinates:
+  latitude: 53.7465347
+  longitude: -2.4788573
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "3"
+sourceIds:
+  - eiharec

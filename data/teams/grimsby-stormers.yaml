@@ -1,0 +1,28 @@
+id: grimsby-stormers
+name: Grimsby Stormers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - grimsby
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Josh Wood
+  email: jwood3.142@gmail.com
+  phone: 01472 323100
+training:
+  raw: Tuesday @ 20.45 - 22.00 Games Saturday 19.00 (or TBA) This site is copyright 2002 EIHA, Tony
+    Wood, hyperality
+logo:
+  path: /team-logos/195.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "195"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=195

@@ -1,0 +1,14 @@
+id: guildford
+name: Guildford
+aliases: []
+country: GB
+city: Guilford
+coordinates:
+  latitude: 51.5241154
+  longitude: -0.1165432
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "8"
+sourceIds:
+  - eiharec

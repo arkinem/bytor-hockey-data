@@ -1,0 +1,11 @@
+id: braehead-arena-glasgow
+name: Braehead Arena (Glasgow)
+aliases: []
+country: GB
+city: Glasgow
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "43"
+sourceIds:
+  - eiharec

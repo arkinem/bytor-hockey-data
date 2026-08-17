@@ -1,0 +1,14 @@
+id: billingham
+name: Billingham
+aliases: []
+country: GB
+city: Billingham
+coordinates:
+  latitude: 54.6057149
+  longitude: -1.2795366
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "2"
+sourceIds:
+  - eiharec

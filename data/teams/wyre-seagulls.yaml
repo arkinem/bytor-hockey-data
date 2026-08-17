@@ -1,0 +1,27 @@
+id: wyre-seagulls
+name: Wyre Seagulls
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - blackburn
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Mark Jenkins
+  email: mark_jenkins21@hotmail.com
+  phone: 01254 263063
+training:
+  raw: Sundays @ 22.15 - 23.15 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/205.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "205"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=205

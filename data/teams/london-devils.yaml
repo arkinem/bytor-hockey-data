@@ -1,0 +1,27 @@
+id: london-devils
+name: London Devils
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - haringey
+website: http://www.londondevils.com/
+contact:
+  name: Frank Walshe
+  email: teamcaptain@londondevils.com
+  phone: 0208 3652121
+training:
+  raw: Mondays 22:15 Games Thursday 21:00 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/19.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "19"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=19

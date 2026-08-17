@@ -1,0 +1,14 @@
+id: dundonald-ice-bowl-belfast
+name: Dundonald Ice Bowl (Belfast)
+aliases: []
+country: GB
+city: Belfast
+coordinates:
+  latitude: 54.5882973
+  longitude: -5.8256133
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "46"
+sourceIds:
+  - eiharec

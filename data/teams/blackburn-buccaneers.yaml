@@ -1,0 +1,27 @@
+id: blackburn-buccaneers
+name: Blackburn Buccaneers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - blackburn
+website: http://www.buccaneersihc.co.uk/
+contact:
+  name: Chris Beesley
+  email: cpbeesley41@gmail.com
+  phone: 01254 263063
+training:
+  raw: Friday 23:15 - 00:15 Games TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/137.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "137"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=137

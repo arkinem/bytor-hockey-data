@@ -1,0 +1,13 @@
+id: swindon
+name: Swindon
+aliases: []
+country: GB
+coordinates:
+  latitude: 51.5615327
+  longitude: -1.7854322
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "21"
+sourceIds:
+  - eiharec

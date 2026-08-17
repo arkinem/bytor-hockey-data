@@ -1,0 +1,27 @@
+id: peterborough-phoenix
+name: Peterborough Phoenix
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - peterborough
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Jackie Coulson
+  email: coulson9111969@gmail.com
+  phone: 01733 260222
+training:
+  raw: Friday 18:30 - 19:30 Games TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/28.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "28"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=28

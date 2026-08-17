@@ -1,0 +1,14 @@
+id: planet-ice-ryde-arena
+name: Planet Ice - Ryde Arena
+aliases: []
+country: GB
+city: Ryde
+coordinates:
+  latitude: 50.7324327
+  longitude: -1.1568611
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "14"
+sourceIds:
+  - eiharec

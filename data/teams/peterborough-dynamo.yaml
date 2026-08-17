@@ -1,0 +1,27 @@
+id: peterborough-dynamo
+name: Peterborough Dynamo
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - peterborough
+website: http://www.peterboroughdynamo.co.uk/
+contact:
+  name: Ivo Kairiss
+  email: ivo.kairiss@icloud.com
+  phone: 01733 260222
+training:
+  raw: Thursday @ 23.00 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/215.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "215"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=215

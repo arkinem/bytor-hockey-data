@@ -1,0 +1,14 @@
+id: dundee-ice-arena-dundee
+name: Dundee Ice Arena (Dundee)
+aliases: []
+country: GB
+city: Dundee
+coordinates:
+  latitude: 56.4816435
+  longitude: -3.0248131
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "45"
+sourceIds:
+  - eiharec

@@ -1,0 +1,27 @@
+id: north-east-nomads
+name: North East Nomads
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - whitley
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Richard Bateman
+  email: Richie.nomadsihc@gmail.com
+  phone: 0191 2911000
+training:
+  raw: Saturday @ 23.45 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/202.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "202"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=202

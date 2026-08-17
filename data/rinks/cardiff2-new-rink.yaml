@@ -1,0 +1,11 @@
+id: cardiff2-new-rink
+name: Cardiff2 - New Rink
+aliases: []
+country: GB
+city: Cardiff
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "22"
+sourceIds:
+  - eiharec

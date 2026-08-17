@@ -1,0 +1,14 @@
+id: milton-keynes
+name: Milton Keynes
+aliases: []
+country: GB
+city: Milton Keynes
+coordinates:
+  latitude: 52.0348915
+  longitude: -0.7465033
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "11"
+sourceIds:
+  - eiharec

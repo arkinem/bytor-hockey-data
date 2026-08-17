@@ -1,0 +1,27 @@
+id: kingston-cobras
+name: Kingston Cobras
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - hull
+website: http://www.kingstoncobras.com/
+contact:
+  name: Mike Forbes
+  email: fibsey88@hotmail.com
+  phone: "07889845679"
+training:
+  raw: Friday 22:30 Games Friday 22:30 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/18.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "18"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=18

@@ -1,0 +1,14 @@
+id: sobell-leisure-centre
+name: Sobell Leisure Centre
+aliases: []
+country: GB
+city: London
+coordinates:
+  latitude: 51.5589009
+  longitude: -0.1121304
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "62"
+sourceIds:
+  - eiharec

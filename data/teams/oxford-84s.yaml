@@ -1,0 +1,27 @@
+id: oxford-84s
+name: Oxford 84s
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - oxford
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: James Clarke
+  email: jc@oxford84s.com
+  phone: 01865 467000
+training:
+  raw: Mondays Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/270.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "270"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=270

@@ -1,0 +1,14 @@
+id: haringey
+name: Haringey
+aliases: []
+country: GB
+city: London
+coordinates:
+  latitude: 51.5943495
+  longitude: -0.1306402
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "24"
+sourceIds:
+  - eiharec

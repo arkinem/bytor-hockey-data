@@ -1,0 +1,14 @@
+id: telford
+name: Telford
+aliases: []
+country: GB
+city: Telford
+coordinates:
+  latitude: 52.6780349
+  longitude: -2.451355
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "20"
+sourceIds:
+  - eiharec

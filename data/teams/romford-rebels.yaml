@@ -1,0 +1,27 @@
+id: romford-rebels
+name: Romford Rebels
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - romford
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: John Paul Young
+  email: Romfordrebels@gmail.com
+  phone: 01708 724731
+training:
+  raw: Sundays @ 22.15 Games Sundays @ 22.15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/251.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "251"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=251

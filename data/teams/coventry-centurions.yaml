@@ -1,0 +1,24 @@
+id: coventry-centurions
+name: Coventry Centurions
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - coventry
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Richard Butlin
+  email: Richardgarybutlin@Gmail.com
+  phone: 02476 630693
+training:
+  raw: Thursdays @ 22.00 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "241"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=241

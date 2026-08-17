@@ -1,0 +1,27 @@
+id: cardiff-ice-hounds
+name: Cardiff Ice Hounds
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - cardiff2-new-rink
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: James Pepper
+  email: jamespepper55@gmail.com
+  phone: 02920 382001
+training:
+  raw: Monday 21.45 Games Saturdays This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/136.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "136"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=136

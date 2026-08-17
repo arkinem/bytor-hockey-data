@@ -1,0 +1,25 @@
+id: chester-road-reapers
+name: Chester Road Reapers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - deeside
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Richard Banks
+  email: richardbanks85@gmail.com
+  phone: 01244 814725
+training:
+  raw: Wednesdays @ 21:30 Games Wednesdays @ 21:30 This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+externalIds:
+  - system: eiharec
+    value: "298"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=298

@@ -1,0 +1,24 @@
+id: solihull-squadron
+name: Solihull Squadron
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - solihull
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Christopher Turner
+  email: solihullsquadronihc@gmail.com
+  phone: 0121 742 5561
+training:
+  raw: TBC Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "336"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=336

@@ -1,0 +1,24 @@
+id: milton-keynes-bolts
+name: Milton Keynes Bolts
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - milton-keynes
+website: http://www.mkbolts.co.uk/
+contact:
+  name: Andy Crichton-Smith
+  email: andy.cs@mkbolts.co.uk
+  phone: 01908 696696
+training:
+  raw: Tuesday @ 22.15 Games Saturday @ 22.30 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "243"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=243

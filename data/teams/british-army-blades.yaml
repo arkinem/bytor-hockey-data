@@ -1,0 +1,28 @@
+id: british-army-blades
+name: British Army Blades
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bracknell-ozone
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Paige Atwell
+  email: armyregistrationsukafiha@outlook.com
+  phone: 01344 453005
+training:
+  raw: Sunday 22:45 - 00:15 Games Sunday 22:45 - 00:15 Non Checking This site is copyright 2002 EIHA,
+    Tony Wood, hyperality
+logo:
+  path: /team-logos/98.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "98"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=98

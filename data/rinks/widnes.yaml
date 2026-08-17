@@ -1,0 +1,14 @@
+id: widnes
+name: Widnes
+aliases: []
+country: GB
+city: Widnes
+coordinates:
+  latitude: 53.3786146
+  longitude: -2.7341997
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "59"
+sourceIds:
+  - eiharec

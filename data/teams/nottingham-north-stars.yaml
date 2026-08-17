@@ -1,0 +1,24 @@
+id: nottingham-north-stars
+name: Nottingham North Stars
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - nottingham
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Andrew Beeston
+  email: beeston1964-@hotmail.com
+  phone: 01150 8533000
+training:
+  raw: Mondays 22.00 - 23.00 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "216"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=216

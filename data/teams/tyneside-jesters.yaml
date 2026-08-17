@@ -1,0 +1,28 @@
+id: tyneside-jesters
+name: Tyneside Jesters
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - whitley
+website: https://www.eiharec.co.uk/www.tynesidejesters.co.uk
+contact:
+  name: Chris Knott
+  email: jestersicehockey@aol.co.uk
+  phone: 0191 2911000
+training:
+  raw: Thursdays @ 21.15 Games Saturday @ 12.00 Midday This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/199.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "199"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=199

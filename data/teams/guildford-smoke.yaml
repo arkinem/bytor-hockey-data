@@ -1,0 +1,28 @@
+id: guildford-smoke
+name: Guildford Smoke
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - guildford
+website: http://www.guildfordsmoke.co.uk/
+contact:
+  name: Marc Baker
+  email: manager@guildfordsmoke.co.uk
+  phone: 01483 443377
+training:
+  raw: Saturday @ 23.15 - 01:00 Fortnightly Games This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/72.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "72"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=72

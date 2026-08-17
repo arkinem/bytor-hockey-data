@@ -1,0 +1,18 @@
+id: eiharec
+
+type: registry
+
+title: EIHA Recreational Ice Hockey
+
+url: https://www.eiharec.co.uk/
+
+publisher: EIHA Recreational Ice Hockey
+
+retrievedAt: 2026-08-17T13:40:00+01:00
+
+reliability: primary
+
+notes: >
+  Source used for EIHA recreational team and rink data.
+  Team data is scraped from team_list.php and teaminfo.php.
+  Rink data is scraped from rink_list.php and rinkinfo.php.

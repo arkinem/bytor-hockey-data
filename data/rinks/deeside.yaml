@@ -1,0 +1,14 @@
+id: deeside
+name: Deeside
+aliases: []
+country: GB
+city: Queensferry
+coordinates:
+  latitude: 53.2085326
+  longitude: -3.0283126
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "27"
+sourceIds:
+  - eiharec

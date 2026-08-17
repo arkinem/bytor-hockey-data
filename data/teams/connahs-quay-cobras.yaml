@@ -1,0 +1,27 @@
+id: connahs-quay-cobras
+name: Connahs Quay Cobras
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - deeside
+website: https://cobras.hockey/
+contact:
+  name: Scott Dutton
+  email: manager@cobras.hockey
+  phone: 01244 814725
+training:
+  raw: Sundays @ 20:30 Games Sundays @ 20:30 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/306.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "306"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=306

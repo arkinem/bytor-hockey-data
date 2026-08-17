@@ -1,0 +1,26 @@
+id: plymouth-phoenix
+name: Plymouth Phoenix
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bristol-ice-rink
+website: http://www.facebook.com/plymouthphoenixicehockey
+socials:
+  facebook: http://www.facebook.com/plymouthphoenixicehockey
+contact:
+  name: David Haddock
+  email: plymouthphoenixicehockey@gmail.com
+  phone: 01179 292148
+training:
+  raw: Sundays @ 20.00 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "258"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=258

@@ -1,0 +1,14 @@
+id: the-leisure-box
+name: The Leisure Box
+aliases: []
+country: GB
+city: Birmingham
+coordinates:
+  latitude: 51.6831994
+  longitude: -4.1574172
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "58"
+sourceIds:
+  - eiharec

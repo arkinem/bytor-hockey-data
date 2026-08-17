@@ -1,0 +1,30 @@
+id: bradford-cannibals
+name: Bradford Cannibals
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bradford
+website: https://www.facebook.com/groups/bradfordcannibals/
+socials:
+  facebook: https://www.facebook.com/groups/bradfordcannibals/
+contact:
+  name: Chris Mason
+  email: czmason@blueyonder.co.uk
+  phone: 01274 729091
+training:
+  raw: Tuesday 22:15-00:00 Games Weekends 21:00 or Tuesday 22.15 This site is copyright 2002 EIHA,
+    Tony Wood, hyperality
+logo:
+  path: /team-logos/6.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "6"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=6

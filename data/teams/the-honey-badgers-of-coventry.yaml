@@ -1,0 +1,27 @@
+id: the-honey-badgers-of-coventry
+name: The Honey Badgers of Coventry
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - coventry
+website: https://www.eiharec.co.uk/www.honeybadgers.co.uk
+contact:
+  name: Alex Bailey
+  email: alex.bailey@honeybadgers.co.uk
+  phone: 02476 630693
+training:
+  raw: Friday @ Midnight Games Saturday @ 22.15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/203.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "203"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=203

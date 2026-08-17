@@ -1,0 +1,14 @@
+id: auchinharvie-leisure-centre
+name: Auchinharvie Leisure Centre
+aliases: []
+country: GB
+city: Stevenston
+coordinates:
+  latitude: 55.6370464
+  longitude: -4.7678203
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "51"
+sourceIds:
+  - eiharec

@@ -1,0 +1,14 @@
+id: basingstoke
+name: Basingstoke
+aliases: []
+country: GB
+city: Basingstoke
+coordinates:
+  latitude: 51.2684238
+  longitude: -1.0885594
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "13"
+sourceIds:
+  - eiharec

@@ -1,0 +1,27 @@
+id: coventry-spitfires
+name: Coventry Spitfires
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - coventry
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Sam Lawrence
+  email: samlawrence8@icloud.com
+  phone: 02476 630693
+training:
+  raw: Saturday @ 22.15 Games Saturday @ 22.15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/231.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "231"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=231

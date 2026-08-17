@@ -1,0 +1,26 @@
+id: nottingham-city-cyclones
+name: Nottingham City Cyclones
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - nottingham
+website: https://www.eiharec.co.uk/http//www.nottinghamsheriffsihc.co.uk
+contact:
+  name: Andrew Pearson
+  phone: 01150 8533000
+training:
+  raw: Saturday @ 22.00 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/237.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "237"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=237

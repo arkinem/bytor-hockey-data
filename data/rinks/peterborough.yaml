@@ -1,0 +1,14 @@
+id: peterborough
+name: Peterborough
+aliases: []
+country: GB
+city: Peterbrough
+coordinates:
+  latitude: 52.5725769
+  longitude: -0.2427336
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "12"
+sourceIds:
+  - eiharec

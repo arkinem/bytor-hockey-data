@@ -1,0 +1,28 @@
+id: eastern-stars
+name: Eastern Stars
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - lee-valley
+website: https://www.easternstars.co.uk/
+contact:
+  name: Gena Ibraev
+  email: gena.ibraev@gmail.com
+  phone: 020 85333155
+training:
+  raw: "Tuesday: 21:30 - 23:00 Friday: 21:30 - 23:00 (development) Sunday: 21:00 - 22:30 Games Sunday:
+    21:00 - 22:30 This site is copyright 2002 EIHA, Tony Wood, hyperality"
+logo:
+  path: /team-logos/46.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "46"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=46

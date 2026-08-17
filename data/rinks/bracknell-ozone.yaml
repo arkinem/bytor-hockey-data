@@ -1,0 +1,11 @@
+id: bracknell-ozone
+name: Bracknell Ozone
+aliases: []
+country: GB
+city: Bracknell
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "31"
+sourceIds:
+  - eiharec

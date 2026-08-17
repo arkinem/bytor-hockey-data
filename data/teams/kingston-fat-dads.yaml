@@ -1,0 +1,27 @@
+id: kingston-fat-dads
+name: Kingston Fat Dads
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - hull
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Ash Corbett
+  email: ash.corbett@kingstonsharks.co.uk
+  phone: "07841448239"
+training:
+  raw: Fridays 17.45-18.45 Games Varied This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/264.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "264"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=264

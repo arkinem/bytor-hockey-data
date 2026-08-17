@@ -1,0 +1,14 @@
+id: planet-ice-leeds
+name: Planet Ice - Leeds
+aliases: []
+country: GB
+city: Leeds
+coordinates:
+  latitude: 53.7761694
+  longitude: -1.5771516
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "66"
+sourceIds:
+  - eiharec

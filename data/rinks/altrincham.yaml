@@ -1,0 +1,14 @@
+id: altrincham
+name: Altrincham
+aliases: []
+country: GB
+city: ADDRESS
+coordinates:
+  latitude: 53.3839662
+  longitude: -2.3525463
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "1"
+sourceIds:
+  - eiharec

@@ -1,0 +1,24 @@
+id: notts-oakleafs
+name: Notts Oakleafs
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - nottingham
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Lee Davis
+  email: lee.27davis@btinternet.com
+  phone: 01150 8533000
+training:
+  raw: Sunday 22:30 - 23:30 Games Weekends TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "325"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=325

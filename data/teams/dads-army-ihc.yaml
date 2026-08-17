@@ -1,0 +1,24 @@
+id: dads-army-ihc
+name: Dads Army IHC
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - invicta
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Adam Hardcastle
+  email: adamhardcastle90@outlook.com
+  phone: 01634 388477
+training:
+  raw: Mondays @ 22:30 Games Saturdays 22:15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "333"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=333

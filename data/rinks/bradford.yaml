@@ -1,0 +1,14 @@
+id: bradford
+name: Bradford
+aliases: []
+country: GB
+city: Bradford
+coordinates:
+  latitude: 53.7903437
+  longitude: -1.7569704
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "4"
+sourceIds:
+  - eiharec

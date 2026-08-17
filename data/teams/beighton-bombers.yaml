@@ -1,0 +1,24 @@
+id: beighton-bombers
+name: Beighton Bombers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - sheffield
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Andrew Graham
+  email: beightonbombersihc@gmail.com
+  phone: 0114 233 3900
+training:
+  raw: Sundays @ 22:00 Games Varies This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "300"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=300

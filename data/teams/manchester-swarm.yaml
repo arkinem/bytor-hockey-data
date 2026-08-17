@@ -1,0 +1,26 @@
+id: manchester-swarm
+name: Manchester Swarm
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - altrincham
+website: http://www.facebook.com/manchesterswarmihc
+socials:
+  facebook: http://www.facebook.com/manchesterswarmihc
+contact:
+  name: Craig Foden
+  email: foden.craig@gmail.com
+  phone: 0161 9268782
+training:
+  raw: Sundays @18.45 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "261"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=261

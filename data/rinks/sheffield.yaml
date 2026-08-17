@@ -1,0 +1,14 @@
+id: sheffield
+name: Sheffield
+aliases: []
+country: GB
+city: Sheffield
+coordinates:
+  latitude: 53.3783713
+  longitude: -1.4621381
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "34"
+sourceIds:
+  - eiharec

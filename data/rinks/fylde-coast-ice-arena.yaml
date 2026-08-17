@@ -1,0 +1,14 @@
+id: fylde-coast-ice-arena
+name: Fylde Coast Ice Arena
+aliases: []
+country: GB
+city: Blackpool
+coordinates:
+  latitude: 53.8498308
+  longitude: -3.029537
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "61"
+sourceIds:
+  - eiharec

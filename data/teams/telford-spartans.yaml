@@ -1,0 +1,27 @@
+id: telford-spartans
+name: Telford Spartans
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - telford
+website: http://www.telfordspartans.co.uk/
+contact:
+  name: Andy Tooth
+  email: andyroo2006@hotmail.co.uk
+  phone: 0845 155 9966
+training:
+  raw: Sundays @ 22:15 Games Varies This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/93.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "93"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=93

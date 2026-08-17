@@ -1,0 +1,11 @@
+id: dewers-centre
+name: Dewers Centre
+aliases: []
+country: GB
+city: Perth
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "55"
+sourceIds:
+  - eiharec

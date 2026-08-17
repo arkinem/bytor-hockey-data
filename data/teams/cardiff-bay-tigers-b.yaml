@@ -1,0 +1,25 @@
+id: cardiff-bay-tigers-b
+name: Cardiff Bay Tigers - B
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - cardiff2-new-rink
+website: https://cardiffbaytigers.com/
+contact:
+  name: Cormac.OKeefe
+  email: cormacokeefe8791@gmail.com
+  phone: 02920 382001
+training:
+  raw: Sunday - 23:15 Games Saturday & Sunday - Varies This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+externalIds:
+  - system: eiharec
+    value: "334"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=334

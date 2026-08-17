@@ -1,0 +1,24 @@
+id: london-yetis
+name: London Yetis
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - haringey
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Michael Callaghan
+  email: info@londonyetis.co.uk
+  phone: 0208 3652121
+training:
+  raw: Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "266"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=266

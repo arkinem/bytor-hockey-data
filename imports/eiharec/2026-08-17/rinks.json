@@ -1,0 +1,524 @@
+[
+  {
+    "id": "1",
+    "name": "Altrincham",
+    "city": "ADDRESS",
+    "coordinates": {
+      "latitude": 53.3839662,
+      "longitude": -2.3525463
+    }
+  },
+  {
+    "id": "51",
+    "name": "Auchinharvie Leisure Centre",
+    "city": "Stevenston",
+    "coordinates": {
+      "latitude": 55.6370464,
+      "longitude": -4.7678203
+    }
+  },
+  {
+    "id": "42",
+    "name": "Ayr Ice Rink (Ayr)",
+    "city": "Ayr",
+    "coordinates": {
+      "latitude": 55.4733543,
+      "longitude": -4.6267488
+    }
+  },
+  {
+    "id": "13",
+    "name": "Basingstoke",
+    "city": "Basingstoke",
+    "coordinates": {
+      "latitude": 51.2684238,
+      "longitude": -1.0885594
+    }
+  },
+  {
+    "id": "2",
+    "name": "Billingham",
+    "city": "Billingham",
+    "coordinates": {
+      "latitude": 54.6057149,
+      "longitude": -1.2795366
+    }
+  },
+  {
+    "id": "3",
+    "name": "Blackburn",
+    "city": "Blackburn",
+    "coordinates": {
+      "latitude": 53.7465347,
+      "longitude": -2.4788573
+    }
+  },
+  {
+    "id": "31",
+    "name": "Bracknell Ozone",
+    "city": "Bracknell",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "4",
+    "name": "Bradford",
+    "city": "Bradford",
+    "coordinates": {
+      "latitude": 53.7903437,
+      "longitude": -1.7569704
+    }
+  },
+  {
+    "id": "43",
+    "name": "Braehead Arena (Glasgow)",
+    "city": "Glasgow",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "35",
+    "name": "Bristol Ice Rink",
+    "city": "Bristol",
+    "coordinates": {
+      "latitude": 51.4541311,
+      "longitude": -2.6004511
+    }
+  },
+  {
+    "id": "65",
+    "name": "CAMBRIDGE",
+    "city": "Cambridge",
+    "coordinates": {
+      "latitude": 52.2055314,
+      "longitude": 0.1186637
+    }
+  },
+  {
+    "id": "22",
+    "name": "Cardiff2 - New Rink",
+    "city": "Cardiff",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "15",
+    "name": "Chelmsford",
+    "city": "Chelmsford",
+    "coordinates": {
+      "latitude": 51.7345329,
+      "longitude": 0.4730532
+    }
+  },
+  {
+    "id": "33",
+    "name": "Coventry",
+    "city": "Coventry",
+    "coordinates": {
+      "latitude": 52.4081812,
+      "longitude": -1.510477
+    }
+  },
+  {
+    "id": "27",
+    "name": "Deeside",
+    "city": "Queensferry",
+    "coordinates": {
+      "latitude": 53.2085326,
+      "longitude": -3.0283126
+    }
+  },
+  {
+    "id": "55",
+    "name": "Dewers Centre",
+    "city": "Perth",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "44",
+    "name": "Dumfries Ice Bowl (Dumfries)",
+    "city": "Dunfries",
+    "coordinates": {
+      "latitude": 55.0704719,
+      "longitude": -3.6233799
+    }
+  },
+  {
+    "id": "45",
+    "name": "Dundee Ice Arena (Dundee)",
+    "city": "Dundee",
+    "coordinates": {
+      "latitude": 56.4816435,
+      "longitude": -3.0248131
+    }
+  },
+  {
+    "id": "46",
+    "name": "Dundonald Ice Bowl (Belfast)",
+    "city": "Belfast",
+    "coordinates": {
+      "latitude": 54.5882973,
+      "longitude": -5.8256133
+    }
+  },
+  {
+    "id": "47",
+    "name": "Fife Ice Arena (Fife)",
+    "city": "Kirkcaldy",
+    "coordinates": {
+      "latitude": 56.1319598,
+      "longitude": -3.1336578
+    }
+  },
+  {
+    "id": "61",
+    "name": "Fylde Coast Ice Arena",
+    "city": "Blackpool",
+    "coordinates": {
+      "latitude": 53.8498308,
+      "longitude": -3.029537
+    }
+  },
+  {
+    "id": "48",
+    "name": "Galleon Leisure Center (Kilmarnock)",
+    "city": "Kilmarnock",
+    "coordinates": {
+      "latitude": 55.6048494,
+      "longitude": -4.4978721
+    }
+  },
+  {
+    "id": "7",
+    "name": "Grimsby",
+    "city": "Grimsby",
+    "coordinates": {
+      "latitude": 53.5828856,
+      "longitude": -0.0709791
+    }
+  },
+  {
+    "id": "8",
+    "name": "Guildford",
+    "city": "Guilford",
+    "coordinates": {
+      "latitude": 51.5241154,
+      "longitude": -0.1165432
+    }
+  },
+  {
+    "id": "49",
+    "name": "Hamilton Ice Rink (Lanarkshire)",
+    "city": "Hamilton",
+    "coordinates": {
+      "latitude": 55.7795241,
+      "longitude": -4.0341685
+    }
+  },
+  {
+    "id": "24",
+    "name": "Haringey",
+    "city": "London",
+    "coordinates": {
+      "latitude": 51.5943495,
+      "longitude": -0.1306402
+    }
+  },
+  {
+    "id": "29",
+    "name": "Hull",
+    "city": "Hull",
+    "coordinates": {
+      "latitude": 53.7435722,
+      "longitude": -0.3394758
+    }
+  },
+  {
+    "id": "50",
+    "name": "Inverness Ice Center (Inverness)",
+    "city": "Inverness",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "5",
+    "name": "Invicta",
+    "city": "Gillingham",
+    "coordinates": {
+      "latitude": 51.3873373,
+      "longitude": 0.5522466
+    }
+  },
+  {
+    "id": "57",
+    "name": "Jubilee Ice Arena",
+    "city": "Thornton Cleveleys",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "67",
+    "name": "Lammas Leisure Centre",
+    "city": "",
+    "coordinates": {
+      "latitude": 53.1259522,
+      "longitude": -1.2677876
+    }
+  },
+  {
+    "id": "25",
+    "name": "Lee Valley",
+    "city": "Leyton",
+    "coordinates": {
+      "latitude": 51.5635811,
+      "longitude": -0.0443274
+    }
+  },
+  {
+    "id": "41",
+    "name": "Linx Ice Arena (Aberdeen)",
+    "city": "Aberdeen",
+    "coordinates": {
+      "latitude": 57.1562826,
+      "longitude": -2.0809927
+    }
+  },
+  {
+    "id": "40",
+    "name": "Metro Radio Arena (Newcastle)",
+    "city": "Newcastle Upon Tyne",
+    "coordinates": {
+      "latitude": 54.9633276,
+      "longitude": -1.6232597
+    }
+  },
+  {
+    "id": "11",
+    "name": "Milton Keynes",
+    "city": "Milton Keynes",
+    "coordinates": {
+      "latitude": 52.0348915,
+      "longitude": -0.7465033
+    }
+  },
+  {
+    "id": "52",
+    "name": "Moray Leisure Center (Elgin)",
+    "city": "Elgin",
+    "coordinates": {
+      "latitude": 57.6517911,
+      "longitude": -3.3208288
+    }
+  },
+  {
+    "id": "53",
+    "name": "Murrayfield Ice Rink (Edinburgh)",
+    "city": "Edinburgh",
+    "coordinates": {
+      "latitude": 55.9431173,
+      "longitude": -3.2436245
+    }
+  },
+  {
+    "id": "9",
+    "name": "Nottingham",
+    "city": "Nottingham",
+    "coordinates": {
+      "latitude": 52.9473037,
+      "longitude": -1.1449555
+    }
+  },
+  {
+    "id": "10",
+    "name": "Oxford",
+    "city": "Oxford",
+    "coordinates": {
+      "latitude": 51.7486254,
+      "longitude": -1.2651807
+    }
+  },
+  {
+    "id": "12",
+    "name": "Peterborough",
+    "city": "Peterbrough",
+    "coordinates": {
+      "latitude": 52.5725769,
+      "longitude": -0.2427336
+    }
+  },
+  {
+    "id": "28",
+    "name": "Planet Ice - Birmingham",
+    "city": "Birmingham",
+    "coordinates": {
+      "latitude": 52.4744558,
+      "longitude": -1.8949066
+    }
+  },
+  {
+    "id": "66",
+    "name": "Planet Ice - Leeds",
+    "city": "Leeds",
+    "coordinates": {
+      "latitude": 53.7761694,
+      "longitude": -1.5771516
+    }
+  },
+  {
+    "id": "36",
+    "name": "Planet Ice - Norwich",
+    "city": "Norwich",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "14",
+    "name": "Planet Ice - Ryde Arena",
+    "city": "Ryde",
+    "coordinates": {
+      "latitude": 50.7324327,
+      "longitude": -1.1568611
+    }
+  },
+  {
+    "id": "38",
+    "name": "Romford",
+    "city": "Romford",
+    "coordinates": {
+      "latitude": 51.5747271,
+      "longitude": 0.1826107
+    }
+  },
+  {
+    "id": "6",
+    "name": "S&G",
+    "city": "Gosport",
+    "coordinates": {
+      "latitude": 50.8180057,
+      "longitude": -1.1632761
+    }
+  },
+  {
+    "id": "64",
+    "name": "Sapphire Ice & Leisure Romford",
+    "city": "Romford",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "34",
+    "name": "Sheffield",
+    "city": "Sheffield",
+    "coordinates": {
+      "latitude": 53.3783713,
+      "longitude": -1.4621381
+    }
+  },
+  {
+    "id": "16",
+    "name": "Slough",
+    "city": "Slough",
+    "coordinates": {
+      "latitude": 51.512103,
+      "longitude": -0.591276
+    }
+  },
+  {
+    "id": "62",
+    "name": "Sobell Leisure Centre",
+    "city": "London",
+    "coordinates": {
+      "latitude": 51.5589009,
+      "longitude": -0.1121304
+    }
+  },
+  {
+    "id": "17",
+    "name": "Solihull",
+    "city": "Solihull",
+    "coordinates": {
+      "latitude": 52.4130189,
+      "longitude": -1.7768935
+    }
+  },
+  {
+    "id": "54",
+    "name": "Stirling Ice Rink",
+    "city": "Stirling",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "id": "18",
+    "name": "Streatham",
+    "city": "Streatham",
+    "coordinates": {
+      "latitude": 51.4259609,
+      "longitude": -0.1313131
+    }
+  },
+  {
+    "id": "21",
+    "name": "Swindon",
+    "city": "",
+    "coordinates": {
+      "latitude": 51.5615327,
+      "longitude": -1.7854322
+    }
+  },
+  {
+    "id": "20",
+    "name": "Telford",
+    "city": "Telford",
+    "coordinates": {
+      "latitude": 52.6780349,
+      "longitude": -2.451355
+    }
+  },
+  {
+    "id": "58",
+    "name": "The Leisure Box",
+    "city": "Birmingham",
+    "coordinates": {
+      "latitude": 51.6831994,
+      "longitude": -4.1574172
+    }
+  },
+  {
+    "id": "23",
+    "name": "Whitley",
+    "city": "Whitley Bay",
+    "coordinates": {
+      "latitude": 55.0359555,
+      "longitude": -1.4550266
+    }
+  },
+  {
+    "id": "59",
+    "name": "Widnes",
+    "city": "Widnes",
+    "coordinates": {
+      "latitude": 53.3786146,
+      "longitude": -2.7341997
+    }
+  }
+]

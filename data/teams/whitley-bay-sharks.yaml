@@ -1,0 +1,27 @@
+id: whitley-bay-sharks
+name: Whitley Bay Sharks
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - whitley
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Liam Renwick
+  email: lrenwick@live.com
+  phone: 0191 2911000
+training:
+  raw: Saturday 00.15 - 01.45 Games Various This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/218.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "218"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=218

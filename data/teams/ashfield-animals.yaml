@@ -1,0 +1,26 @@
+id: ashfield-animals
+name: Ashfield Animals
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - lammas-leisure-centre
+website: https://www.facebook.com/groups/142106369326486/?ref=share_group_link
+socials:
+  facebook: https://www.facebook.com/groups/142106369326486/?ref=share_group_link
+contact:
+  name: Jodie Whitemore
+  email: jwashfieldanimals@outlook.com
+  phone: NG17 2AD
+training:
+  raw: Sundays @ 17:00 Games Sundays @ 17:00 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "312"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=312

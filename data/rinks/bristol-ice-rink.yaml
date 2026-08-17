@@ -1,0 +1,14 @@
+id: bristol-ice-rink
+name: Bristol Ice Rink
+aliases: []
+country: GB
+city: Bristol
+coordinates:
+  latitude: 51.4541311
+  longitude: -2.6004511
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "35"
+sourceIds:
+  - eiharec

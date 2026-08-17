@@ -1,0 +1,14 @@
+id: moray-leisure-center-elgin
+name: Moray Leisure Center (Elgin)
+aliases: []
+country: GB
+city: Elgin
+coordinates:
+  latitude: 57.6517911
+  longitude: -3.3208288
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "52"
+sourceIds:
+  - eiharec

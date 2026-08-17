@@ -1,0 +1,11 @@
+id: stirling-ice-rink
+name: Stirling Ice Rink
+aliases: []
+country: GB
+city: Stirling
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "54"
+sourceIds:
+  - eiharec

@@ -1,0 +1,27 @@
+id: bristol-concordes
+name: Bristol Concordes
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bristol-ice-rink
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Owen Faunt
+  email: owenfaunt@gmail.com
+  phone: 01179 292148
+training:
+  raw: Sundays @ 21:00 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/295.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "295"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=295

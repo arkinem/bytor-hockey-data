@@ -1,0 +1,24 @@
+id: swindon-centurions
+name: Swindon Centurions
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - swindon
+website: https://swindoncenturions.co.uk/
+contact:
+  name: Chris. Main
+  email: chris.squires@aol.co.uk
+  phone: 01793 445566
+training:
+  raw: Sunday 22:45 Games Saturday 17.45 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "328"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=328

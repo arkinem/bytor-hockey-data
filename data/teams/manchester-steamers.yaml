@@ -1,0 +1,26 @@
+id: manchester-steamers
+name: Manchester Steamers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - altrincham
+website: https://www.instagram.com/manchester_steamers?igsh=MXB5cnU0Ym9sbXpuMA==
+socials:
+  instagram: https://www.instagram.com/manchester_steamers?igsh=MXB5cnU0Ym9sbXpuMA==
+contact:
+  name: John McSwiggan
+  email: john.d.j.mcswiggan@gmail.com
+  phone: 0161 9268782
+training:
+  raw: Mondays Games 20:15 - 21:15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "323"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=323

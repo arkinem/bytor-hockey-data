@@ -1,0 +1,11 @@
+id: inverness-ice-center-inverness
+name: Inverness Ice Center (Inverness)
+aliases: []
+country: GB
+city: Inverness
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "50"
+sourceIds:
+  - eiharec

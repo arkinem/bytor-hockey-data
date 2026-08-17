@@ -1,0 +1,24 @@
+id: leeds-lightning
+name: Leeds Lightning
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - planet-ice-leeds
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Martin Honeyman
+  email: martinhoneyman@gmail.com
+  phone: 0113 3979700
+training:
+  raw: Wednesdays @ 21:30 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "274"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=274

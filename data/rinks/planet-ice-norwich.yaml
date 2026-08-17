@@ -1,0 +1,11 @@
+id: planet-ice-norwich
+name: Planet Ice - Norwich
+aliases: []
+country: GB
+city: Norwich
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "36"
+sourceIds:
+  - eiharec

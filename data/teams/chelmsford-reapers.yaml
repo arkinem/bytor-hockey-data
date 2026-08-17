@@ -1,0 +1,29 @@
+id: chelmsford-reapers
+name: Chelmsford Reapers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - chelmsford
+website: https://www.facebook.com/profile.php?id=61555197961355
+socials:
+  facebook: https://www.facebook.com/profile.php?id=61555197961355
+contact:
+  name: Aaron Emptage
+  email: chelmsfordreapers.office@gmail.com
+  phone: 01245 615050
+training:
+  raw: Saturdays @ 10:15 Games Saturdays @ 10:15 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/286.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "286"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=286

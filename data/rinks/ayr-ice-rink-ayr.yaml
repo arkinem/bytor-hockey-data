@@ -1,0 +1,14 @@
+id: ayr-ice-rink-ayr
+name: Ayr Ice Rink (Ayr)
+aliases: []
+country: GB
+city: Ayr
+coordinates:
+  latitude: 55.4733543
+  longitude: -4.6267488
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "42"
+sourceIds:
+  - eiharec

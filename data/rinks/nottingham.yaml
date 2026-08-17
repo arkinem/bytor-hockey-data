@@ -1,0 +1,14 @@
+id: nottingham
+name: Nottingham
+aliases: []
+country: GB
+city: Nottingham
+coordinates:
+  latitude: 52.9473037
+  longitude: -1.1449555
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "9"
+sourceIds:
+  - eiharec

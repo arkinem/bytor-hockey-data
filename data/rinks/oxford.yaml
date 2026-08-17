@@ -1,0 +1,14 @@
+id: oxford
+name: Oxford
+aliases: []
+country: GB
+city: Oxford
+coordinates:
+  latitude: 51.7486254
+  longitude: -1.2651807
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "10"
+sourceIds:
+  - eiharec

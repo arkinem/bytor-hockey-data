@@ -1,0 +1,14 @@
+id: slough
+name: Slough
+aliases: []
+country: GB
+city: Slough
+coordinates:
+  latitude: 51.512103
+  longitude: -0.591276
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "16"
+sourceIds:
+  - eiharec

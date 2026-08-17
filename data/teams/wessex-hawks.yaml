@@ -1,0 +1,27 @@
+id: wessex-hawks
+name: Wessex Hawks
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - s-and-g
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Miroslav Ulman
+  email: ulmanm@seznam.cz
+  phone: 023 92511217
+training:
+  raw: Fridays @ 22:45 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/263.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "263"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=263

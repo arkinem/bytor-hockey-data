@@ -1,0 +1,14 @@
+id: s-and-g
+name: S&G
+aliases: []
+country: GB
+city: Gosport
+coordinates:
+  latitude: 50.8180057
+  longitude: -1.1632761
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "6"
+sourceIds:
+  - eiharec

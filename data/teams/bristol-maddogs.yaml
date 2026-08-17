@@ -1,0 +1,27 @@
+id: bristol-maddogs
+name: Bristol Maddogs
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bristol-ice-rink
+website: http://www.bristolpitbulls.co.uk/
+contact:
+  name: Conrad Purvis
+  email: conradpurvis@gmail.com
+  phone: 01179 292148
+training:
+  raw: Thursdays @ 22:45 Games TBD This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/74.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "74"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=74

@@ -1,0 +1,14 @@
+id: grimsby
+name: Grimsby
+aliases: []
+country: GB
+city: Grimsby
+coordinates:
+  latitude: 53.5828856
+  longitude: -0.0709791
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "7"
+sourceIds:
+  - eiharec

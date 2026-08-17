@@ -1,0 +1,27 @@
+id: cardiff-eagles
+name: Cardiff Eagles
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - cardiff2-new-rink
+website: http://www.cardiffeagles.co.uk/
+contact:
+  name: John Sisnett
+  email: johnysi@hotmail.com
+  phone: 02920 382001
+training:
+  raw: Thursdays 22:45 Games TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/124.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "124"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=124

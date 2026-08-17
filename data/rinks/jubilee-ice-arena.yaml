@@ -1,0 +1,11 @@
+id: jubilee-ice-arena
+name: Jubilee Ice Arena
+aliases: []
+country: GB
+city: Thornton Cleveleys
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "57"
+sourceIds:
+  - eiharec

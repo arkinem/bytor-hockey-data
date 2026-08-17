@@ -1,0 +1,27 @@
+id: basingstoke-raptors
+name: Basingstoke Raptors
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - basingstoke
+website: https://www.eiharec.co.uk/www.basingstokeraptors.com
+contact:
+  name: Mark Douglas
+  email: markdouglas391@btinternet.com
+  phone: 01256 355266
+training:
+  raw: Sundays @ 21:10 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/211.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "211"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=211

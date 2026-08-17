@@ -1,0 +1,14 @@
+id: linx-ice-arena-aberdeen
+name: Linx Ice Arena (Aberdeen)
+aliases: []
+country: GB
+city: Aberdeen
+coordinates:
+  latitude: 57.1562826
+  longitude: -2.0809927
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "41"
+sourceIds:
+  - eiharec

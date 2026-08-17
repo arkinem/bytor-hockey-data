@@ -1,0 +1,28 @@
+id: london-foxes
+name: London Foxes
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - lee-valley
+website: http://www.londonfoxes.co.uk/
+contact:
+  name: Maksims Beluss
+  email: maksims.beluss@gmail.com
+  phone: 020 85333155
+training:
+  raw: Fridays 19:45 - 21:15 Games Sundays 14:00 - 16:00 This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/310.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "310"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=310

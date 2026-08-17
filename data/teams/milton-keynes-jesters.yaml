@@ -1,0 +1,28 @@
+id: milton-keynes-jesters
+name: Milton Keynes Jesters
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - milton-keynes
+website: http://www.mkjesters.co.uk/
+contact:
+  name: Mark Rutter
+  email: markrutter@gmail.com
+  phone: 01908 696696
+training:
+  raw: Wednesday 22:00 Games Varies, Non-Checking This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/92.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "92"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=92

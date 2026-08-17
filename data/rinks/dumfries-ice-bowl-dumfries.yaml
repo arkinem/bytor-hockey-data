@@ -1,0 +1,14 @@
+id: dumfries-ice-bowl-dumfries
+name: Dumfries Ice Bowl (Dumfries)
+aliases: []
+country: GB
+city: Dunfries
+coordinates:
+  latitude: 55.0704719
+  longitude: -3.6233799
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "44"
+sourceIds:
+  - eiharec

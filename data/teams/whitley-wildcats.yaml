@@ -1,0 +1,27 @@
+id: whitley-wildcats
+name: Whitley Wildcats
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - whitley
+website: http://www.whitleywildcats.com/
+contact:
+  name: Mel Lydall
+  email: mellydall@blueyonder.co.uk
+  phone: 0191 2911000
+training:
+  raw: Sat 22:15 - 00:15 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/60.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "60"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=60

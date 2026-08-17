@@ -1,0 +1,28 @@
+id: shropshire-huskies
+name: Shropshire Huskies
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - telford
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Ilan Butler
+  email: ilanbutler@gmail.com
+  phone: 0845 155 9966
+training:
+  raw: Saturdays @ 22.00-23.00 Games Saturdays @ 19.00 This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/255.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "255"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=255

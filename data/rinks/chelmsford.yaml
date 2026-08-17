@@ -1,0 +1,14 @@
+id: chelmsford
+name: Chelmsford
+aliases: []
+country: GB
+city: Chelmsford
+coordinates:
+  latitude: 51.7345329
+  longitude: 0.4730532
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "15"
+sourceIds:
+  - eiharec

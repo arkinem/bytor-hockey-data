@@ -1,0 +1,27 @@
+id: chelmsford-nighthawks
+name: Chelmsford Nighthawks
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - chelmsford
+website: http://www.chelmsford-nighthawks.com/
+contact:
+  name: Andrew Cownden
+  email: andy_cownden@hotmail.com
+  phone: 01245 615050
+training:
+  raw: Wednesdays 22.30 Games Saturdays This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/96.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "96"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=96

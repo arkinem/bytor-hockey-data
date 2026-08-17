@@ -1,0 +1,14 @@
+id: romford
+name: Romford
+aliases: []
+country: GB
+city: Romford
+coordinates:
+  latitude: 51.5747271
+  longitude: 0.1826107
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "38"
+sourceIds:
+  - eiharec

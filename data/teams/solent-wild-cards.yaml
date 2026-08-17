@@ -1,0 +1,27 @@
+id: solent-wild-cards
+name: Solent Wild Cards
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - s-and-g
+website: https://www.eiharec.co.uk/www.solentwildcards.co.uk
+contact:
+  name: Steven Stockton-Chalk
+  email: s_sparshott@hotmail.com
+  phone: 023 92511217
+training:
+  raw: Mondays @ 22.30 Games Saturdays @ 23.00 This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/214.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "214"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=214

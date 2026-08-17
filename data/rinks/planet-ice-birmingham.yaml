@@ -1,0 +1,14 @@
+id: planet-ice-birmingham
+name: Planet Ice - Birmingham
+aliases: []
+country: GB
+city: Birmingham
+coordinates:
+  latitude: 52.4744558
+  longitude: -1.8949066
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "28"
+sourceIds:
+  - eiharec

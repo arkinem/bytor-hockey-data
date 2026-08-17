@@ -1,0 +1,24 @@
+id: leeds-raptors
+name: Leeds Raptors
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - planet-ice-leeds
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Henry Riding
+  email: ice@skatehockeyleeds.co.uk
+  phone: 0113 3979700
+training:
+  raw: Monday 23:15 Games Saturday 17:00 This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "330"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=330

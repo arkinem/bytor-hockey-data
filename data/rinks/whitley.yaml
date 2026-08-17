@@ -1,0 +1,14 @@
+id: whitley
+name: Whitley
+aliases: []
+country: GB
+city: Whitley Bay
+coordinates:
+  latitude: 55.0359555
+  longitude: -1.4550266
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "23"
+sourceIds:
+  - eiharec

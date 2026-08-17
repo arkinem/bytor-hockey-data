@@ -1,0 +1,28 @@
+id: peterborough-predators
+name: Peterborough Predators
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - peterborough
+website: http://www.peterboroughpredators.com/
+contact:
+  name: Ashley Cotton
+  email: ash.peterborough.preds@gmail.com
+  phone: 01733 260222
+training:
+  raw: Thursday @ 22.30 Games Varies, Non-Checking This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/66.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "66"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=66

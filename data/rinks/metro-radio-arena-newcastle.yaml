@@ -1,0 +1,14 @@
+id: metro-radio-arena-newcastle
+name: Metro Radio Arena (Newcastle)
+aliases: []
+country: GB
+city: Newcastle Upon Tyne
+coordinates:
+  latitude: 54.9633276
+  longitude: -1.6232597
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "40"
+sourceIds:
+  - eiharec

@@ -1,0 +1,14 @@
+id: galleon-leisure-center-kilmarnock
+name: Galleon Leisure Center (Kilmarnock)
+aliases: []
+country: GB
+city: Kilmarnock
+coordinates:
+  latitude: 55.6048494
+  longitude: -4.4978721
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "48"
+sourceIds:
+  - eiharec

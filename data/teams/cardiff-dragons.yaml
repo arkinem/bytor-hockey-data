@@ -1,0 +1,27 @@
+id: cardiff-dragons
+name: Cardiff Dragons
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - cardiff2-new-rink
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Julien Wu
+  email: julien.gasan.wu@gmail.com
+  phone: 02920 382001
+training:
+  raw: Wednesdays @ 22:00 Games This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/268.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "268"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=268

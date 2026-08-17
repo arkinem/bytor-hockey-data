@@ -1,0 +1,28 @@
+id: medway-eagles
+name: Medway Eagles
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - invicta
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Danielle Lanphier
+  email: dlmedwayeagles@outlook.com
+  phone: 01634 388477
+training:
+  raw: Saturday @ 23.00 & Sunday @ 22.30 Games TBC This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/239.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "239"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=239

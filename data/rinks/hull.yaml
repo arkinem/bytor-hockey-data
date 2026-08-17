@@ -1,0 +1,14 @@
+id: hull
+name: Hull
+aliases: []
+country: GB
+city: Hull
+coordinates:
+  latitude: 53.7435722
+  longitude: -0.3394758
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "29"
+sourceIds:
+  - eiharec

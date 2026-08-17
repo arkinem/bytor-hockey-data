@@ -1,0 +1,27 @@
+id: sheffield-mavericks
+name: Sheffield Mavericks
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - sheffield
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Oliver Duckenfield
+  email: sheffield.mavericks@outlook.com
+  phone: 0114 233 3900
+training:
+  raw: Sunday @ 22:30 Games TBC This site is copyright 2002 EIHA, Tony Wood, hyperality
+logo:
+  path: /team-logos/233.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "233"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=233

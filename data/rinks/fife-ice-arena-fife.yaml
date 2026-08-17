@@ -1,0 +1,14 @@
+id: fife-ice-arena-fife
+name: Fife Ice Arena (Fife)
+aliases: []
+country: GB
+city: Kirkcaldy
+coordinates:
+  latitude: 56.1319598
+  longitude: -3.1336578
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "47"
+sourceIds:
+  - eiharec

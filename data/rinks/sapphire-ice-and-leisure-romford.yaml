@@ -1,0 +1,11 @@
+id: sapphire-ice-and-leisure-romford
+name: Sapphire Ice & Leisure Romford
+aliases: []
+country: GB
+city: Romford
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "64"
+sourceIds:
+  - eiharec

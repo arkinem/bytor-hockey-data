@@ -1,0 +1,24 @@
+id: surrey-lions
+name: Surrey Lions
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - guildford
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Andy Price
+  email: andyjprice@hotmail.com
+  phone: 01483 443377
+training:
+  raw: Sunday @ 22.45 - 23.45 Games TBA This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "193"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=193

@@ -1,0 +1,28 @@
+id: newcastle-coyotes
+name: Newcastle Coyotes
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - whitley
+website: http://www.newcastlecoyotes.com/
+contact:
+  name: Chris Graham
+  email: admin@newcastlecoyotes.com
+  phone: 0191 2911000
+training:
+  raw: Friday 21:15-22:15 Games Friday/Saturday/Sunday This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/25.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "25"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=25

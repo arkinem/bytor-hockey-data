@@ -1,0 +1,28 @@
+id: solihull-storm
+name: Solihull Storm
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - solihull
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: James Patterson
+  email: james.r.patterson@hotmail.co.uk
+  phone: 0121 742 5561
+training:
+  raw: Fridays @ 22:00 Games Varied (non-checking) This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+logo:
+  path: /team-logos/267.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "267"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=267

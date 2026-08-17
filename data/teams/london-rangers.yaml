@@ -1,0 +1,24 @@
+id: london-rangers
+name: London Rangers
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - haringey
+website: https://www.londonrangers.com/
+contact:
+  name: Rodrigue Trouillet
+  email: hockey@londonrangers.com
+  phone: 0208 3652121
+training:
+  raw: Tuesday 21:45 Games Varies This site is copyright 2002 EIHA, Tony Wood, hyperality
+externalIds:
+  - system: eiharec
+    value: "58"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=58

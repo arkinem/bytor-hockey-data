@@ -1,0 +1,13 @@
+id: lammas-leisure-centre
+name: Lammas Leisure Centre
+aliases: []
+country: GB
+coordinates:
+  latitude: 53.1259522
+  longitude: -1.2677876
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "67"
+sourceIds:
+  - eiharec

@@ -1,0 +1,25 @@
+id: bristol-wolves
+name: Bristol Wolves
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - bristol-ice-rink
+website: https://www.eiharec.co.uk/index2.html
+contact:
+  name: Andrew Snow
+  email: bristolwolvesihc@gmail.com
+  phone: 01179 292148
+training:
+  raw: Wednesdays @ 22:30 Games Saturdays @ 18:00 This site is copyright 2002 EIHA, Tony Wood,
+    hyperality
+externalIds:
+  - system: eiharec
+    value: "307"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=307

@@ -1,0 +1,28 @@
+id: chelmsford-mis-chiefs
+name: Chelmsford Mis-Chiefs
+aliases: []
+country: GB
+categories:
+  gender: open
+  age: senior
+status: active
+rinkIds:
+  - chelmsford
+website: https://www.eiharec.co.uk/www.mis-chiefs.co.uk
+contact:
+  name: Louise Capps
+  email: lcapps18@outlook.com
+  phone: 01245 615050
+training:
+  raw: Sundays @ 21.00 - 22.30 Games Sundays @ 21.00 - 22.30 This site is copyright 2002 EIHA, Tony
+    Wood, hyperality
+logo:
+  path: /team-logos/212.gif
+  quality: unknown
+externalIds:
+  - system: eiharec
+    value: "212"
+sourceIds:
+  - eiharec
+sourceUrls:
+  - https://www.eiharec.co.uk/teaminfo.php?id=212

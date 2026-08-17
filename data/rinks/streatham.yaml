@@ -1,0 +1,14 @@
+id: streatham
+name: Streatham
+aliases: []
+country: GB
+city: Streatham
+coordinates:
+  latitude: 51.4259609
+  longitude: -0.1313131
+status: unknown
+externalIds:
+  - system: eiharec
+    value: "18"
+sourceIds:
+  - eiharec
