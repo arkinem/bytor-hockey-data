@@ -1,0 +1,27 @@
+id: buiha-non-checking-division-1-north
+
+name: BUIHA Non-Checking Division 1 North
+
+aliases:
+  - Non-Checking Division 1 North
+  - Non-Checking 1 North
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: university
+
+status: active
+
+organiserIds:
+  - buiha
+
+website: https://buiha.org.uk/
+
+externalIds: []
+
+sourceIds:
+  - buiha

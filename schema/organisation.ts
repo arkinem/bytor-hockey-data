@@ -1,10 +1,16 @@
 import { z } from "zod";
-import { CountryCodeSchema, EntityIdSchema, EntityStatusSchema } from "./common.js";
+import {
+	CountryCodeSchema,
+	EntityIdSchema,
+	EntityStatusSchema,
+	HistoricalNameSchema,
+} from "./common.js";
 
 export const OrganisationTypeSchema = z.enum([
 	"governing_body",
 	"league_operator",
 	"club",
+	"programme",
 	"team_operator",
 	"event_organiser",
 	"rink_operator",
@@ -19,6 +25,8 @@ export const OrganisationSchema = z.object({
 	name: z.string().min(1),
 
 	aliases: z.array(z.string().min(1)).default([]),
+
+	historicalNames: z.array(HistoricalNameSchema).default([]),
 
 	types: z.array(OrganisationTypeSchema).min(1),
 

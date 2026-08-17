@@ -3,7 +3,7 @@ import { extname, join } from "node:path";
 
 import { parse } from "yaml";
 
-import { RinkSchema, TeamSchema } from "../schema/index.js";
+import { OrganisationSchema, RinkSchema, TeamSchema } from "../schema/index.js";
 
 async function loadYamlDirectory(directory: string): Promise<unknown[]> {
 	const files = await readdir(join("data", directory));
@@ -20,6 +20,10 @@ async function main() {
 
 	const rinks = (await loadYamlDirectory("rinks")).map((data) => RinkSchema.parse(data));
 
+	const organisations = (await loadYamlDirectory("organisations")).map((data) =>
+		OrganisationSchema.parse(data),
+	);
+
 	const teamsWithoutRink = teams.filter((team) => team.rinkIds.length === 0);
 
 	const teamsWithoutLogo = teams.filter((team) => !team.logo);
@@ -29,6 +33,24 @@ async function main() {
 	const teamsWithoutContact = teams.filter((team) => !team.contact);
 
 	const teamsWithoutTraining = teams.filter((team) => !team.training);
+
+	const teamsWithOrganisation = teams.filter((team) => team.organisationId);
+
+	const teamsWithoutOrganisation = teams.filter((team) => !team.organisationId);
+
+	const organisationIdsUsedByTeams = new Set(
+		teams.map((team) => team.organisationId).filter((id): id is string => Boolean(id)),
+	);
+
+	const organisationsWithoutTeams = organisations.filter(
+		(organisation) => !organisationIdsUsedByTeams.has(organisation.id),
+	);
+
+	const teamsByRole = new Map<string, number>();
+
+	for (const team of teams) {
+		teamsByRole.set(team.role, (teamsByRole.get(team.role) ?? 0) + 1);
+	}
 
 	const rinksWithoutCoordinates = rinks.filter((rink) => !rink.coordinates);
 
@@ -49,6 +71,24 @@ async function main() {
 	console.log(`Teams without training: ${teamsWithoutTraining.length}`);
 	console.log("");
 
+	console.log("");
+	console.log("Organisation relationships");
+	console.log("--------------------------");
+
+	console.log(`Organisations: ${organisations.length}`);
+	console.log(`Teams with organisation: ${teamsWithOrganisation.length}`);
+	console.log(`Teams without organisation: ${teamsWithoutOrganisation.length}`);
+	console.log(`Organisations without teams: ${organisationsWithoutTeams.length}`);
+
+	console.log("");
+	console.log("Team roles");
+	console.log("----------");
+
+	for (const [role, count] of [...teamsByRole.entries()].sort()) {
+		console.log(`${role}: ${count}`);
+	}
+
+	console.log("");
 	console.log(`Rinks without coordinates: ${rinksWithoutCoordinates.length}`);
 	console.log(`Rinks without city: ${rinksWithoutCity.length}`);
 }

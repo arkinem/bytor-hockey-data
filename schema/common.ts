@@ -53,3 +53,28 @@ export const ExternalIdSchema = z.object({
 });
 
 export type ExternalId = z.infer<typeof ExternalIdSchema>;
+
+export const TimeBoundarySchema = z.union([
+	z.object({
+		year: z.number().int().min(1900).max(2200),
+	}),
+	z.object({
+		date: z.iso.date(),
+	}),
+]);
+
+export type TimeBoundary = z.infer<typeof TimeBoundarySchema>;
+
+export const HistoricalNameSchema = z.object({
+	name: z.string().min(1),
+
+	from: TimeBoundarySchema.optional(),
+
+	until: TimeBoundarySchema.optional(),
+
+	sourceIds: z.array(EntityIdSchema).default([]),
+
+	notes: z.string().optional(),
+});
+
+export type HistoricalName = z.infer<typeof HistoricalNameSchema>;

@@ -1,0 +1,18 @@
+id: buiha
+
+name: British Universities Ice Hockey Association
+
+aliases:
+  - BUIHA
+
+types:
+  - governing_body
+  - league_operator
+  - event_organiser
+
+country: GB
+
+status: active
+
+sourceIds:
+  - buiha

@@ -5,6 +5,7 @@ import {
 	EntityIdSchema,
 	EntityStatusSchema,
 	ExternalIdSchema,
+	HistoricalNameSchema,
 } from "./common.js";
 
 export const CoordinatesSchema = z.object({
@@ -20,6 +21,8 @@ export const RinkSchema = z.object({
 	name: z.string().min(1),
 
 	aliases: z.array(z.string().min(1)).default([]),
+
+	historicalNames: z.array(HistoricalNameSchema).default([]),
 
 	country: CountryCodeSchema,
 

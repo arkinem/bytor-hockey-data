@@ -1,0 +1,27 @@
+id: manchester-metros-b
+
+name: Manchester Metros B
+
+aliases: []
+
+country: GB
+
+categories:
+  gender: open
+  age: university
+
+status: active
+
+role: unknown
+
+organisationId: manchester-metros
+
+rinkIds: []
+
+externalIds: []
+
+sourceIds:
+  - buiha
+
+sourceUrls:
+  - https://buiha.org.uk/division/301

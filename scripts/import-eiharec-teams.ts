@@ -130,6 +130,8 @@ async function main() {
 
 			aliases: [],
 
+			historicalNames: [],
+
 			country: "GB",
 
 			categories: {
@@ -138,6 +140,8 @@ async function main() {
 			},
 
 			status: "active",
+
+			role: "recreational",
 
 			rinkIds: rinkId ? [rinkId] : [],
 

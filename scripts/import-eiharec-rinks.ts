@@ -79,6 +79,8 @@ async function main() {
 
 			aliases: [],
 
+			historicalNames: [],
+
 			country: "GB",
 
 			status: "unknown",

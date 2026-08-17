@@ -1,0 +1,13 @@
+id: buiha-non-checking-division-1-north-2025-26
+
+competitionId: buiha-non-checking-division-1-north
+
+season:
+  startYear: 2025
+  endYear: 2026
+  label: "2025/26"
+
+status: active
+
+sourceIds:
+  - buiha

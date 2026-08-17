@@ -6,6 +6,7 @@ categories:
   gender: open
   age: senior
 status: active
+role: recreational
 rinkIds:
   - milton-keynes
 website: http://www.mkjesters.co.uk/

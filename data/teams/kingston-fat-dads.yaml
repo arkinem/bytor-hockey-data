@@ -6,6 +6,7 @@ categories:
   gender: open
   age: senior
 status: active
+role: recreational
 rinkIds:
   - hull
 website: https://www.eiharec.co.uk/index2.html

@@ -1,0 +1,15 @@
+id: manchester-metros
+
+name: Manchester Metros
+
+aliases: []
+
+types:
+  - programme
+
+country: GB
+
+status: active
+
+sourceIds:
+  - buiha

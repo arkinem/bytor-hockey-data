@@ -4,7 +4,15 @@ import { extname, join } from "node:path";
 import { parse } from "yaml";
 import type { ZodType } from "zod";
 
-import { OrganisationSchema, RinkSchema, SourceSchema, TeamSchema } from "../schema/index.js";
+import {
+	CompetitionSchema,
+	CompetitionSeasonSchema,
+	OrganisationSchema,
+	RinkSchema,
+	SourceSchema,
+	TeamParticipationSchema,
+	TeamSchema,
+} from "../schema/index.js";
 
 const DATA_DIR = "data";
 
@@ -77,10 +85,43 @@ function validateExternalIds(entityType: string, entities: EntityWithExternalIds
 	}
 }
 
+type EntityWithHistoricalNames = {
+	id: string;
+	historicalNames: Array<{
+		name: string;
+		sourceIds: string[];
+	}>;
+};
+
+function validateHistoricalNameSources(
+	entityType: string,
+	entities: EntityWithHistoricalNames[],
+	sourceIds: Set<string>,
+): void {
+	for (const entity of entities) {
+		for (const historicalName of entity.historicalNames) {
+			for (const sourceId of historicalName.sourceIds) {
+				if (!sourceIds.has(sourceId)) {
+					console.error(
+						`✗ ${entityType} "${entity.id}" historical name ` +
+							`"${historicalName.name}" references unknown source "${sourceId}"`,
+					);
+
+					process.exitCode = 1;
+				}
+			}
+		}
+	}
+}
+
 async function validateReferences(): Promise<void> {
 	const sourceRecords = await loadYamlDirectory("sources");
 	const rinkRecords = await loadYamlDirectory("rinks");
 	const teamRecords = await loadYamlDirectory("teams");
+	const organisationRecords = await loadYamlDirectory("organisations");
+	const competitionRecords = await loadYamlDirectory("competitions");
+	const competitionSeasonRecords = await loadYamlDirectory("competition-seasons");
+	const teamParticipationRecords = await loadYamlDirectory("team-participations");
 
 	const sources = sourceRecords.map(({ data }) => SourceSchema.parse(data));
 
@@ -91,6 +132,26 @@ async function validateReferences(): Promise<void> {
 	const sourceIds = new Set(sources.map((source) => source.id));
 
 	const rinkIds = new Set(rinks.map((rink) => rink.id));
+
+	const organisations = organisationRecords.map(({ data }) => OrganisationSchema.parse(data));
+
+	const competitions = competitionRecords.map(({ data }) => CompetitionSchema.parse(data));
+
+	const competitionSeasons = competitionSeasonRecords.map(({ data }) =>
+		CompetitionSeasonSchema.parse(data),
+	);
+
+	const teamParticipations = teamParticipationRecords.map(({ data }) =>
+		TeamParticipationSchema.parse(data),
+	);
+
+	const organisationIds = new Set(organisations.map((organisation) => organisation.id));
+
+	const competitionIds = new Set(competitions.map((competition) => competition.id));
+
+	const teamIds = new Set(teams.map((team) => team.id));
+
+	const competitionSeasonIds = new Set(competitionSeasons.map((season) => season.id));
 
 	for (const rink of rinks) {
 		for (const sourceId of rink.sourceIds) {
@@ -103,6 +164,12 @@ async function validateReferences(): Promise<void> {
 	}
 
 	for (const team of teams) {
+		if (team.organisationId && !organisationIds.has(team.organisationId)) {
+			console.error(`✗ team "${team.id}" references unknown organisation "${team.organisationId}"`);
+
+			process.exitCode = 1;
+		}
+
 		for (const sourceId of team.sourceIds) {
 			if (!sourceIds.has(sourceId)) {
 				console.error(`✗ team "${team.id}" references unknown source "${sourceId}"`);
@@ -120,8 +187,82 @@ async function validateReferences(): Promise<void> {
 		}
 	}
 
+	for (const competition of competitions) {
+		for (const sourceId of competition.sourceIds) {
+			if (!sourceIds.has(sourceId)) {
+				console.error(`✗ competition "${competition.id}" references unknown source "${sourceId}"`);
+
+				process.exitCode = 1;
+			}
+		}
+
+		for (const organiserId of competition.organiserIds) {
+			if (!organisationIds.has(organiserId)) {
+				console.error(
+					`✗ competition "${competition.id}" references unknown organiser "${organiserId}"`,
+				);
+
+				process.exitCode = 1;
+			}
+		}
+	}
+
+	for (const competitionSeason of competitionSeasons) {
+		if (!competitionIds.has(competitionSeason.competitionId)) {
+			console.error(
+				`✗ competition season "${competitionSeason.id}" references unknown competition "${competitionSeason.competitionId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
+		for (const sourceId of competitionSeason.sourceIds) {
+			if (!sourceIds.has(sourceId)) {
+				console.error(
+					`✗ competition season "${competitionSeason.id}" references unknown source "${sourceId}"`,
+				);
+
+				process.exitCode = 1;
+			}
+		}
+	}
+
+	for (const participation of teamParticipations) {
+		if (!teamIds.has(participation.teamId)) {
+			console.error(
+				`✗ team participation "${participation.id}" references unknown team "${participation.teamId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
+		if (!competitionSeasonIds.has(participation.competitionSeasonId)) {
+			console.error(
+				`✗ team participation "${participation.id}" references unknown competition season "${participation.competitionSeasonId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
+		for (const sourceId of participation.sourceIds) {
+			if (!sourceIds.has(sourceId)) {
+				console.error(
+					`✗ team participation "${participation.id}" references unknown source "${sourceId}"`,
+				);
+
+				process.exitCode = 1;
+			}
+		}
+	}
+
+	validateHistoricalNameSources("rink", rinks, sourceIds);
+	validateHistoricalNameSources("team", teams, sourceIds);
+	validateHistoricalNameSources("organisation", organisations, sourceIds);
+	validateHistoricalNameSources("competition", competitions, sourceIds);
+
 	validateExternalIds("rink", rinks);
 	validateExternalIds("team", teams);
+	validateExternalIds("competition", competitions);
 
 	if (!process.exitCode) {
 		console.log("\n✓ Referential integrity passed.");
@@ -136,6 +277,12 @@ await validateDirectory("organisations", OrganisationSchema, "organisation");
 await validateDirectory("rinks", RinkSchema, "rink");
 
 await validateDirectory("teams", TeamSchema, "team");
+
+await validateDirectory("competitions", CompetitionSchema, "competition");
+
+await validateDirectory("competition-seasons", CompetitionSeasonSchema, "competition season");
+
+await validateDirectory("team-participations", TeamParticipationSchema, "team participation");
 
 await validateReferences();
 

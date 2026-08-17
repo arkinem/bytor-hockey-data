@@ -9,7 +9,8 @@
 		"validate": "tsx scripts/validate.ts",
 		"data-audit": "tsx scripts/audit.ts",
 		"import:eiharec:rinks": "tsx scripts/import-eiharec-rinks.ts",
-		"import:eiharec:teams": "tsx scripts/import-eiharec-teams.ts"
+		"import:eiharec:teams": "tsx scripts/import-eiharec-teams.ts",
+		"migrate:eiharec:team-roles": "tsx scripts/migrate-eiharec-team-roles.ts"
 	},
 	"keywords": [],
 	"author": "",
