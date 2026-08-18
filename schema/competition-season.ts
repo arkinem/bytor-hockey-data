@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { EntityIdSchema } from "./common.js";
+import { EntityIdSchema, ExternalIdSchema } from "./common.js";
 
 export const SeasonSchema = z.object({
 	startYear: z.number().int().min(1900).max(2200),
@@ -32,6 +32,8 @@ export const CompetitionSeasonSchema = z.object({
 	status: CompetitionSeasonStatusSchema,
 
 	sourceIds: z.array(EntityIdSchema).default([]),
+
+	externalIds: z.array(ExternalIdSchema).default([]),
 
 	notes: z.string().optional(),
 });

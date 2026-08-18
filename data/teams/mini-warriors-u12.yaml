@@ -1,0 +1,21 @@
+id: mini-warriors-u12
+name: Mini Warriors U12
+aliases:
+  - Mini Warriors U12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27167735"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,20 @@
+id: billingham-junior-stars-u12-d2
+name: Billingham Junior Stars U12 D2
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27241666"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

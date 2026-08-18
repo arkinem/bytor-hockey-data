@@ -1,0 +1,21 @@
+id: sheffield-u12a-thunder-u12
+name: Sheffield u12a Thunder U12
+aliases:
+  - Sheffield u12a Thunder
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27166005"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,21 @@
+id: coventry-u12
+name: Coventry U12
+aliases:
+  - Coventry Under 12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105940"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

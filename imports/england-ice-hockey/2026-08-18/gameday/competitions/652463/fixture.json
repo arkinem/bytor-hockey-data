@@ -1,0 +1,977 @@
+{
+  "competitionId": "652463",
+  "fixtures": [
+    {
+      "fixtureId": "72820844",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2025-09-20 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820844&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820877",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2025-09-20 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820877&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820828",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2025-09-20 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820828&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820749",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-09-27 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820749&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820722",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-09-27 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820722&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820907",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-09-27 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820907&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820869",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2025-10-18 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820869&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820832",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2025-10-18 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820832&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72821006",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2025-10-18 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821006&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820790",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2025-10-26 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820790&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820811",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2025-10-26 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820811&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72821008",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2025-10-26 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821008&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820823",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-11-08 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820823&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820903",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-11-08 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820903&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820943",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2025-11-08 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820943&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820766",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-15 16:50:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820766&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820965",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-15 16:50:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820965&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820977",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-15 16:50:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820977&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820822",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-23 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820822&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820735",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-23 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820735&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820899",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2025-11-23 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820899&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820980",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2026-01-10 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820980&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820813",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2026-01-10 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820813&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820978",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      },
+      "dateTime": "2026-01-10 16:30:00",
+      "venue": "Cambridge Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820978&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820921",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-01-24 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820921&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820985",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-01-24 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820985&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820726",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-01-24 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820726&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820886",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-02-15 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820886&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820957",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-02-15 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820957&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820880",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-02-15 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820880&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72821021",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2026-03-08 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821021&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820884",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2026-03-08 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820884&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820805",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      },
+      "dateTime": "2026-03-08 12:20:00",
+      "venue": "Riverside Ice and Leisure Centre Chelmsford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820805&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820715",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-03-22 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820715&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820792",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-03-22 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820792&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820894",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      },
+      "dateTime": "2026-03-22 11:45:00",
+      "venue": "Sapphire Ice & Leisure Romford",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820894&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820783",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-03-29 16:15:00",
+      "venue": "Postponed",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820783&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72821007",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-03-29 16:15:00",
+      "venue": "Postponed",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821007&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820833",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-03-29 16:15:00",
+      "venue": "Postponed",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820833&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820878",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-12 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820878&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820900",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-12 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820900&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820759",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-12 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820759&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820820",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-26 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820820&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72821000",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-26 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821000&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820810",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      },
+      "dateTime": "2026-04-26 16:15:00",
+      "venue": "Planet Ice Peterborough",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820810&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72821015",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-03 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821015&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105840",
+        "name": "Chelmsford Cherokees Gold U10"
+      }
+    },
+    {
+      "fixtureId": "72820791",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-03 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820791&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      }
+    },
+    {
+      "fixtureId": "72820779",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-03 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820779&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820929",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-16 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820929&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820879",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-16 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820879&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    },
+    {
+      "fixtureId": "72820771",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      },
+      "dateTime": "2026-05-16 16:55:00",
+      "venue": "Alexandra Palace Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820771&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105926",
+        "name": "Romford U10"
+      }
+    },
+    {
+      "fixtureId": "72820937",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-05-23 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820937&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105959",
+        "name": "Cambridge Grizzlies U10"
+      }
+    },
+    {
+      "fixtureId": "72820776",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-05-23 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820776&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27239264",
+        "name": "Haringey Hounds Blue U10 South (East)"
+      }
+    },
+    {
+      "fixtureId": "72820850",
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106016",
+        "name": "MK Storm U10"
+      },
+      "dateTime": "2026-05-23 16:15:00",
+      "venue": "Planet Ice Milton Keynes",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820850&amp;c=0-12997-0-652463-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105859",
+        "name": "Peterborough Phantoms U10 Ghosts"
+      }
+    }
+  ]
+}

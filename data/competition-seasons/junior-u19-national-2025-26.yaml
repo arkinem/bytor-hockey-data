@@ -1,0 +1,12 @@
+id: junior-u19-national-2025-26
+competitionId: junior-u19-national
+season:
+  startYear: 2025
+  endYear: 2026
+  label: 2025/26
+status: active
+sourceIds:
+  - england-ice-hockey
+externalIds:
+  - system: gameday
+    value: "652481"

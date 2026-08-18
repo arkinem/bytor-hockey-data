@@ -1,0 +1,632 @@
+{
+  "competitionId": "652467",
+  "fixtures": [
+    {
+      "fixtureId": "72822669",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2025-09-06 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822669&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822649",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2025-09-06 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822649&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822653",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2025-10-25 13:10:00",
+      "venue": "Link Leisure Centre Swindon",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822653&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822690",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2025-10-25 13:10:00",
+      "venue": "Link Leisure Centre Swindon",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822690&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822699",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-01-17 13:10:00",
+      "venue": "Link Leisure Centre Swindon",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822699&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822667",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-01-17 13:10:00",
+      "venue": "Link Leisure Centre Swindon",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822667&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822664",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-02-22 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822664&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822652",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-02-22 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822652&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822691",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-03-07 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822691&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822666",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-03-07 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822666&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822688",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27242285",
+        "name": "Oxford Junior Stars U10"
+      },
+      "dateTime": "2026-03-15 15:30:00",
+      "venue": "Oxford Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822688&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822677",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27242285",
+        "name": "Oxford Junior Stars U10"
+      },
+      "dateTime": "2026-03-15 15:30:00",
+      "venue": "Oxford Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822677&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822686",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27242285",
+        "name": "Oxford Junior Stars U10"
+      },
+      "dateTime": "2026-03-15 15:30:00",
+      "venue": "Oxford Ice Rink",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822686&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822680",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239700",
+        "name": "Bristol Snowdogs U10"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "venue": "Planet Ice Bristol",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822680&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822661",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239700",
+        "name": "Bristol Snowdogs U10"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "venue": "Planet Ice Bristol",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822661&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822654",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27239700",
+        "name": "Bristol Snowdogs U10"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "venue": "Planet Ice Bristol",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822654&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822671",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-04-12 15:20:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822671&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822692",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-05-03 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822692&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822698",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-05-03 16:00:00",
+      "venue": "Ice Arena Wales",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822698&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822648",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-05-09 15:20:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822648&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822656",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-05-09 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822656&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822687",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-05-09 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822687&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      }
+    },
+    {
+      "fixtureId": "72822650",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-05-16 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822650&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      }
+    },
+    {
+      "fixtureId": "72822673",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": false,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-05-16 17:30:00",
+      "venue": "Slough Ice Arena",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822673&amp;c=0-12997-0-652467-0&amp;pool=1",
+      "awayTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      }
+    },
+    {
+      "fixtureId": "72822695",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2025-09-06 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822695&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822663",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2025-09-20 16:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822663&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822689",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2025-09-20 16:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822689&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822681",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2025-09-20 16:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822681&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822676",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2025-10-25 13:10:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822676&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822668",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-01-17 13:10:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822668&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822674",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-02-22 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822674&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822682",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-03-01 15:20:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822682&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822651",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-03-07 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822651&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822694",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822694&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822659",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822659&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822657",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-03-29 15:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822657&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822672",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105873",
+        "name": "Cardiff Junior Devils U10s"
+      },
+      "dateTime": "2026-05-03 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822672&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822670",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27167736",
+        "name": "Slough Jets U10s SW"
+      },
+      "dateTime": "2026-05-09 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822670&amp;c=0-12997-0-652467-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72822658",
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106003",
+        "name": "Swindon Cubs - U10"
+      },
+      "dateTime": "2026-05-16 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72822658&amp;c=0-12997-0-652467-0&amp;pool=1"
+    }
+  ]
+}

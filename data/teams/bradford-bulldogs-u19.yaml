@@ -1,0 +1,21 @@
+id: bradford-bulldogs-u19
+name: Bradford Bulldogs U19
+aliases:
+  - Bradford Bulldogs u19's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105939"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

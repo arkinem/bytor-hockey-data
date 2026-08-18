@@ -1,0 +1,21 @@
+id: mk-storm-blizzard-u16
+name: MK Storm - Blizzard U16
+aliases:
+  - MK Storm - Blizzard
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105844"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

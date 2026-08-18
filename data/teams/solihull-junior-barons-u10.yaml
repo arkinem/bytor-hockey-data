@@ -1,0 +1,20 @@
+id: solihull-junior-barons-u10
+name: Solihull Junior Barons U10
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 10
+    label: U10
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27106001"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

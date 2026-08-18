@@ -1,0 +1,21 @@
+id: swindon-leopards-u16a-u16
+name: Swindon Leopards - U16A U16
+aliases:
+  - Swindon Leopards - U16A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105982"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

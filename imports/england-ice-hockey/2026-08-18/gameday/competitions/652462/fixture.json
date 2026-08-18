@@ -1,0 +1,161 @@
+{
+  "competitionId": "652462",
+  "fixtures": [
+    {
+      "fixtureId": "72820742",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105850",
+        "name": "Telford Junior Ice Hockey Club U10's"
+      },
+      "dateTime": "2025-09-21 12:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820742&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820939",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105850",
+        "name": "Telford Junior Ice Hockey Club U10's"
+      },
+      "dateTime": "2025-10-04 16:20:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820939&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820930",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27166804",
+        "name": "Sheffield U10 Samurai North West"
+      },
+      "dateTime": "2025-10-18 12:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820930&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820847",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105801",
+        "name": "Coventry Under 10s"
+      },
+      "dateTime": "2025-11-02 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820847&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820944",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27166804",
+        "name": "Sheffield U10 Samurai North West"
+      },
+      "dateTime": "2026-01-25 12:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820944&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72821009",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27166804",
+        "name": "Sheffield U10 Samurai North West"
+      },
+      "dateTime": "2026-02-15 12:40:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72821009&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820905",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105801",
+        "name": "Coventry Under 10s"
+      },
+      "dateTime": "2026-03-15 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820905&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820926",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106001",
+        "name": "Solihull Junior Barons U10"
+      },
+      "dateTime": "2026-04-11 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820926&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820863",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105850",
+        "name": "Telford Junior Ice Hockey Club U10's"
+      },
+      "dateTime": "2026-04-19 12:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820863&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820910",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106001",
+        "name": "Solihull Junior Barons U10"
+      },
+      "dateTime": "2026-05-02 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820910&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820736",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27105801",
+        "name": "Coventry Under 10s"
+      },
+      "dateTime": "2026-05-10 16:00:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820736&amp;c=0-12997-0-652462-0&amp;pool=1"
+    },
+    {
+      "fixtureId": "72820954",
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "round": "1",
+      "isBye": true,
+      "homeTeam": {
+        "id": "27106001",
+        "name": "Solihull Junior Barons U10"
+      },
+      "dateTime": "2026-05-16 17:30:00",
+      "matchUrl": "https://websites.mygameday.app/round_info.cgi?a=MATCH&amp;fixture=72820954&amp;c=0-12997-0-652462-0&amp;pool=1"
+    }
+  ]
+}

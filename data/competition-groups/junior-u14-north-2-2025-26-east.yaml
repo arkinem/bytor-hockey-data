@@ -8,3 +8,7 @@ status: active
 
 sourceIds:
   - england-ice-hockey
+
+externalIds:
+  - system: gameday
+    value: "652468"

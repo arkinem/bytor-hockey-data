@@ -1,0 +1,69 @@
+source: gameday
+season: "2025/26"
+ageGroup: U14
+
+mappings:
+  "27105807": manchester-storm-a-u14
+  "27105810": cardiff-junior-devils-u14
+  "27105815": cambridge-grizzlies-u14
+  "27105830": haringey-hounds-s1-u14
+  "27105851": solihull-barons-d2-u14
+  "27105853": bradford-bulldogs-u14
+  "27105854": invicta-wild-u14
+  "27105867": widnes-wild-d1-u14
+  "27105875": telford-junior-ihc-u14
+  "27105877": deeside-dragons-n2-u14
+  "27105890": leeds-junior-knights-d2-u14
+  "27105892": sutton-sting-u14
+  "27105895": slough-jets-a-u14
+  "27105898": guildford-u14
+  "27105906": sheffield-sabres-u14
+  "27105907": romford-hurricanes-u14
+  "27105929": invicta-chargers-u14
+  "27105935": leeds-junior-knights-d1-u14
+  "27105937": kingston-sharks-u14
+  "27105938": haringey-hounds-s2-u14
+  "27105955": whitley-bay-mohawks-u14
+  "27105970": billingham-stars-u14
+  "27105979": solihull-barons-d1-u14
+  "27105983": mk-storm-u14
+  "27106015": coventry-u14
+  "27106017": peterborough-phantoms-a-u14
+  "27106018": solent-junior-devils-u14
+  "27106036": swindon-pumas-u14
+  "27112344": streatham-u14
+  "27166004": deeside-dragons-d1-u14
+  "27166806": sheffield-lasers-u14
+  "27168240": chelmsford-braves-u14
+  "27236716": peterborough-phantoms-b-u14
+  "27239542": slough-jets-b-u14
+  "27239697": widnes-wild-d2-u14
+  "27239701": swindon-thundercats-u14
+  "27239703": bristol-snowdogs-u14
+  "27242280": oxford-junior-stars-u14
+
+unresolved:
+  "27105923":
+    sourceName: Nottingham U14 Division 2
+    reason: >
+      Same GameDay team ID appears in both U14 North 1 and U14 North 2 East.
+      Existing canonical data contains separate Nottingham Lions D1 and D2 teams.
+      Requires manual verification.
+
+  "27166946":
+    sourceName: Blackburn Hawks Juniors U14
+    reason: >
+      No matching canonical U14 team exists in the previous source dataset.
+      Likely a new canonical Team.
+
+anomalies:
+  "27239538":
+    sourceName: Manchester Storm Academy U16 B
+    observedCompetitionId: "653271"
+    observedCompetitionName: U14 North 2 (West)
+    issue: age_group_mismatch
+    action: exclude_from_u14_import
+    notes: >
+      GameDay lists this team inside U14 North 2 (West), but the GameDay team
+      page itself identifies the team as Manchester Storm Academy U16 B.
+      Do not create or map this record as a U14 team.

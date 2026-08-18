@@ -1,0 +1,21 @@
+id: solihull-junior-barons-u19d2-u19
+name: Solihull Junior Barons U19D2 U19
+aliases:
+  - Solihull Junior Barons U19D2
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105991"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

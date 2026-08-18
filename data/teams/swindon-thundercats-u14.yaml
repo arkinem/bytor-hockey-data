@@ -13,7 +13,9 @@ categories:
 status: unknown
 role: age_group
 rinkIds: []
-externalIds: []
+externalIds:
+  - system: gameday
+    value: "27239701"
 sourceIds:
   - england-ice-hockey
 sourceUrls:

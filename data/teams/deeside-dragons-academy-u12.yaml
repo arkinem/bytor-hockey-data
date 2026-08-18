@@ -1,0 +1,21 @@
+id: deeside-dragons-academy-u12
+name: Deeside Dragons Academy U12
+aliases:
+  - Deeside Dragons Academy u12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105823"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

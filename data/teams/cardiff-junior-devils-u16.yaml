@@ -1,0 +1,21 @@
+id: cardiff-junior-devils-u16
+name: Cardiff Junior Devils U16
+aliases:
+  - Cardiff Junior Devils U16s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105826"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

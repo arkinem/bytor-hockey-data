@@ -1,0 +1,21 @@
+id: swindon-lions-u19a-u19
+name: Swindon Lions - U19A U19
+aliases:
+  - Swindon Lions - U19A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27106022"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

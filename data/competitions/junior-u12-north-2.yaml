@@ -1,0 +1,19 @@
+id: junior-u12-north-2
+name: U12 North 2
+aliases: []
+historicalNames: []
+type: league
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+parentCompetitionId: junior-u12
+organiserIds:
+  - england-ice-hockey
+externalIds: []
+sourceIds:
+  - england-ice-hockey

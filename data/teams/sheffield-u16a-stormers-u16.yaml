@@ -1,0 +1,21 @@
+id: sheffield-u16a-stormers-u16
+name: Sheffield U16a Stormers U16
+aliases:
+  - Sheffield U16a Stormers
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105987"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

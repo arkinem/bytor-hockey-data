@@ -1,0 +1,20 @@
+id: bristol-snowdogs-u19-s2
+name: Bristol Snowdogs U19 S2
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27239756"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

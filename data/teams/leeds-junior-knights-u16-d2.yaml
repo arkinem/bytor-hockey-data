@@ -1,0 +1,20 @@
+id: leeds-junior-knights-u16-d2
+name: Leeds Junior Knights U16 D2
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105869"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

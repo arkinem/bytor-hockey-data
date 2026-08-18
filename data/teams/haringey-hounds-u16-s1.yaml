@@ -1,0 +1,20 @@
+id: haringey-hounds-u16-s1
+name: Haringey Hounds U16 S1
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27106031"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

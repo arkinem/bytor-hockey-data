@@ -1,0 +1,21 @@
+id: mk-storm-u19-a
+name: MK Storm U19 A
+aliases:
+  - MK Storm u19 A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27237499"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,21 @@
+id: romford-u16b-u16
+name: Romford U16B U16
+aliases:
+  - Romford U16B
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27237498"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

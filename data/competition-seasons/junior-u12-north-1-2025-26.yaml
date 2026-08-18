@@ -1,0 +1,12 @@
+id: junior-u12-north-1-2025-26
+competitionId: junior-u12-north-1
+season:
+  startYear: 2025
+  endYear: 2026
+  label: 2025/26
+status: active
+sourceIds:
+  - england-ice-hockey
+externalIds:
+  - system: gameday
+    value: "652464"

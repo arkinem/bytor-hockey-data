@@ -1,0 +1,21 @@
+id: romford-u12a-u12
+name: Romford U12A U12
+aliases:
+  - Romford U12A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105863"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

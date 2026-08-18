@@ -17,7 +17,28 @@
 		"import:england:u14:teams": "tsx scripts/import-england-u14-teams.ts",
 		"check:england:u14": "tsx scripts/check-england-u14-config.ts",
 		"import:england:u14:participations": "tsx scripts/import-england-u14-participations.ts",
-		"test:gameday": "tsx scripts/test-gameday-fetch.ts"
+		"test:gameday": "tsx scripts/test-gameday-fetch.ts",
+		"discover:england:gameday": "tsx scripts/discover-england-gameday-competitions.ts",
+		"discover:gameday:competition": "tsx scripts/discover-gameday-competition.ts",
+		"snapshot:england:juniors": "tsx scripts/snapshot-england-gameday-juniors.ts",
+		"build:england:gameday:raw": "tsx scripts/build-england-gameday-raw-juniors.ts",
+		"propose:england:gameday:competitions": "tsx scripts/propose-england-gameday-competitions.ts",
+		"reconcile:england:gameday:competitions": "tsx scripts/reconcile-england-gameday-competitions.ts",
+		"import:england:gameday:competitions": "tsx scripts/import-england-gameday-competitions.ts",
+		"resolve:england:gameday:teams": "tsx scripts/resolve-england-gameday-teams.ts",
+		"reconcile:england:gameday:u14": "tsx scripts/reconcile-gameday-u14-teams.ts",
+		"apply:england:gameday:u14": "tsx scripts/apply-gameday-u14-crosswalk.ts",
+		"propose:england:gameday:teams": "tsx scripts/propose-england-gameday-teams.ts",
+		"import:england:gameday:teams": "tsx scripts/import-england-gameday-teams.ts",
+		"import:england:gameday:participations": "tsx scripts/import-england-gameday-participations.ts",
+		"audit:england:gameday": "tsx scripts/audit-england-gameday-provider.ts",
+		"discover:england:gameday:u10": "tsx scripts/discover-gameday-u10-fixtures.ts",
+		"parse:england:gameday:u10": "tsx scripts/parse-gameday-u10-fixture.ts",
+		"snapshot:england:gameday:u10": "tsx scripts/snapshot-england-gameday-u10.ts",
+		"propose:england:gameday:u10:teams": "tsx scripts/propose-england-gameday-u10-teams.ts",
+		"reconcile:england:gameday:u10:teams": "tsx scripts/reconcile-england-gameday-u10-teams.ts",
+		"import:england:gameday:u10:teams": "tsx scripts/import-england-gameday-u10-teams.ts",
+		"import:england:gameday:u10:participations": "tsx scripts/import-england-gameday-u10-participations.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -30,6 +51,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^26.2.0",
+		"domhandler": "^6.0.1",
 		"tsx": "^4.23.12",
 		"typescript": "^7.0.2"
 	}

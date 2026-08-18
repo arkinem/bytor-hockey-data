@@ -1,0 +1,21 @@
+id: guildford-u12
+name: Guildford U12
+aliases:
+  - Guildford U12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105865"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

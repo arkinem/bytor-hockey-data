@@ -1,0 +1,12 @@
+id: junior-u10-south-london-east-2025-26
+competitionId: junior-u10-south-london-east
+season:
+  startYear: 2025
+  endYear: 2026
+  label: 2025/26
+status: active
+sourceIds:
+  - england-ice-hockey
+externalIds:
+  - system: gameday
+    value: "652475"

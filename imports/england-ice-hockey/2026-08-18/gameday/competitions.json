@@ -1,0 +1,219 @@
+[
+  {
+    "id": "652484",
+    "name": "Junior Challenge Matches",
+    "client": "0-12997-0-652484-0",
+    "ageGroup": "unknown",
+    "kind": "challenge"
+  },
+  {
+    "id": "652480",
+    "name": "U10 North (Central)",
+    "client": "0-12997-0-652480-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652476",
+    "name": "U10 North (North East)",
+    "client": "0-12997-0-652476-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652470",
+    "name": "U10 North (North West)",
+    "client": "0-12997-0-652470-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652462",
+    "name": "U10 North (South)",
+    "client": "0-12997-0-652462-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652471",
+    "name": "U10 South (Central South)",
+    "client": "0-12997-0-652471-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652463",
+    "name": "U10 South (East)",
+    "client": "0-12997-0-652463-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652475",
+    "name": "U10 South (London East)",
+    "client": "0-12997-0-652475-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "652467",
+    "name": "U10 South (West)",
+    "client": "0-12997-0-652467-0",
+    "ageGroup": "U10",
+    "kind": "league"
+  },
+  {
+    "id": "661278",
+    "name": "U12 Junior Nationals",
+    "client": "0-12997-0-661278-0",
+    "ageGroup": "U12",
+    "kind": "national"
+  },
+  {
+    "id": "652464",
+    "name": "U12 North 1",
+    "client": "0-12997-0-652464-0",
+    "ageGroup": "U12",
+    "kind": "league"
+  },
+  {
+    "id": "652485",
+    "name": "U12 North 2",
+    "client": "0-12997-0-652485-0",
+    "ageGroup": "U12",
+    "kind": "league"
+  },
+  {
+    "id": "652473",
+    "name": "U12 South 1",
+    "client": "0-12997-0-652473-0",
+    "ageGroup": "U12",
+    "kind": "league"
+  },
+  {
+    "id": "652474",
+    "name": "U12 South 2",
+    "client": "0-12997-0-652474-0",
+    "ageGroup": "U12",
+    "kind": "league"
+  },
+  {
+    "id": "661277",
+    "name": "U14 Junior National",
+    "client": "0-12997-0-661277-0",
+    "ageGroup": "U14",
+    "kind": "national"
+  },
+  {
+    "id": "652459",
+    "name": "U14 North 1",
+    "client": "0-12997-0-652459-0",
+    "ageGroup": "U14",
+    "kind": "league"
+  },
+  {
+    "id": "652468",
+    "name": "U14 North 2 (East)",
+    "client": "0-12997-0-652468-0",
+    "ageGroup": "U14",
+    "kind": "league"
+  },
+  {
+    "id": "653271",
+    "name": "U14 North 2 (West)",
+    "client": "0-12997-0-653271-0",
+    "ageGroup": "U14",
+    "kind": "league"
+  },
+  {
+    "id": "652478",
+    "name": "U14 South 1",
+    "client": "0-12997-0-652478-0",
+    "ageGroup": "U14",
+    "kind": "league"
+  },
+  {
+    "id": "652458",
+    "name": "U14 South 2",
+    "client": "0-12997-0-652458-0",
+    "ageGroup": "U14",
+    "kind": "league"
+  },
+  {
+    "id": "661279",
+    "name": "U16 Junior Nationals",
+    "client": "0-12997-0-661279-0",
+    "ageGroup": "U16",
+    "kind": "national"
+  },
+  {
+    "id": "652460",
+    "name": "U16 North 1",
+    "client": "0-12997-0-652460-0",
+    "ageGroup": "U16",
+    "kind": "league"
+  },
+  {
+    "id": "652465",
+    "name": "U16 North 2",
+    "client": "0-12997-0-652465-0",
+    "ageGroup": "U16",
+    "kind": "league"
+  },
+  {
+    "id": "652466",
+    "name": "U16 South 1",
+    "client": "0-12997-0-652466-0",
+    "ageGroup": "U16",
+    "kind": "league"
+  },
+  {
+    "id": "652469",
+    "name": "U16 South 2",
+    "client": "0-12997-0-652469-0",
+    "ageGroup": "U16",
+    "kind": "league"
+  },
+  {
+    "id": "661280",
+    "name": "U19 Junior Nationals",
+    "client": "0-12997-0-661280-0",
+    "ageGroup": "U19",
+    "kind": "national"
+  },
+  {
+    "id": "652481",
+    "name": "U19 National",
+    "client": "0-12997-0-652481-0",
+    "ageGroup": "U19",
+    "kind": "national"
+  },
+  {
+    "id": "652472",
+    "name": "U19 North 1",
+    "client": "0-12997-0-652472-0",
+    "ageGroup": "U19",
+    "kind": "league"
+  },
+  {
+    "id": "652477",
+    "name": "U19 North 2",
+    "client": "0-12997-0-652477-0",
+    "ageGroup": "U19",
+    "kind": "league"
+  },
+  {
+    "id": "652483",
+    "name": "U19 South 1",
+    "client": "0-12997-0-652483-0",
+    "ageGroup": "U19",
+    "kind": "league"
+  },
+  {
+    "id": "652479",
+    "name": "U19 South 2",
+    "client": "0-12997-0-652479-0",
+    "ageGroup": "U19",
+    "kind": "league"
+  }
+]

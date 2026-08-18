@@ -1,0 +1,21 @@
+id: lancashire-lightning-u10
+name: Lancashire Lightning U10
+aliases:
+  - Lancashire Lightning U10s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 10
+    label: U10
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27166947"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

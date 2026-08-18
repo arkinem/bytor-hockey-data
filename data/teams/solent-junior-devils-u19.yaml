@@ -1,0 +1,21 @@
+id: solent-junior-devils-u19
+name: Solent Junior Devils U19
+aliases:
+  - Solent Junior Devils U19's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105981"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

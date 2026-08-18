@@ -1,0 +1,21 @@
+id: lancashire-lightning-u12
+name: Lancashire Lightning U12
+aliases:
+  - Lancashire Lightning U12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27168204"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

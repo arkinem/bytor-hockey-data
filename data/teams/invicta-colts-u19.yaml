@@ -1,0 +1,20 @@
+id: invicta-colts-u19
+name: Invicta Colts U19
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27106027"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

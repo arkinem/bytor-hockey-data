@@ -1,0 +1,20 @@
+id: peterborough-phantoms-u12
+name: Peterborough Phantoms U12
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105953"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,20 @@
+id: manchester-storm-academy-u12
+name: Manchester Storm Academy U12
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105946"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

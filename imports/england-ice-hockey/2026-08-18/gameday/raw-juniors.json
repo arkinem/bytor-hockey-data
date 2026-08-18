@@ -1,0 +1,5302 @@
+{
+  "source": "gameday",
+  "snapshotDate": "2026-08-18",
+  "seasonId": "6041164",
+  "seasonLabel": "2025/26",
+  "competitions": [
+    {
+      "id": "652484",
+      "name": "Junior Challenge Matches",
+      "ageGroup": "unknown",
+      "kind": "challenge",
+      "hasLadder": false
+    },
+    {
+      "id": "652480",
+      "name": "U10 North (Central)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652476",
+      "name": "U10 North (North East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652470",
+      "name": "U10 North (North West)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652462",
+      "name": "U10 North (South)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652471",
+      "name": "U10 South (Central South)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652463",
+      "name": "U10 South (East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652475",
+      "name": "U10 South (London East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "652467",
+      "name": "U10 South (West)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "hasLadder": false
+    },
+    {
+      "id": "661278",
+      "name": "U12 Junior Nationals",
+      "ageGroup": "U12",
+      "kind": "national",
+      "hasLadder": false
+    },
+    {
+      "id": "652464",
+      "name": "U12 North 1",
+      "ageGroup": "U12",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652485",
+      "name": "U12 North 2",
+      "ageGroup": "U12",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652473",
+      "name": "U12 South 1",
+      "ageGroup": "U12",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652474",
+      "name": "U12 South 2",
+      "ageGroup": "U12",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "661277",
+      "name": "U14 Junior National",
+      "ageGroup": "U14",
+      "kind": "national",
+      "hasLadder": false
+    },
+    {
+      "id": "652459",
+      "name": "U14 North 1",
+      "ageGroup": "U14",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652468",
+      "name": "U14 North 2 (East)",
+      "ageGroup": "U14",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "653271",
+      "name": "U14 North 2 (West)",
+      "ageGroup": "U14",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652478",
+      "name": "U14 South 1",
+      "ageGroup": "U14",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652458",
+      "name": "U14 South 2",
+      "ageGroup": "U14",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "661279",
+      "name": "U16 Junior Nationals",
+      "ageGroup": "U16",
+      "kind": "national",
+      "hasLadder": false
+    },
+    {
+      "id": "652460",
+      "name": "U16 North 1",
+      "ageGroup": "U16",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652465",
+      "name": "U16 North 2",
+      "ageGroup": "U16",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652466",
+      "name": "U16 South 1",
+      "ageGroup": "U16",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652469",
+      "name": "U16 South 2",
+      "ageGroup": "U16",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "661280",
+      "name": "U19 Junior Nationals",
+      "ageGroup": "U19",
+      "kind": "national",
+      "hasLadder": false
+    },
+    {
+      "id": "652481",
+      "name": "U19 National",
+      "ageGroup": "U19",
+      "kind": "national",
+      "hasLadder": true
+    },
+    {
+      "id": "652472",
+      "name": "U19 North 1",
+      "ageGroup": "U19",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652477",
+      "name": "U19 North 2",
+      "ageGroup": "U19",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652483",
+      "name": "U19 South 1",
+      "ageGroup": "U19",
+      "kind": "league",
+      "hasLadder": true
+    },
+    {
+      "id": "652479",
+      "name": "U19 South 2",
+      "ageGroup": "U19",
+      "kind": "league",
+      "hasLadder": true
+    }
+  ],
+  "teams": [
+    {
+      "id": "27105803",
+      "names": [
+        "Telford Junior Ice Hockey Club U16's"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105806",
+      "names": [
+        "Kingston Sharks Under 16's"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105807",
+      "names": [
+        "Manchester Storm Academy U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105809",
+      "names": [
+        "Swindon Cougars - U19 National"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105810",
+      "names": [
+        "Cardiff Junior Devils U14s"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27105813",
+      "names": [
+        "Whitley Bay Braves U19 N1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105815",
+      "names": [
+        "Cambridge Grizzlies U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27105817",
+      "names": [
+        "Solent Junior Devils U16's"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27105818",
+      "names": [
+        "Billingham Stars U12D1"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27105819",
+      "names": [
+        "Bradford Bulldogs u16's"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105820",
+      "names": [
+        "Whitley Bay Tomahawks U16 N1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105823",
+      "names": [
+        "Deeside Dragons Academy u12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27105826",
+      "names": [
+        "Cardiff Junior Devils U16s"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105830",
+      "names": [
+        "Haringey Hounds U14 S1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27105835",
+      "names": [
+        "Solihull Junior Barons U16D2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105836",
+      "names": [
+        "Guildford U16s"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105837",
+      "names": [
+        "Coventry Under 19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27105839",
+      "names": [
+        "Slough Jets U16s"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105842",
+      "names": [
+        "Whitley Bay Arrows U12 N2"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27105844",
+      "names": [
+        "MK Storm - Blizzard"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27105848",
+      "names": [
+        "Romford U16A"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105851",
+      "names": [
+        "Solihull Junior Barons U14D2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27105852",
+      "names": [
+        "Manchester Storm Academy U16 A"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105853",
+      "names": [
+        "Bradford Bulldogs u14's"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105854",
+      "names": [
+        "Invicta Wild U14 B"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27105856",
+      "names": [
+        "MK Storm U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652479"
+      ]
+    },
+    {
+      "id": "27105858",
+      "names": [
+        "Nottingham U16 Division 1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105860",
+      "names": [
+        "Swindon Jaguars - U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105863",
+      "names": [
+        "Romford U12A"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27105865",
+      "names": [
+        "Guildford U12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105867",
+      "names": [
+        "Widnes Wild Academy U14 D1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105869",
+      "names": [
+        "Leeds Junior Knights U16 D2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105870",
+      "names": [
+        "Swindon Lynx - U16B"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27105872",
+      "names": [
+        "MK Storm U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27105874",
+      "names": [
+        "Solent Junior Devils U12's"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27105875",
+      "names": [
+        "Telford Junior Ice Hockey Club U14's"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27105876",
+      "names": [
+        "Guildford U19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105877",
+      "names": [
+        "Deeside Dragons Academy u14N2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27105878",
+      "names": [
+        "Chelmsford Mohawks U19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105879",
+      "names": [
+        "Coventry Under 16s"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105881",
+      "names": [
+        "Nottingham U12 Division 1"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27105882",
+      "names": [
+        "Slough Jets U12A"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105885",
+      "names": [
+        "Cardiff Junior Devils U19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27105888",
+      "names": [
+        "Kingston Sharks Under 19's"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105890",
+      "names": [
+        "Leeds Junior Knights U14 D2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652468"
+      ]
+    },
+    {
+      "id": "27105892",
+      "names": [
+        "Sutton Sting U14B"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652468"
+      ]
+    },
+    {
+      "id": "27105894",
+      "names": [
+        "Leeds Junior Knights U19 National"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105895",
+      "names": [
+        "Slough Jets U14A"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27105897",
+      "names": [
+        "Peterborough Phantoms U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105898",
+      "names": [
+        "Guildford U14s"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27105901",
+      "names": [
+        "Deeside Dragons Academy u19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27105902",
+      "names": [
+        "Sheffield U16b Greyhounds"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105906",
+      "names": [
+        "Sheffield U14b Sabres"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652468"
+      ]
+    },
+    {
+      "id": "27105907",
+      "names": [
+        "Romford U14A"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27105913",
+      "names": [
+        "Streatham U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105915",
+      "names": [
+        "Haringey Hounds U12 S1"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105916",
+      "names": [
+        "Widnes Wild Academy U19 D1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105917",
+      "names": [
+        "Sutton Sting U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27105921",
+      "names": [
+        "Invicta Stampede U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105922",
+      "names": [
+        "Telford Junior Ice Hockey Club U19's"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105923",
+      "names": [
+        "Nottingham U14 Division 2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459",
+        "652468"
+      ]
+    },
+    {
+      "id": "27105929",
+      "names": [
+        "Invicta Chargers U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27105930",
+      "names": [
+        "Nottingham U12 Division 2"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27105934",
+      "names": [
+        "Widnes Wild Academy U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27105935",
+      "names": [
+        "Leeds Junior Knights U14 D1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105937",
+      "names": [
+        "Kingston Sharks Under 14's"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105938",
+      "names": [
+        "Haringey Hounds U14 S2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27105939",
+      "names": [
+        "Bradford Bulldogs u19's"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105940",
+      "names": [
+        "Coventry Under 12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27105941",
+      "names": [
+        "Chelmsford Tomahawks U16s"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105942",
+      "names": [
+        "Romford U19A"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652479"
+      ]
+    },
+    {
+      "id": "27105943",
+      "names": [
+        "Telford Junior Ice Hockey Club U12's"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27105946",
+      "names": [
+        "Manchester Storm Academy U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27105948",
+      "names": [
+        "Widnes Wild Academy U16 D2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105953",
+      "names": [
+        "Peterborough Phantoms U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105955",
+      "names": [
+        "Whitley Bay Mohawks U14N1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105956",
+      "names": [
+        "Leeds Junior Knights U19 D1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105957",
+      "names": [
+        "Leeds Junior Knights U16 D1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105960",
+      "names": [
+        "Solihull Junior Barons U12D1"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27105961",
+      "names": [
+        "Invicta Mavericks U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105962",
+      "names": [
+        "Haringey Hounds U16 S2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27105967",
+      "names": [
+        "Manchester Storm Academy U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27105970",
+      "names": [
+        "Billingham Stars U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652468"
+      ]
+    },
+    {
+      "id": "27105976",
+      "names": [
+        "Slough Jets U19s"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27105979",
+      "names": [
+        "Solihull Junior Barons U14D1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27105981",
+      "names": [
+        "Solent Junior Devils U19's"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652479"
+      ]
+    },
+    {
+      "id": "27105982",
+      "names": [
+        "Swindon Leopards - U16A"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27105983",
+      "names": [
+        "MK Storm U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27105984",
+      "names": [
+        "Nottingham U16 Division 2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27105987",
+      "names": [
+        "Sheffield U16a Stormers"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27105988",
+      "names": [
+        "Cardiff Junior Devils U12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27105989",
+      "names": [
+        "Sheffield U19b Titans"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27105991",
+      "names": [
+        "Solihull Junior Barons U19D2"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27106004",
+      "names": [
+        "Peterborough Phantoms U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27106015",
+      "names": [
+        "Coventry Under 14s"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652468"
+      ]
+    },
+    {
+      "id": "27106017",
+      "names": [
+        "Peterborough Phantoms U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27106018",
+      "names": [
+        "Solent Junior Devils U14's"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27106019",
+      "names": [
+        "Bradford Bulldogs u12's"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27106021",
+      "names": [
+        "Sheffield U19a Steelhawks"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27106022",
+      "names": [
+        "Swindon Lions - U19A"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27106023",
+      "names": [
+        "Deeside Dragons Academy U16N D1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27106026",
+      "names": [
+        "Leeds Junior Knights U12 - White"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27106027",
+      "names": [
+        "Invicta Colts U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27106029",
+      "names": [
+        "Kingston Sharks Under 12's"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27106030",
+      "names": [
+        "Widnes Wild Academy U19 D2"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27106031",
+      "names": [
+        "Haringey Hounds U16 S1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27106033",
+      "names": [
+        "Cambridge Grizzlies U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27106036",
+      "names": [
+        "Swindon Pumas - U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27112344",
+      "names": [
+        "Streatham U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27112347",
+      "names": [
+        "Streatham U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27112348",
+      "names": [
+        "Streatham U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27165787",
+      "names": [
+        "Leeds Junior Knights U12 - Blue"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27166004",
+      "names": [
+        "Deeside Dragons Academy u14N1"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27166005",
+      "names": [
+        "Sheffield u12a Thunder"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652464"
+      ]
+    },
+    {
+      "id": "27166095",
+      "names": [
+        "Billingham Stars U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27166803",
+      "names": [
+        "Sheffield u12b Lightning"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27166806",
+      "names": [
+        "Sheffield u14a Lasers"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652459"
+      ]
+    },
+    {
+      "id": "27166946",
+      "names": [
+        "Blackburn Hawks Juniors U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27166949",
+      "names": [
+        "Billingham Stars U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652477"
+      ]
+    },
+    {
+      "id": "27166987",
+      "names": [
+        "Solihull Junior Barons U12D2"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27166988",
+      "names": [
+        "Solihull Junior Barons U16D1"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652460"
+      ]
+    },
+    {
+      "id": "27167734",
+      "names": [
+        "Mini Chieftains U12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652473"
+      ]
+    },
+    {
+      "id": "27167735",
+      "names": [
+        "Mini Warriors U12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27167738",
+      "names": [
+        "Invicta Rangers U16 B"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27167739",
+      "names": [
+        "Invicta Broncos U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652479"
+      ]
+    },
+    {
+      "id": "27168204",
+      "names": [
+        "Lancashire Lightning U12s"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27168240",
+      "names": [
+        "Chelmsford Braves U14s"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652478"
+      ]
+    },
+    {
+      "id": "27236716",
+      "names": [
+        "Peterborough Phantoms U14s B"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27236828",
+      "names": [
+        "MK Storm - Tornado"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652466"
+      ]
+    },
+    {
+      "id": "27237191",
+      "names": [
+        "Blackburn Hawks Juniors U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27237498",
+      "names": [
+        "Romford U16B"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27237499",
+      "names": [
+        "MK Storm u19 A"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27238673",
+      "names": [
+        "Haringey Hounds U19 N"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27239241",
+      "names": [
+        "Solihull Junior Barons U19D1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27239265",
+      "names": [
+        "Haringey Hounds U19 S1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27239538",
+      "names": [
+        "Manchester Storm Academy U16 B"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27239542",
+      "names": [
+        "Slough Jets U14B"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27239697",
+      "names": [
+        "Widnes Wild Academy U14 D2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "653271"
+      ]
+    },
+    {
+      "id": "27239699",
+      "names": [
+        "Bristol Snowdogs U12 S2"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27239701",
+      "names": [
+        "Swindon U14B Thundercats"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27239702",
+      "names": [
+        "Bristol Snowdogs U16 S2"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27239703",
+      "names": [
+        "Bristol Snowdogs U14 S2"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27239756",
+      "names": [
+        "Bristol Snowdogs U19 S2"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652479"
+      ]
+    },
+    {
+      "id": "27240017",
+      "names": [
+        "Bristol Snowdogs"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    },
+    {
+      "id": "27241666",
+      "names": [
+        "Billingham Junior Stars U12 D2"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652485"
+      ]
+    },
+    {
+      "id": "27241669",
+      "names": [
+        "Cambridge Grizzlies U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27241840",
+      "names": [
+        "Nottingham U19 Division 1"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652472"
+      ]
+    },
+    {
+      "id": "27241841",
+      "names": [
+        "Nottingham Lions U19 Nat"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652481"
+      ]
+    },
+    {
+      "id": "27242279",
+      "names": [
+        "Oxford Junior Stars U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652469"
+      ]
+    },
+    {
+      "id": "27242280",
+      "names": [
+        "Oxford Junior Stars U14"
+      ],
+      "ageGroups": [
+        "U14"
+      ],
+      "competitionIds": [
+        "652458"
+      ]
+    },
+    {
+      "id": "27242281",
+      "names": [
+        "Sutton Sting U16"
+      ],
+      "ageGroups": [
+        "U16"
+      ],
+      "competitionIds": [
+        "652465"
+      ]
+    },
+    {
+      "id": "27242282",
+      "names": [
+        "Oxford Junior Stars U19"
+      ],
+      "ageGroups": [
+        "U19"
+      ],
+      "competitionIds": [
+        "652483"
+      ]
+    },
+    {
+      "id": "27242283",
+      "names": [
+        "Oxford Junior Stars U12"
+      ],
+      "ageGroups": [
+        "U12"
+      ],
+      "competitionIds": [
+        "652474"
+      ]
+    }
+  ],
+  "participations": [
+    {
+      "teamId": "27105960",
+      "teamName": "Solihull Junior Barons U12D1",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27166005",
+      "teamName": "Sheffield u12a Thunder",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105881",
+      "teamName": "Nottingham U12 Division 1",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27106026",
+      "teamName": "Leeds Junior Knights U12 - White",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105823",
+      "teamName": "Deeside Dragons Academy u12s",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27106029",
+      "teamName": "Kingston Sharks Under 12's",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27165787",
+      "teamName": "Leeds Junior Knights U12 - Blue",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105818",
+      "teamName": "Billingham Stars U12D1",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27106019",
+      "teamName": "Bradford Bulldogs u12's",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105946",
+      "teamName": "Manchester Storm Academy U12",
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105943",
+      "teamName": "Telford Junior Ice Hockey Club U12's",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27166803",
+      "teamName": "Sheffield u12b Lightning",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105934",
+      "teamName": "Widnes Wild Academy U12",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105940",
+      "teamName": "Coventry Under 12s",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27166987",
+      "teamName": "Solihull Junior Barons U12D2",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105842",
+      "teamName": "Whitley Bay Arrows U12 N2",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27241666",
+      "teamName": "Billingham Junior Stars U12 D2",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27168204",
+      "teamName": "Lancashire Lightning U12s",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105930",
+      "teamName": "Nottingham U12 Division 2",
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105882",
+      "teamName": "Slough Jets U12A",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105865",
+      "teamName": "Guildford U12s",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27167734",
+      "teamName": "Mini Chieftains U12s",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105988",
+      "teamName": "Cardiff Junior Devils U12s",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27112348",
+      "teamName": "Streatham U12",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105921",
+      "teamName": "Invicta Stampede U12",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105915",
+      "teamName": "Haringey Hounds U12 S1",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105860",
+      "teamName": "Swindon Jaguars - U12",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105953",
+      "teamName": "Peterborough Phantoms U12",
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27167735",
+      "teamName": "Mini Warriors U12s",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105863",
+      "teamName": "Romford U12A",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27106033",
+      "teamName": "Cambridge Grizzlies U12",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27242283",
+      "teamName": "Oxford Junior Stars U12",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105874",
+      "teamName": "Solent Junior Devils U12's",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105872",
+      "teamName": "MK Storm U12",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27239699",
+      "teamName": "Bristol Snowdogs U12 S2",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27240017",
+      "teamName": "Bristol Snowdogs",
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12"
+    },
+    {
+      "teamId": "27105923",
+      "teamName": "Nottingham U14 Division 2",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105935",
+      "teamName": "Leeds Junior Knights U14 D1",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105979",
+      "teamName": "Solihull Junior Barons U14D1",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27166806",
+      "teamName": "Sheffield u14a Lasers",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27166004",
+      "teamName": "Deeside Dragons Academy u14N1",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105807",
+      "teamName": "Manchester Storm Academy U14",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105867",
+      "teamName": "Widnes Wild Academy U14 D1",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105937",
+      "teamName": "Kingston Sharks Under 14's",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105955",
+      "teamName": "Whitley Bay Mohawks U14N1",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105853",
+      "teamName": "Bradford Bulldogs u14's",
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105970",
+      "teamName": "Billingham Stars U14",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105906",
+      "teamName": "Sheffield U14b Sabres",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105892",
+      "teamName": "Sutton Sting U14B",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105890",
+      "teamName": "Leeds Junior Knights U14 D2",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27106015",
+      "teamName": "Coventry Under 14s",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105923",
+      "teamName": "Nottingham U14 Division 2",
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105877",
+      "teamName": "Deeside Dragons Academy u14N2",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105851",
+      "teamName": "Solihull Junior Barons U14D2",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27239697",
+      "teamName": "Widnes Wild Academy U14 D2",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105875",
+      "teamName": "Telford Junior Ice Hockey Club U14's",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27166946",
+      "teamName": "Blackburn Hawks Juniors U14",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27239538",
+      "teamName": "Manchester Storm Academy U16 B",
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105830",
+      "teamName": "Haringey Hounds U14 S1",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105895",
+      "teamName": "Slough Jets U14A",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105898",
+      "teamName": "Guildford U14s",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27168240",
+      "teamName": "Chelmsford Braves U14s",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27106036",
+      "teamName": "Swindon Pumas - U14",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105810",
+      "teamName": "Cardiff Junior Devils U14s",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27106017",
+      "teamName": "Peterborough Phantoms U14",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27112344",
+      "teamName": "Streatham U14",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105929",
+      "teamName": "Invicta Chargers U14",
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27239542",
+      "teamName": "Slough Jets U14B",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105907",
+      "teamName": "Romford U14A",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27242280",
+      "teamName": "Oxford Junior Stars U14",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105815",
+      "teamName": "Cambridge Grizzlies U14",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27106018",
+      "teamName": "Solent Junior Devils U14's",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105938",
+      "teamName": "Haringey Hounds U14 S2",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105854",
+      "teamName": "Invicta Wild U14 B",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105983",
+      "teamName": "MK Storm U14",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27236716",
+      "teamName": "Peterborough Phantoms U14s B",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27239701",
+      "teamName": "Swindon U14B Thundercats",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27239703",
+      "teamName": "Bristol Snowdogs U14 S2",
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14"
+    },
+    {
+      "teamId": "27105957",
+      "teamName": "Leeds Junior Knights U16 D1",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105806",
+      "teamName": "Kingston Sharks Under 16's",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105858",
+      "teamName": "Nottingham U16 Division 1",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105987",
+      "teamName": "Sheffield U16a Stormers",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27166988",
+      "teamName": "Solihull Junior Barons U16D1",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105852",
+      "teamName": "Manchester Storm Academy U16 A",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105820",
+      "teamName": "Whitley Bay Tomahawks U16 N1",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27106023",
+      "teamName": "Deeside Dragons Academy U16N D1",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105819",
+      "teamName": "Bradford Bulldogs u16's",
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105984",
+      "teamName": "Nottingham U16 Division 2",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105869",
+      "teamName": "Leeds Junior Knights U16 D2",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105948",
+      "teamName": "Widnes Wild Academy U16 D2",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27166095",
+      "teamName": "Billingham Stars U16",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105835",
+      "teamName": "Solihull Junior Barons U16D2",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27242281",
+      "teamName": "Sutton Sting U16",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105803",
+      "teamName": "Telford Junior Ice Hockey Club U16's",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105902",
+      "teamName": "Sheffield U16b Greyhounds",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105879",
+      "teamName": "Coventry Under 16s",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27237191",
+      "teamName": "Blackburn Hawks Juniors U16",
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105836",
+      "teamName": "Guildford U16s",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105941",
+      "teamName": "Chelmsford Tomahawks U16s",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105982",
+      "teamName": "Swindon Leopards - U16A",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105826",
+      "teamName": "Cardiff Junior Devils U16s",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27106031",
+      "teamName": "Haringey Hounds U16 S1",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105839",
+      "teamName": "Slough Jets U16s",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105961",
+      "teamName": "Invicta Mavericks U16",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105897",
+      "teamName": "Peterborough Phantoms U16",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105913",
+      "teamName": "Streatham U16",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105848",
+      "teamName": "Romford U16A",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27236828",
+      "teamName": "MK Storm - Tornado",
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27242279",
+      "teamName": "Oxford Junior Stars U16",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105962",
+      "teamName": "Haringey Hounds U16 S2",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105817",
+      "teamName": "Solent Junior Devils U16's",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27237498",
+      "teamName": "Romford U16B",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105870",
+      "teamName": "Swindon Lynx - U16B",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27167738",
+      "teamName": "Invicta Rangers U16 B",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27241669",
+      "teamName": "Cambridge Grizzlies U16",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27239702",
+      "teamName": "Bristol Snowdogs U16 S2",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27105844",
+      "teamName": "MK Storm - Blizzard",
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16"
+    },
+    {
+      "teamId": "27241841",
+      "teamName": "Nottingham Lions U19 Nat",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105894",
+      "teamName": "Leeds Junior Knights U19 National",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105809",
+      "teamName": "Swindon Cougars - U19 National",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27238673",
+      "teamName": "Haringey Hounds U19 N",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27106021",
+      "teamName": "Sheffield U19a Steelhawks",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105876",
+      "teamName": "Guildford U19s",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105976",
+      "teamName": "Slough Jets U19s",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105922",
+      "teamName": "Telford Junior Ice Hockey Club U19's",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27106004",
+      "teamName": "Peterborough Phantoms U19",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105878",
+      "teamName": "Chelmsford Mohawks U19s",
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105888",
+      "teamName": "Kingston Sharks Under 19's",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105813",
+      "teamName": "Whitley Bay Braves U19 N1",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27239241",
+      "teamName": "Solihull Junior Barons U19D1",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105916",
+      "teamName": "Widnes Wild Academy U19 D1",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105967",
+      "teamName": "Manchester Storm Academy U19",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105956",
+      "teamName": "Leeds Junior Knights U19 D1",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105939",
+      "teamName": "Bradford Bulldogs u19's",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27241840",
+      "teamName": "Nottingham U19 Division 1",
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105991",
+      "teamName": "Solihull Junior Barons U19D2",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27166949",
+      "teamName": "Billingham Stars U19",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105837",
+      "teamName": "Coventry Under 19s",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27106030",
+      "teamName": "Widnes Wild Academy U19 D2",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105901",
+      "teamName": "Deeside Dragons Academy u19s",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105917",
+      "teamName": "Sutton Sting U19",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105989",
+      "teamName": "Sheffield U19b Titans",
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105885",
+      "teamName": "Cardiff Junior Devils U19s",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27106027",
+      "teamName": "Invicta Colts U19",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27237499",
+      "teamName": "MK Storm u19 A",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27239265",
+      "teamName": "Haringey Hounds U19 S1",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27106022",
+      "teamName": "Swindon Lions - U19A",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27112347",
+      "teamName": "Streatham U19",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27242282",
+      "teamName": "Oxford Junior Stars U19",
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105981",
+      "teamName": "Solent Junior Devils U19's",
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105942",
+      "teamName": "Romford U19A",
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27239756",
+      "teamName": "Bristol Snowdogs U19 S2",
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27167739",
+      "teamName": "Invicta Broncos U19",
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19"
+    },
+    {
+      "teamId": "27105856",
+      "teamName": "MK Storm U19",
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19"
+    }
+  ],
+  "standings": [
+    {
+      "teamId": "27105960",
+      "competitionId": "652464",
+      "position": 1,
+      "played": 18,
+      "wins": 16,
+      "losses": 0,
+      "draws": 2,
+      "points": 50,
+      "goalsFor": 150,
+      "goalsAgainst": 26,
+      "goalDifference": 124,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27166005",
+      "competitionId": "652464",
+      "position": 2,
+      "played": 18,
+      "wins": 16,
+      "losses": 2,
+      "draws": 0,
+      "points": 48,
+      "goalsFor": 145,
+      "goalsAgainst": 25,
+      "goalDifference": 120,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105881",
+      "competitionId": "652464",
+      "position": 3,
+      "played": 18,
+      "wins": 13,
+      "losses": 4,
+      "draws": 1,
+      "points": 40,
+      "goalsFor": 113,
+      "goalsAgainst": 53,
+      "goalDifference": 60,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27106026",
+      "competitionId": "652464",
+      "position": 4,
+      "played": 18,
+      "wins": 12,
+      "losses": 6,
+      "draws": 0,
+      "points": 36,
+      "goalsFor": 80,
+      "goalsAgainst": 73,
+      "goalDifference": 7,
+      "lastFive": "LWLWW"
+    },
+    {
+      "teamId": "27105823",
+      "competitionId": "652464",
+      "position": 5,
+      "played": 17,
+      "wins": 7,
+      "losses": 9,
+      "draws": 1,
+      "points": 22,
+      "goalsFor": 76,
+      "goalsAgainst": 72,
+      "goalDifference": 4,
+      "lastFive": "LLLLD"
+    },
+    {
+      "teamId": "27106029",
+      "competitionId": "652464",
+      "position": 6,
+      "played": 17,
+      "wins": 7,
+      "losses": 9,
+      "draws": 1,
+      "points": 21,
+      "goalsFor": 82,
+      "goalsAgainst": 73,
+      "goalDifference": 9,
+      "lastFive": "LLWLW"
+    },
+    {
+      "teamId": "27165787",
+      "competitionId": "652464",
+      "position": 7,
+      "played": 18,
+      "wins": 6,
+      "losses": 11,
+      "draws": 1,
+      "points": 19,
+      "goalsFor": 58,
+      "goalsAgainst": 89,
+      "goalDifference": -31,
+      "lastFive": "LLLDL"
+    },
+    {
+      "teamId": "27105818",
+      "competitionId": "652464",
+      "position": 8,
+      "played": 17,
+      "wins": 5,
+      "losses": 12,
+      "draws": 0,
+      "points": 15,
+      "goalsFor": 58,
+      "goalsAgainst": 98,
+      "goalDifference": -40,
+      "lastFive": "WLWLL"
+    },
+    {
+      "teamId": "27106019",
+      "competitionId": "652464",
+      "position": 9,
+      "played": 18,
+      "wins": 2,
+      "losses": 16,
+      "draws": 0,
+      "points": 6,
+      "goalsFor": 40,
+      "goalsAgainst": 148,
+      "goalDifference": -108,
+      "lastFive": "LLWLW"
+    },
+    {
+      "teamId": "27105946",
+      "competitionId": "652464",
+      "position": 10,
+      "played": 17,
+      "wins": 1,
+      "losses": 16,
+      "draws": 0,
+      "points": 3,
+      "goalsFor": 38,
+      "goalsAgainst": 178,
+      "goalDifference": -140,
+      "lastFive": "LLWLL"
+    },
+    {
+      "teamId": "27105943",
+      "competitionId": "652485",
+      "position": 1,
+      "played": 16,
+      "wins": 14,
+      "losses": 0,
+      "draws": 2,
+      "points": 44,
+      "goalsFor": 159,
+      "goalsAgainst": 32,
+      "goalDifference": 127,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27166803",
+      "competitionId": "652485",
+      "position": 2,
+      "played": 16,
+      "wins": 13,
+      "losses": 2,
+      "draws": 1,
+      "points": 40,
+      "goalsFor": 133,
+      "goalsAgainst": 33,
+      "goalDifference": 100,
+      "lastFive": "WWLWW"
+    },
+    {
+      "teamId": "27105934",
+      "competitionId": "652485",
+      "position": 3,
+      "played": 16,
+      "wins": 11,
+      "losses": 4,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 126,
+      "goalsAgainst": 36,
+      "goalDifference": 90,
+      "lastFive": "LWWWL"
+    },
+    {
+      "teamId": "27105940",
+      "competitionId": "652485",
+      "position": 4,
+      "played": 16,
+      "wins": 10,
+      "losses": 6,
+      "draws": 0,
+      "points": 30,
+      "goalsFor": 133,
+      "goalsAgainst": 81,
+      "goalDifference": 52,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27166987",
+      "competitionId": "652485",
+      "position": 5,
+      "played": 16,
+      "wins": 7,
+      "losses": 8,
+      "draws": 1,
+      "points": 22,
+      "goalsFor": 107,
+      "goalsAgainst": 97,
+      "goalDifference": 10,
+      "lastFive": "DWWLW"
+    },
+    {
+      "teamId": "27105842",
+      "competitionId": "652485",
+      "position": 6,
+      "played": 16,
+      "wins": 7,
+      "losses": 9,
+      "draws": 0,
+      "points": 21,
+      "goalsFor": 83,
+      "goalsAgainst": 105,
+      "goalDifference": -22,
+      "lastFive": "LWWLW"
+    },
+    {
+      "teamId": "27241666",
+      "competitionId": "652485",
+      "position": 7,
+      "played": 16,
+      "wins": 4,
+      "losses": 11,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 53,
+      "goalsAgainst": 131,
+      "goalDifference": -78,
+      "lastFive": "WDLLW"
+    },
+    {
+      "teamId": "27168204",
+      "competitionId": "652485",
+      "position": 8,
+      "played": 16,
+      "wins": 2,
+      "losses": 14,
+      "draws": 0,
+      "points": 6,
+      "goalsFor": 24,
+      "goalsAgainst": 175,
+      "goalDifference": -151,
+      "lastFive": "WLLLL"
+    },
+    {
+      "teamId": "27105930",
+      "competitionId": "652485",
+      "position": 9,
+      "played": 16,
+      "wins": 1,
+      "losses": 15,
+      "draws": 0,
+      "points": 3,
+      "goalsFor": 35,
+      "goalsAgainst": 163,
+      "goalDifference": -128,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27105882",
+      "competitionId": "652473",
+      "position": 1,
+      "played": 16,
+      "wins": 15,
+      "losses": 0,
+      "draws": 1,
+      "points": 46,
+      "goalsFor": 151,
+      "goalsAgainst": 27,
+      "goalDifference": 124,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105865",
+      "competitionId": "652473",
+      "position": 2,
+      "played": 16,
+      "wins": 14,
+      "losses": 1,
+      "draws": 1,
+      "points": 43,
+      "goalsFor": 136,
+      "goalsAgainst": 31,
+      "goalDifference": 105,
+      "lastFive": "WWLWW"
+    },
+    {
+      "teamId": "27167734",
+      "competitionId": "652473",
+      "position": 3,
+      "played": 16,
+      "wins": 12,
+      "losses": 4,
+      "draws": 0,
+      "points": 36,
+      "goalsFor": 130,
+      "goalsAgainst": 55,
+      "goalDifference": 75,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105988",
+      "competitionId": "652473",
+      "position": 4,
+      "played": 15,
+      "wins": 8,
+      "losses": 6,
+      "draws": 1,
+      "points": 25,
+      "goalsFor": 89,
+      "goalsAgainst": 69,
+      "goalDifference": 20,
+      "lastFive": "LDLLW"
+    },
+    {
+      "teamId": "27112348",
+      "competitionId": "652473",
+      "position": 5,
+      "played": 16,
+      "wins": 5,
+      "losses": 10,
+      "draws": 1,
+      "points": 16,
+      "goalsFor": 38,
+      "goalsAgainst": 82,
+      "goalDifference": -44,
+      "lastFive": "WDLWL"
+    },
+    {
+      "teamId": "27105921",
+      "competitionId": "652473",
+      "position": 6,
+      "played": 15,
+      "wins": 4,
+      "losses": 10,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 45,
+      "goalsAgainst": 105,
+      "goalDifference": -60,
+      "lastFive": "WDWLL"
+    },
+    {
+      "teamId": "27105915",
+      "competitionId": "652473",
+      "position": 7,
+      "played": 15,
+      "wins": 4,
+      "losses": 10,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 39,
+      "goalsAgainst": 85,
+      "goalDifference": -46,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27105860",
+      "competitionId": "652473",
+      "position": 8,
+      "played": 16,
+      "wins": 4,
+      "losses": 11,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 40,
+      "goalsAgainst": 111,
+      "goalDifference": -71,
+      "lastFive": "WDLLL"
+    },
+    {
+      "teamId": "27105953",
+      "competitionId": "652473",
+      "position": 9,
+      "played": 15,
+      "wins": 0,
+      "losses": 14,
+      "draws": 1,
+      "points": 1,
+      "goalsFor": 35,
+      "goalsAgainst": 138,
+      "goalDifference": -103,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27167735",
+      "competitionId": "652474",
+      "position": 1,
+      "played": 18,
+      "wins": 12,
+      "losses": 3,
+      "draws": 3,
+      "points": 39,
+      "goalsFor": 89,
+      "goalsAgainst": 45,
+      "goalDifference": 44,
+      "lastFive": "DWWWW"
+    },
+    {
+      "teamId": "27105863",
+      "competitionId": "652474",
+      "position": 2,
+      "played": 18,
+      "wins": 12,
+      "losses": 5,
+      "draws": 1,
+      "points": 37,
+      "goalsFor": 111,
+      "goalsAgainst": 43,
+      "goalDifference": 68,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27106033",
+      "competitionId": "652474",
+      "position": 3,
+      "played": 17,
+      "wins": 9,
+      "losses": 5,
+      "draws": 3,
+      "points": 30,
+      "goalsFor": 67,
+      "goalsAgainst": 60,
+      "goalDifference": 7,
+      "lastFive": "DDLWD"
+    },
+    {
+      "teamId": "27242283",
+      "competitionId": "652474",
+      "position": 4,
+      "played": 18,
+      "wins": 9,
+      "losses": 7,
+      "draws": 2,
+      "points": 29,
+      "goalsFor": 71,
+      "goalsAgainst": 63,
+      "goalDifference": 8,
+      "lastFive": "WWDWL"
+    },
+    {
+      "teamId": "27105874",
+      "competitionId": "652474",
+      "position": 5,
+      "played": 18,
+      "wins": 8,
+      "losses": 9,
+      "draws": 1,
+      "points": 25,
+      "goalsFor": 60,
+      "goalsAgainst": 68,
+      "goalDifference": -8,
+      "lastFive": "LLDLW"
+    },
+    {
+      "teamId": "27105872",
+      "competitionId": "652474",
+      "position": 6,
+      "played": 18,
+      "wins": 4,
+      "losses": 11,
+      "draws": 3,
+      "points": 15,
+      "goalsFor": 50,
+      "goalsAgainst": 80,
+      "goalDifference": -30,
+      "lastFive": "LLLWD"
+    },
+    {
+      "teamId": "27239699",
+      "competitionId": "652474",
+      "position": 7,
+      "played": 17,
+      "wins": 1,
+      "losses": 15,
+      "draws": 1,
+      "points": 4,
+      "goalsFor": 19,
+      "goalsAgainst": 108,
+      "goalDifference": -89,
+      "lastFive": "LLWLL"
+    },
+    {
+      "teamId": "27240017",
+      "competitionId": "652474",
+      "position": 8,
+      "played": 0,
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "lastFive": "0"
+    },
+    {
+      "teamId": "27105923",
+      "competitionId": "652459",
+      "position": 1,
+      "played": 18,
+      "wins": 17,
+      "losses": 1,
+      "draws": 0,
+      "points": 51,
+      "goalsFor": 122,
+      "goalsAgainst": 35,
+      "goalDifference": 87,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105935",
+      "competitionId": "652459",
+      "position": 2,
+      "played": 18,
+      "wins": 16,
+      "losses": 1,
+      "draws": 1,
+      "points": 49,
+      "goalsFor": 152,
+      "goalsAgainst": 31,
+      "goalDifference": 121,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105979",
+      "competitionId": "652459",
+      "position": 3,
+      "played": 18,
+      "wins": 13,
+      "losses": 4,
+      "draws": 1,
+      "points": 40,
+      "goalsFor": 102,
+      "goalsAgainst": 36,
+      "goalDifference": 66,
+      "lastFive": "WWWLW"
+    },
+    {
+      "teamId": "27166806",
+      "competitionId": "652459",
+      "position": 4,
+      "played": 17,
+      "wins": 8,
+      "losses": 7,
+      "draws": 2,
+      "points": 26,
+      "goalsFor": 82,
+      "goalsAgainst": 51,
+      "goalDifference": 31,
+      "lastFive": "DLWLL"
+    },
+    {
+      "teamId": "27166004",
+      "competitionId": "652459",
+      "position": 5,
+      "played": 18,
+      "wins": 7,
+      "losses": 8,
+      "draws": 3,
+      "points": 24,
+      "goalsFor": 52,
+      "goalsAgainst": 63,
+      "goalDifference": -11,
+      "lastFive": "LDWWL"
+    },
+    {
+      "teamId": "27105807",
+      "competitionId": "652459",
+      "position": 6,
+      "played": 18,
+      "wins": 6,
+      "losses": 9,
+      "draws": 3,
+      "points": 21,
+      "goalsFor": 61,
+      "goalsAgainst": 56,
+      "goalDifference": 5,
+      "lastFive": "LWWWW"
+    },
+    {
+      "teamId": "27105867",
+      "competitionId": "652459",
+      "position": 7,
+      "played": 17,
+      "wins": 6,
+      "losses": 8,
+      "draws": 3,
+      "points": 21,
+      "goalsFor": 85,
+      "goalsAgainst": 86,
+      "goalDifference": -1,
+      "lastFive": "WLLLL"
+    },
+    {
+      "teamId": "27105937",
+      "competitionId": "652459",
+      "position": 8,
+      "played": 16,
+      "wins": 5,
+      "losses": 11,
+      "draws": 0,
+      "points": 15,
+      "goalsFor": 45,
+      "goalsAgainst": 68,
+      "goalDifference": -23,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27105955",
+      "competitionId": "652459",
+      "position": 9,
+      "played": 18,
+      "wins": 3,
+      "losses": 14,
+      "draws": 1,
+      "points": 10,
+      "goalsFor": 45,
+      "goalsAgainst": 150,
+      "goalDifference": -105,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27105853",
+      "competitionId": "652459",
+      "position": 10,
+      "played": 18,
+      "wins": 0,
+      "losses": 18,
+      "draws": 0,
+      "points": 0,
+      "goalsFor": 15,
+      "goalsAgainst": 185,
+      "goalDifference": -170,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105970",
+      "competitionId": "652468",
+      "position": 1,
+      "played": 20,
+      "wins": 17,
+      "losses": 0,
+      "draws": 3,
+      "points": 54,
+      "goalsFor": 105,
+      "goalsAgainst": 35,
+      "goalDifference": 70,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105906",
+      "competitionId": "652468",
+      "position": 2,
+      "played": 20,
+      "wins": 12,
+      "losses": 8,
+      "draws": 0,
+      "points": 36,
+      "goalsFor": 107,
+      "goalsAgainst": 69,
+      "goalDifference": 38,
+      "lastFive": "LWWWL"
+    },
+    {
+      "teamId": "27105892",
+      "competitionId": "652468",
+      "position": 3,
+      "played": 20,
+      "wins": 11,
+      "losses": 6,
+      "draws": 3,
+      "points": 36,
+      "goalsFor": 105,
+      "goalsAgainst": 63,
+      "goalDifference": 42,
+      "lastFive": "WWLLW"
+    },
+    {
+      "teamId": "27105890",
+      "competitionId": "652468",
+      "position": 4,
+      "played": 20,
+      "wins": 9,
+      "losses": 8,
+      "draws": 3,
+      "points": 30,
+      "goalsFor": 60,
+      "goalsAgainst": 66,
+      "goalDifference": -6,
+      "lastFive": "WWWLW"
+    },
+    {
+      "teamId": "27106015",
+      "competitionId": "652468",
+      "position": 5,
+      "played": 20,
+      "wins": 3,
+      "losses": 16,
+      "draws": 1,
+      "points": 10,
+      "goalsFor": 45,
+      "goalsAgainst": 91,
+      "goalDifference": -46,
+      "lastFive": "LLWLL"
+    },
+    {
+      "teamId": "27105923",
+      "competitionId": "652468",
+      "position": 6,
+      "played": 20,
+      "wins": 3,
+      "losses": 17,
+      "draws": 0,
+      "points": 9,
+      "goalsFor": 43,
+      "goalsAgainst": 141,
+      "goalDifference": -98,
+      "lastFive": "WLLLL"
+    },
+    {
+      "teamId": "27105877",
+      "competitionId": "653271",
+      "position": 1,
+      "played": 20,
+      "wins": 17,
+      "losses": 2,
+      "draws": 1,
+      "points": 52,
+      "goalsFor": 141,
+      "goalsAgainst": 40,
+      "goalDifference": 101,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105851",
+      "competitionId": "653271",
+      "position": 2,
+      "played": 20,
+      "wins": 15,
+      "losses": 4,
+      "draws": 1,
+      "points": 45,
+      "goalsFor": 146,
+      "goalsAgainst": 45,
+      "goalDifference": 101,
+      "lastFive": "WWDWW"
+    },
+    {
+      "teamId": "27239697",
+      "competitionId": "653271",
+      "position": 3,
+      "played": 20,
+      "wins": 11,
+      "losses": 8,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 124,
+      "goalsAgainst": 57,
+      "goalDifference": 67,
+      "lastFive": "WWLLW"
+    },
+    {
+      "teamId": "27105875",
+      "competitionId": "653271",
+      "position": 4,
+      "played": 20,
+      "wins": 10,
+      "losses": 8,
+      "draws": 2,
+      "points": 32,
+      "goalsFor": 142,
+      "goalsAgainst": 96,
+      "goalDifference": 46,
+      "lastFive": "WWLWL"
+    },
+    {
+      "teamId": "27166946",
+      "competitionId": "653271",
+      "position": 5,
+      "played": 20,
+      "wins": 3,
+      "losses": 17,
+      "draws": 0,
+      "points": 9,
+      "goalsFor": 48,
+      "goalsAgainst": 199,
+      "goalDifference": -151,
+      "lastFive": "LLWLL"
+    },
+    {
+      "teamId": "27239538",
+      "competitionId": "653271",
+      "position": 6,
+      "played": 20,
+      "wins": 1,
+      "losses": 18,
+      "draws": 1,
+      "points": 4,
+      "goalsFor": 51,
+      "goalsAgainst": 210,
+      "goalDifference": -159,
+      "lastFive": "LDLLL"
+    },
+    {
+      "teamId": "27105830",
+      "competitionId": "652478",
+      "position": 1,
+      "played": 16,
+      "wins": 13,
+      "losses": 2,
+      "draws": 1,
+      "points": 40,
+      "goalsFor": 69,
+      "goalsAgainst": 27,
+      "goalDifference": 42,
+      "lastFive": "WLWWW"
+    },
+    {
+      "teamId": "27105895",
+      "competitionId": "652478",
+      "position": 2,
+      "played": 16,
+      "wins": 13,
+      "losses": 3,
+      "draws": 0,
+      "points": 39,
+      "goalsFor": 83,
+      "goalsAgainst": 23,
+      "goalDifference": 60,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105898",
+      "competitionId": "652478",
+      "position": 3,
+      "played": 16,
+      "wins": 11,
+      "losses": 4,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 81,
+      "goalsAgainst": 27,
+      "goalDifference": 54,
+      "lastFive": "WWLWL"
+    },
+    {
+      "teamId": "27168240",
+      "competitionId": "652478",
+      "position": 4,
+      "played": 16,
+      "wins": 9,
+      "losses": 4,
+      "draws": 3,
+      "points": 30,
+      "goalsFor": 81,
+      "goalsAgainst": 37,
+      "goalDifference": 44,
+      "lastFive": "LWWWD"
+    },
+    {
+      "teamId": "27106036",
+      "competitionId": "652478",
+      "position": 5,
+      "played": 16,
+      "wins": 6,
+      "losses": 6,
+      "draws": 4,
+      "points": 22,
+      "goalsFor": 54,
+      "goalsAgainst": 42,
+      "goalDifference": 12,
+      "lastFive": "WWWLD"
+    },
+    {
+      "teamId": "27105810",
+      "competitionId": "652478",
+      "position": 6,
+      "played": 16,
+      "wins": 5,
+      "losses": 7,
+      "draws": 4,
+      "points": 19,
+      "goalsFor": 64,
+      "goalsAgainst": 55,
+      "goalDifference": 9,
+      "lastFive": "DWWWL"
+    },
+    {
+      "teamId": "27106017",
+      "competitionId": "652478",
+      "position": 7,
+      "played": 16,
+      "wins": 3,
+      "losses": 10,
+      "draws": 3,
+      "points": 12,
+      "goalsFor": 35,
+      "goalsAgainst": 98,
+      "goalDifference": -63,
+      "lastFive": "LLLLW"
+    },
+    {
+      "teamId": "27112344",
+      "competitionId": "652478",
+      "position": 8,
+      "played": 16,
+      "wins": 2,
+      "losses": 11,
+      "draws": 3,
+      "points": 9,
+      "goalsFor": 27,
+      "goalsAgainst": 85,
+      "goalDifference": -58,
+      "lastFive": "LLLLW"
+    },
+    {
+      "teamId": "27105929",
+      "competitionId": "652478",
+      "position": 9,
+      "played": 16,
+      "wins": 0,
+      "losses": 15,
+      "draws": 1,
+      "points": 1,
+      "goalsFor": 12,
+      "goalsAgainst": 112,
+      "goalDifference": -100,
+      "lastFive": "DLLLL"
+    },
+    {
+      "teamId": "27239542",
+      "competitionId": "652458",
+      "position": 1,
+      "played": 20,
+      "wins": 18,
+      "losses": 2,
+      "draws": 0,
+      "points": 54,
+      "goalsFor": 157,
+      "goalsAgainst": 22,
+      "goalDifference": 135,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27105907",
+      "competitionId": "652458",
+      "position": 2,
+      "played": 20,
+      "wins": 17,
+      "losses": 3,
+      "draws": 0,
+      "points": 51,
+      "goalsFor": 151,
+      "goalsAgainst": 49,
+      "goalDifference": 102,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27242280",
+      "competitionId": "652458",
+      "position": 3,
+      "played": 20,
+      "wins": 15,
+      "losses": 3,
+      "draws": 2,
+      "points": 47,
+      "goalsFor": 157,
+      "goalsAgainst": 32,
+      "goalDifference": 125,
+      "lastFive": "DWWWW"
+    },
+    {
+      "teamId": "27105815",
+      "competitionId": "652458",
+      "position": 4,
+      "played": 20,
+      "wins": 11,
+      "losses": 6,
+      "draws": 3,
+      "points": 36,
+      "goalsFor": 106,
+      "goalsAgainst": 50,
+      "goalDifference": 56,
+      "lastFive": "LLDLD"
+    },
+    {
+      "teamId": "27106018",
+      "competitionId": "652458",
+      "position": 5,
+      "played": 17,
+      "wins": 11,
+      "losses": 6,
+      "draws": 0,
+      "points": 33,
+      "goalsFor": 107,
+      "goalsAgainst": 44,
+      "goalDifference": 63,
+      "lastFive": "LWWLW"
+    },
+    {
+      "teamId": "27105938",
+      "competitionId": "652458",
+      "position": 6,
+      "played": 18,
+      "wins": 7,
+      "losses": 8,
+      "draws": 3,
+      "points": 24,
+      "goalsFor": 81,
+      "goalsAgainst": 79,
+      "goalDifference": 2,
+      "lastFive": "WWWDL"
+    },
+    {
+      "teamId": "27105854",
+      "competitionId": "652458",
+      "position": 7,
+      "played": 19,
+      "wins": 6,
+      "losses": 10,
+      "draws": 3,
+      "points": 21,
+      "goalsFor": 58,
+      "goalsAgainst": 94,
+      "goalDifference": -36,
+      "lastFive": "WWLLD"
+    },
+    {
+      "teamId": "27105983",
+      "competitionId": "652458",
+      "position": 8,
+      "played": 19,
+      "wins": 4,
+      "losses": 13,
+      "draws": 2,
+      "points": 14,
+      "goalsFor": 52,
+      "goalsAgainst": 119,
+      "goalDifference": -67,
+      "lastFive": "LLWLD"
+    },
+    {
+      "teamId": "27236716",
+      "competitionId": "652458",
+      "position": 9,
+      "played": 19,
+      "wins": 4,
+      "losses": 14,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 50,
+      "goalsAgainst": 170,
+      "goalDifference": -120,
+      "lastFive": "LLDWL"
+    },
+    {
+      "teamId": "27239701",
+      "competitionId": "652458",
+      "position": 10,
+      "played": 20,
+      "wins": 3,
+      "losses": 13,
+      "draws": 4,
+      "points": 13,
+      "goalsFor": 34,
+      "goalsAgainst": 121,
+      "goalDifference": -87,
+      "lastFive": "LLDDD"
+    },
+    {
+      "teamId": "27239703",
+      "competitionId": "652458",
+      "position": 11,
+      "played": 20,
+      "wins": 1,
+      "losses": 19,
+      "draws": 0,
+      "points": 3,
+      "goalsFor": 25,
+      "goalsAgainst": 198,
+      "goalDifference": -173,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105957",
+      "competitionId": "652460",
+      "position": 1,
+      "played": 16,
+      "wins": 15,
+      "losses": 1,
+      "draws": 0,
+      "points": 45,
+      "goalsFor": 134,
+      "goalsAgainst": 14,
+      "goalDifference": 120,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105806",
+      "competitionId": "652460",
+      "position": 2,
+      "played": 16,
+      "wins": 14,
+      "losses": 2,
+      "draws": 0,
+      "points": 42,
+      "goalsFor": 102,
+      "goalsAgainst": 27,
+      "goalDifference": 75,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105858",
+      "competitionId": "652460",
+      "position": 3,
+      "played": 16,
+      "wins": 11,
+      "losses": 4,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 89,
+      "goalsAgainst": 40,
+      "goalDifference": 49,
+      "lastFive": "WWLWL"
+    },
+    {
+      "teamId": "27105987",
+      "competitionId": "652460",
+      "position": 4,
+      "played": 16,
+      "wins": 8,
+      "losses": 5,
+      "draws": 3,
+      "points": 27,
+      "goalsFor": 57,
+      "goalsAgainst": 32,
+      "goalDifference": 25,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27166988",
+      "competitionId": "652460",
+      "position": 5,
+      "played": 16,
+      "wins": 8,
+      "losses": 6,
+      "draws": 2,
+      "points": 26,
+      "goalsFor": 82,
+      "goalsAgainst": 55,
+      "goalDifference": 27,
+      "lastFive": "LWLWW"
+    },
+    {
+      "teamId": "27105852",
+      "competitionId": "652460",
+      "position": 6,
+      "played": 15,
+      "wins": 6,
+      "losses": 9,
+      "draws": 0,
+      "points": 18,
+      "goalsFor": 69,
+      "goalsAgainst": 72,
+      "goalDifference": -3,
+      "lastFive": "LWLLL"
+    },
+    {
+      "teamId": "27105820",
+      "competitionId": "652460",
+      "position": 7,
+      "played": 15,
+      "wins": 4,
+      "losses": 11,
+      "draws": 0,
+      "points": 12,
+      "goalsFor": 31,
+      "goalsAgainst": 75,
+      "goalDifference": -44,
+      "lastFive": "WLLLL"
+    },
+    {
+      "teamId": "27106023",
+      "competitionId": "652460",
+      "position": 8,
+      "played": 16,
+      "wins": 2,
+      "losses": 14,
+      "draws": 0,
+      "points": 6,
+      "goalsFor": 24,
+      "goalsAgainst": 118,
+      "goalDifference": -94,
+      "lastFive": "LWLLW"
+    },
+    {
+      "teamId": "27105819",
+      "competitionId": "652460",
+      "position": 9,
+      "played": 16,
+      "wins": 0,
+      "losses": 16,
+      "draws": 0,
+      "points": 0,
+      "goalsFor": 16,
+      "goalsAgainst": 171,
+      "goalDifference": -155,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105984",
+      "competitionId": "652465",
+      "position": 1,
+      "played": 18,
+      "wins": 16,
+      "losses": 2,
+      "draws": 0,
+      "points": 48,
+      "goalsFor": 121,
+      "goalsAgainst": 44,
+      "goalDifference": 77,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27105869",
+      "competitionId": "652465",
+      "position": 2,
+      "played": 18,
+      "wins": 14,
+      "losses": 2,
+      "draws": 2,
+      "points": 44,
+      "goalsFor": 127,
+      "goalsAgainst": 48,
+      "goalDifference": 79,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105948",
+      "competitionId": "652465",
+      "position": 3,
+      "played": 18,
+      "wins": 14,
+      "losses": 4,
+      "draws": 0,
+      "points": 42,
+      "goalsFor": 105,
+      "goalsAgainst": 46,
+      "goalDifference": 59,
+      "lastFive": "LLWWW"
+    },
+    {
+      "teamId": "27166095",
+      "competitionId": "652465",
+      "position": 4,
+      "played": 18,
+      "wins": 13,
+      "losses": 4,
+      "draws": 1,
+      "points": 40,
+      "goalsFor": 90,
+      "goalsAgainst": 54,
+      "goalDifference": 36,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27105835",
+      "competitionId": "652465",
+      "position": 5,
+      "played": 18,
+      "wins": 9,
+      "losses": 8,
+      "draws": 1,
+      "points": 28,
+      "goalsFor": 80,
+      "goalsAgainst": 68,
+      "goalDifference": 12,
+      "lastFive": "WLWWL"
+    },
+    {
+      "teamId": "27242281",
+      "competitionId": "652465",
+      "position": 6,
+      "played": 18,
+      "wins": 9,
+      "losses": 9,
+      "draws": 0,
+      "points": 27,
+      "goalsFor": 65,
+      "goalsAgainst": 72,
+      "goalDifference": -7,
+      "lastFive": "WWLLL"
+    },
+    {
+      "teamId": "27105803",
+      "competitionId": "652465",
+      "position": 7,
+      "played": 18,
+      "wins": 7,
+      "losses": 11,
+      "draws": 0,
+      "points": 21,
+      "goalsFor": 58,
+      "goalsAgainst": 73,
+      "goalDifference": -15,
+      "lastFive": "LLWLW"
+    },
+    {
+      "teamId": "27105902",
+      "competitionId": "652465",
+      "position": 8,
+      "played": 18,
+      "wins": 4,
+      "losses": 14,
+      "draws": 0,
+      "points": 12,
+      "goalsFor": 55,
+      "goalsAgainst": 91,
+      "goalDifference": -36,
+      "lastFive": "LLLLW"
+    },
+    {
+      "teamId": "27105879",
+      "competitionId": "652465",
+      "position": 9,
+      "played": 18,
+      "wins": 2,
+      "losses": 16,
+      "draws": 0,
+      "points": 6,
+      "goalsFor": 41,
+      "goalsAgainst": 95,
+      "goalDifference": -54,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27237191",
+      "competitionId": "652465",
+      "position": 10,
+      "played": 18,
+      "wins": 0,
+      "losses": 18,
+      "draws": 0,
+      "points": 0,
+      "goalsFor": 28,
+      "goalsAgainst": 179,
+      "goalDifference": -151,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105836",
+      "competitionId": "652466",
+      "position": 1,
+      "played": 20,
+      "wins": 18,
+      "losses": 1,
+      "draws": 1,
+      "points": 55,
+      "goalsFor": 120,
+      "goalsAgainst": 25,
+      "goalDifference": 95,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105941",
+      "competitionId": "652466",
+      "position": 2,
+      "played": 20,
+      "wins": 15,
+      "losses": 3,
+      "draws": 2,
+      "points": 47,
+      "goalsFor": 123,
+      "goalsAgainst": 43,
+      "goalDifference": 80,
+      "lastFive": "WDWWW"
+    },
+    {
+      "teamId": "27105982",
+      "competitionId": "652466",
+      "position": 3,
+      "played": 19,
+      "wins": 14,
+      "losses": 4,
+      "draws": 1,
+      "points": 43,
+      "goalsFor": 111,
+      "goalsAgainst": 33,
+      "goalDifference": 78,
+      "lastFive": "WWWDL"
+    },
+    {
+      "teamId": "27105826",
+      "competitionId": "652466",
+      "position": 4,
+      "played": 18,
+      "wins": 11,
+      "losses": 6,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 94,
+      "goalsAgainst": 58,
+      "goalDifference": 36,
+      "lastFive": "WWWLW"
+    },
+    {
+      "teamId": "27106031",
+      "competitionId": "652466",
+      "position": 5,
+      "played": 20,
+      "wins": 10,
+      "losses": 9,
+      "draws": 1,
+      "points": 31,
+      "goalsFor": 84,
+      "goalsAgainst": 61,
+      "goalDifference": 23,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27105839",
+      "competitionId": "652466",
+      "position": 6,
+      "played": 19,
+      "wins": 9,
+      "losses": 8,
+      "draws": 2,
+      "points": 29,
+      "goalsFor": 97,
+      "goalsAgainst": 51,
+      "goalDifference": 46,
+      "lastFive": "WLWDW"
+    },
+    {
+      "teamId": "27105961",
+      "competitionId": "652466",
+      "position": 7,
+      "played": 18,
+      "wins": 8,
+      "losses": 9,
+      "draws": 1,
+      "points": 25,
+      "goalsFor": 96,
+      "goalsAgainst": 62,
+      "goalDifference": 34,
+      "lastFive": "LWDWW"
+    },
+    {
+      "teamId": "27105897",
+      "competitionId": "652466",
+      "position": 8,
+      "played": 19,
+      "wins": 7,
+      "losses": 11,
+      "draws": 1,
+      "points": 22,
+      "goalsFor": 76,
+      "goalsAgainst": 98,
+      "goalDifference": -22,
+      "lastFive": "LWWLL"
+    },
+    {
+      "teamId": "27105913",
+      "competitionId": "652466",
+      "position": 9,
+      "played": 20,
+      "wins": 6,
+      "losses": 12,
+      "draws": 2,
+      "points": 20,
+      "goalsFor": 77,
+      "goalsAgainst": 99,
+      "goalDifference": -22,
+      "lastFive": "LWLLL"
+    },
+    {
+      "teamId": "27105848",
+      "competitionId": "652466",
+      "position": 10,
+      "played": 19,
+      "wins": 2,
+      "losses": 17,
+      "draws": 0,
+      "points": 6,
+      "goalsFor": 28,
+      "goalsAgainst": 200,
+      "goalDifference": -172,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27236828",
+      "competitionId": "652466",
+      "position": 11,
+      "played": 20,
+      "wins": 0,
+      "losses": 20,
+      "draws": 0,
+      "points": 0,
+      "goalsFor": 16,
+      "goalsAgainst": 192,
+      "goalDifference": -176,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27242279",
+      "competitionId": "652469",
+      "position": 1,
+      "played": 16,
+      "wins": 14,
+      "losses": 1,
+      "draws": 1,
+      "points": 43,
+      "goalsFor": 94,
+      "goalsAgainst": 12,
+      "goalDifference": 82,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105962",
+      "competitionId": "652469",
+      "position": 2,
+      "played": 16,
+      "wins": 11,
+      "losses": 3,
+      "draws": 2,
+      "points": 35,
+      "goalsFor": 87,
+      "goalsAgainst": 24,
+      "goalDifference": 63,
+      "lastFive": "WWLLL"
+    },
+    {
+      "teamId": "27105817",
+      "competitionId": "652469",
+      "position": 3,
+      "played": 15,
+      "wins": 11,
+      "losses": 2,
+      "draws": 2,
+      "points": 35,
+      "goalsFor": 77,
+      "goalsAgainst": 26,
+      "goalDifference": 51,
+      "lastFive": "WWLWW"
+    },
+    {
+      "teamId": "27237498",
+      "competitionId": "652469",
+      "position": 4,
+      "played": 16,
+      "wins": 8,
+      "losses": 6,
+      "draws": 2,
+      "points": 26,
+      "goalsFor": 73,
+      "goalsAgainst": 35,
+      "goalDifference": 38,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105870",
+      "competitionId": "652469",
+      "position": 5,
+      "played": 16,
+      "wins": 7,
+      "losses": 6,
+      "draws": 3,
+      "points": 24,
+      "goalsFor": 39,
+      "goalsAgainst": 45,
+      "goalDifference": -6,
+      "lastFive": "LLWDD"
+    },
+    {
+      "teamId": "27167738",
+      "competitionId": "652469",
+      "position": 6,
+      "played": 16,
+      "wins": 4,
+      "losses": 9,
+      "draws": 3,
+      "points": 15,
+      "goalsFor": 46,
+      "goalsAgainst": 78,
+      "goalDifference": -32,
+      "lastFive": "LLWDD"
+    },
+    {
+      "teamId": "27241669",
+      "competitionId": "652469",
+      "position": 7,
+      "played": 16,
+      "wins": 2,
+      "losses": 11,
+      "draws": 3,
+      "points": 9,
+      "goalsFor": 26,
+      "goalsAgainst": 76,
+      "goalDifference": -50,
+      "lastFive": "LLLLD"
+    },
+    {
+      "teamId": "27239702",
+      "competitionId": "652469",
+      "position": 8,
+      "played": 16,
+      "wins": 2,
+      "losses": 11,
+      "draws": 3,
+      "points": 9,
+      "goalsFor": 31,
+      "goalsAgainst": 69,
+      "goalDifference": -38,
+      "lastFive": "LLLLD"
+    },
+    {
+      "teamId": "27105844",
+      "competitionId": "652469",
+      "position": 9,
+      "played": 15,
+      "wins": 1,
+      "losses": 11,
+      "draws": 3,
+      "points": 6,
+      "goalsFor": 14,
+      "goalsAgainst": 122,
+      "goalDifference": -108,
+      "lastFive": "LDLLW"
+    },
+    {
+      "teamId": "27241841",
+      "competitionId": "652481",
+      "position": 1,
+      "played": 18,
+      "wins": 15,
+      "losses": 2,
+      "draws": 1,
+      "points": 46,
+      "goalsFor": 129,
+      "goalsAgainst": 49,
+      "goalDifference": 80,
+      "lastFive": "WWWLW"
+    },
+    {
+      "teamId": "27105894",
+      "competitionId": "652481",
+      "position": 2,
+      "played": 18,
+      "wins": 11,
+      "losses": 6,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 101,
+      "goalsAgainst": 42,
+      "goalDifference": 59,
+      "lastFive": "LWWWW"
+    },
+    {
+      "teamId": "27105809",
+      "competitionId": "652481",
+      "position": 3,
+      "played": 18,
+      "wins": 11,
+      "losses": 6,
+      "draws": 1,
+      "points": 34,
+      "goalsFor": 90,
+      "goalsAgainst": 65,
+      "goalDifference": 25,
+      "lastFive": "LDLLW"
+    },
+    {
+      "teamId": "27238673",
+      "competitionId": "652481",
+      "position": 4,
+      "played": 18,
+      "wins": 10,
+      "losses": 7,
+      "draws": 1,
+      "points": 31,
+      "goalsFor": 100,
+      "goalsAgainst": 60,
+      "goalDifference": 40,
+      "lastFive": "LLDWW"
+    },
+    {
+      "teamId": "27106021",
+      "competitionId": "652481",
+      "position": 5,
+      "played": 18,
+      "wins": 9,
+      "losses": 8,
+      "draws": 1,
+      "points": 28,
+      "goalsFor": 80,
+      "goalsAgainst": 74,
+      "goalDifference": 6,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105876",
+      "competitionId": "652481",
+      "position": 6,
+      "played": 18,
+      "wins": 9,
+      "losses": 9,
+      "draws": 0,
+      "points": 27,
+      "goalsFor": 78,
+      "goalsAgainst": 86,
+      "goalDifference": -8,
+      "lastFive": "LWLWW"
+    },
+    {
+      "teamId": "27105976",
+      "competitionId": "652481",
+      "position": 7,
+      "played": 18,
+      "wins": 8,
+      "losses": 7,
+      "draws": 3,
+      "points": 27,
+      "goalsFor": 80,
+      "goalsAgainst": 81,
+      "goalDifference": -1,
+      "lastFive": "WWWWL"
+    },
+    {
+      "teamId": "27105922",
+      "competitionId": "652481",
+      "position": 8,
+      "played": 18,
+      "wins": 4,
+      "losses": 13,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 52,
+      "goalsAgainst": 101,
+      "goalDifference": -49,
+      "lastFive": "WLLWL"
+    },
+    {
+      "teamId": "27106004",
+      "competitionId": "652481",
+      "position": 9,
+      "played": 18,
+      "wins": 4,
+      "losses": 13,
+      "draws": 1,
+      "points": 13,
+      "goalsFor": 47,
+      "goalsAgainst": 129,
+      "goalDifference": -82,
+      "lastFive": "LLWLW"
+    },
+    {
+      "teamId": "27105878",
+      "competitionId": "652481",
+      "position": 10,
+      "played": 18,
+      "wins": 4,
+      "losses": 14,
+      "draws": 0,
+      "points": 10,
+      "goalsFor": 44,
+      "goalsAgainst": 114,
+      "goalDifference": -70,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105888",
+      "competitionId": "652472",
+      "position": 1,
+      "played": 20,
+      "wins": 19,
+      "losses": 1,
+      "draws": 0,
+      "points": 57,
+      "goalsFor": 170,
+      "goalsAgainst": 43,
+      "goalDifference": 127,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27105813",
+      "competitionId": "652472",
+      "position": 2,
+      "played": 19,
+      "wins": 14,
+      "losses": 4,
+      "draws": 1,
+      "points": 46,
+      "goalsFor": 110,
+      "goalsAgainst": 56,
+      "goalDifference": 54,
+      "lastFive": "WWLWW"
+    },
+    {
+      "teamId": "27239241",
+      "competitionId": "652472",
+      "position": 3,
+      "played": 20,
+      "wins": 11,
+      "losses": 7,
+      "draws": 2,
+      "points": 35,
+      "goalsFor": 121,
+      "goalsAgainst": 80,
+      "goalDifference": 41,
+      "lastFive": "DLWLL"
+    },
+    {
+      "teamId": "27105916",
+      "competitionId": "652472",
+      "position": 4,
+      "played": 19,
+      "wins": 9,
+      "losses": 8,
+      "draws": 2,
+      "points": 32,
+      "goalsFor": 98,
+      "goalsAgainst": 79,
+      "goalDifference": 19,
+      "lastFive": "LLLLW"
+    },
+    {
+      "teamId": "27105967",
+      "competitionId": "652472",
+      "position": 5,
+      "played": 20,
+      "wins": 9,
+      "losses": 8,
+      "draws": 3,
+      "points": 30,
+      "goalsFor": 108,
+      "goalsAgainst": 125,
+      "goalDifference": -17,
+      "lastFive": "DWWLW"
+    },
+    {
+      "teamId": "27105956",
+      "competitionId": "652472",
+      "position": 6,
+      "played": 20,
+      "wins": 6,
+      "losses": 12,
+      "draws": 2,
+      "points": 20,
+      "goalsFor": 61,
+      "goalsAgainst": 89,
+      "goalDifference": -28,
+      "lastFive": "LDDLW"
+    },
+    {
+      "teamId": "27105939",
+      "competitionId": "652472",
+      "position": 7,
+      "played": 20,
+      "wins": 3,
+      "losses": 16,
+      "draws": 1,
+      "points": 10,
+      "goalsFor": 62,
+      "goalsAgainst": 148,
+      "goalDifference": -86,
+      "lastFive": "LLWLL"
+    },
+    {
+      "teamId": "27241840",
+      "competitionId": "652472",
+      "position": 8,
+      "played": 20,
+      "wins": 2,
+      "losses": 17,
+      "draws": 1,
+      "points": 7,
+      "goalsFor": 47,
+      "goalsAgainst": 157,
+      "goalDifference": -110,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105991",
+      "competitionId": "652477",
+      "position": 1,
+      "played": 18,
+      "wins": 16,
+      "losses": 2,
+      "draws": 0,
+      "points": 48,
+      "goalsFor": 100,
+      "goalsAgainst": 36,
+      "goalDifference": 64,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27166949",
+      "competitionId": "652477",
+      "position": 2,
+      "played": 18,
+      "wins": 11,
+      "losses": 6,
+      "draws": 1,
+      "points": 33,
+      "goalsFor": 90,
+      "goalsAgainst": 73,
+      "goalDifference": 17,
+      "lastFive": "WWWLL"
+    },
+    {
+      "teamId": "27105837",
+      "competitionId": "652477",
+      "position": 3,
+      "played": 18,
+      "wins": 10,
+      "losses": 6,
+      "draws": 2,
+      "points": 32,
+      "goalsFor": 93,
+      "goalsAgainst": 72,
+      "goalDifference": 21,
+      "lastFive": "LWWLW"
+    },
+    {
+      "teamId": "27106030",
+      "competitionId": "652477",
+      "position": 4,
+      "played": 18,
+      "wins": 8,
+      "losses": 8,
+      "draws": 2,
+      "points": 26,
+      "goalsFor": 74,
+      "goalsAgainst": 77,
+      "goalDifference": -3,
+      "lastFive": "LLLLW"
+    },
+    {
+      "teamId": "27105901",
+      "competitionId": "652477",
+      "position": 5,
+      "played": 18,
+      "wins": 8,
+      "losses": 9,
+      "draws": 1,
+      "points": 25,
+      "goalsFor": 57,
+      "goalsAgainst": 53,
+      "goalDifference": 4,
+      "lastFive": "DWLWL"
+    },
+    {
+      "teamId": "27105917",
+      "competitionId": "652477",
+      "position": 6,
+      "played": 18,
+      "wins": 3,
+      "losses": 13,
+      "draws": 2,
+      "points": 11,
+      "goalsFor": 64,
+      "goalsAgainst": 106,
+      "goalDifference": -42,
+      "lastFive": "DLWLW"
+    },
+    {
+      "teamId": "27105989",
+      "competitionId": "652477",
+      "position": 7,
+      "played": 18,
+      "wins": 2,
+      "losses": 14,
+      "draws": 2,
+      "points": 8,
+      "goalsFor": 64,
+      "goalsAgainst": 120,
+      "goalDifference": -56,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105885",
+      "competitionId": "652483",
+      "position": 1,
+      "played": 16,
+      "wins": 15,
+      "losses": 1,
+      "draws": 0,
+      "points": 45,
+      "goalsFor": 126,
+      "goalsAgainst": 28,
+      "goalDifference": 98,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27106027",
+      "competitionId": "652483",
+      "position": 2,
+      "played": 16,
+      "wins": 12,
+      "losses": 3,
+      "draws": 1,
+      "points": 37,
+      "goalsFor": 105,
+      "goalsAgainst": 30,
+      "goalDifference": 75,
+      "lastFive": "WWWWW"
+    },
+    {
+      "teamId": "27237499",
+      "competitionId": "652483",
+      "position": 3,
+      "played": 18,
+      "wins": 9,
+      "losses": 8,
+      "draws": 1,
+      "points": 28,
+      "goalsFor": 67,
+      "goalsAgainst": 64,
+      "goalDifference": 3,
+      "lastFive": "DLLWW"
+    },
+    {
+      "teamId": "27239265",
+      "competitionId": "652483",
+      "position": 4,
+      "played": 15,
+      "wins": 8,
+      "losses": 7,
+      "draws": 0,
+      "points": 24,
+      "goalsFor": 67,
+      "goalsAgainst": 83,
+      "goalDifference": -16,
+      "lastFive": "WLWLL"
+    },
+    {
+      "teamId": "27106022",
+      "competitionId": "652483",
+      "position": 5,
+      "played": 17,
+      "wins": 6,
+      "losses": 9,
+      "draws": 2,
+      "points": 20,
+      "goalsFor": 50,
+      "goalsAgainst": 65,
+      "goalDifference": -15,
+      "lastFive": "WWDLL"
+    },
+    {
+      "teamId": "27112347",
+      "competitionId": "652483",
+      "position": 6,
+      "played": 13,
+      "wins": 2,
+      "losses": 10,
+      "draws": 1,
+      "points": 7,
+      "goalsFor": 33,
+      "goalsAgainst": 90,
+      "goalDifference": -57,
+      "lastFive": "LLLWL"
+    },
+    {
+      "teamId": "27242282",
+      "competitionId": "652483",
+      "position": 7,
+      "played": 17,
+      "wins": 1,
+      "losses": 15,
+      "draws": 1,
+      "points": 4,
+      "goalsFor": 22,
+      "goalsAgainst": 110,
+      "goalDifference": -88,
+      "lastFive": "LLLLL"
+    },
+    {
+      "teamId": "27105981",
+      "competitionId": "652479",
+      "position": 1,
+      "played": 15,
+      "wins": 14,
+      "losses": 1,
+      "draws": 0,
+      "points": 42,
+      "goalsFor": 134,
+      "goalsAgainst": 28,
+      "goalDifference": 106,
+      "lastFive": "LWWWW"
+    },
+    {
+      "teamId": "27105942",
+      "competitionId": "652479",
+      "position": 2,
+      "played": 16,
+      "wins": 9,
+      "losses": 6,
+      "draws": 1,
+      "points": 28,
+      "goalsFor": 113,
+      "goalsAgainst": 72,
+      "goalDifference": 41,
+      "lastFive": "WWWLW"
+    },
+    {
+      "teamId": "27239756",
+      "competitionId": "652479",
+      "position": 3,
+      "played": 13,
+      "wins": 6,
+      "losses": 7,
+      "draws": 0,
+      "points": 18,
+      "goalsFor": 53,
+      "goalsAgainst": 77,
+      "goalDifference": -24,
+      "lastFive": "LWLLL"
+    },
+    {
+      "teamId": "27167739",
+      "competitionId": "652479",
+      "position": 4,
+      "played": 14,
+      "wins": 5,
+      "losses": 7,
+      "draws": 2,
+      "points": 17,
+      "goalsFor": 77,
+      "goalsAgainst": 66,
+      "goalDifference": 11,
+      "lastFive": "WWWLD"
+    },
+    {
+      "teamId": "27105856",
+      "competitionId": "652479",
+      "position": 5,
+      "played": 16,
+      "wins": 1,
+      "losses": 14,
+      "draws": 1,
+      "points": 4,
+      "goalsFor": 23,
+      "goalsAgainst": 157,
+      "goalDifference": -134,
+      "lastFive": "LLLLD"
+    }
+  ]
+}

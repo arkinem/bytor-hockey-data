@@ -1,0 +1,21 @@
+id: kingston-sharks-u16
+name: Kingston Sharks U16
+aliases:
+  - Kingston Sharks Under 16's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105806"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

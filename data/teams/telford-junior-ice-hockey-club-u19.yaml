@@ -1,0 +1,21 @@
+id: telford-junior-ice-hockey-club-u19
+name: Telford Junior Ice Hockey Club U19
+aliases:
+  - Telford Junior Ice Hockey Club U19's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105922"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

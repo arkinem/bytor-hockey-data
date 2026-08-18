@@ -1,0 +1,21 @@
+id: bristol-snowdogs-u12
+name: Bristol Snowdogs U12
+aliases:
+  - Bristol Snowdogs
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27240017"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

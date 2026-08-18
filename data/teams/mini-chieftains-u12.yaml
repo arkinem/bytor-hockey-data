@@ -1,0 +1,21 @@
+id: mini-chieftains-u12
+name: Mini Chieftains U12
+aliases:
+  - Mini Chieftains U12s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27167734"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

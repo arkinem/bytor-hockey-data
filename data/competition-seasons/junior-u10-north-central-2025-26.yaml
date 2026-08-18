@@ -1,0 +1,12 @@
+id: junior-u10-north-central-2025-26
+competitionId: junior-u10-north-central
+season:
+  startYear: 2025
+  endYear: 2026
+  label: 2025/26
+status: active
+sourceIds:
+  - england-ice-hockey
+externalIds:
+  - system: gameday
+    value: "652480"

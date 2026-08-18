@@ -1,0 +1,20 @@
+id: leeds-junior-knights-u19-national
+name: Leeds Junior Knights U19 National
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105894"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,20 @@
+id: nottingham-u14-division-2
+name: Nottingham U14 Division 2
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 14
+    label: U14
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105923"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

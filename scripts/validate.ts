@@ -323,6 +323,8 @@ async function validateReferences(): Promise<void> {
 	validateExternalIds("rink", rinks);
 	validateExternalIds("team", teams);
 	validateExternalIds("competition", competitions);
+	validateExternalIds("competition group", competitionGroups);
+	validateExternalIds("competition season", competitionSeasons);
 
 	if (!process.exitCode) {
 		console.log("\n✓ Referential integrity passed.");

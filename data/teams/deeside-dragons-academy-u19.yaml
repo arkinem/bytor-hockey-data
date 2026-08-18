@@ -1,0 +1,21 @@
+id: deeside-dragons-academy-u19
+name: Deeside Dragons Academy U19
+aliases:
+  - Deeside Dragons Academy u19s
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105901"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,20 @@
+id: leeds-junior-knights-u12-blue
+name: Leeds Junior Knights U12 - Blue
+aliases: []
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27165787"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

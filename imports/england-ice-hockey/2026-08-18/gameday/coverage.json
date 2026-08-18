@@ -1,0 +1,269 @@
+{
+  "snapshotDate": "2026-08-18",
+  "competitions": 31,
+  "successful": 18,
+  "noLadder": 13,
+  "errors": 0,
+  "totalStandingRows": 154,
+  "uniqueGameDayTeamIds": 153,
+  "duplicateGameDayTeamIdsAcrossCompetitions": 1,
+  "duplicates": [
+    {
+      "teamId": "27105923",
+      "competitions": [
+        "652459",
+        "652468"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "competitionId": "652484",
+      "competitionName": "Junior Challenge Matches",
+      "ageGroup": "unknown",
+      "kind": "challenge",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652480",
+      "competitionName": "U10 North (Central)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652476",
+      "competitionName": "U10 North (North East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652470",
+      "competitionName": "U10 North (North West)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652462",
+      "competitionName": "U10 North (South)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652471",
+      "competitionName": "U10 South (Central South)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652463",
+      "competitionName": "U10 South (East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652475",
+      "competitionName": "U10 South (London East)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652467",
+      "competitionName": "U10 South (West)",
+      "ageGroup": "U10",
+      "kind": "league",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "661278",
+      "competitionName": "U12 Junior Nationals",
+      "ageGroup": "U12",
+      "kind": "national",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652464",
+      "competitionName": "U12 North 1",
+      "ageGroup": "U12",
+      "kind": "league",
+      "status": "ok",
+      "teams": 10
+    },
+    {
+      "competitionId": "652485",
+      "competitionName": "U12 North 2",
+      "ageGroup": "U12",
+      "kind": "league",
+      "status": "ok",
+      "teams": 9
+    },
+    {
+      "competitionId": "652473",
+      "competitionName": "U12 South 1",
+      "ageGroup": "U12",
+      "kind": "league",
+      "status": "ok",
+      "teams": 9
+    },
+    {
+      "competitionId": "652474",
+      "competitionName": "U12 South 2",
+      "ageGroup": "U12",
+      "kind": "league",
+      "status": "ok",
+      "teams": 8
+    },
+    {
+      "competitionId": "661277",
+      "competitionName": "U14 Junior National",
+      "ageGroup": "U14",
+      "kind": "national",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652459",
+      "competitionName": "U14 North 1",
+      "ageGroup": "U14",
+      "kind": "league",
+      "status": "ok",
+      "teams": 10
+    },
+    {
+      "competitionId": "652468",
+      "competitionName": "U14 North 2 (East)",
+      "ageGroup": "U14",
+      "kind": "league",
+      "status": "ok",
+      "teams": 6
+    },
+    {
+      "competitionId": "653271",
+      "competitionName": "U14 North 2 (West)",
+      "ageGroup": "U14",
+      "kind": "league",
+      "status": "ok",
+      "teams": 6
+    },
+    {
+      "competitionId": "652478",
+      "competitionName": "U14 South 1",
+      "ageGroup": "U14",
+      "kind": "league",
+      "status": "ok",
+      "teams": 9
+    },
+    {
+      "competitionId": "652458",
+      "competitionName": "U14 South 2",
+      "ageGroup": "U14",
+      "kind": "league",
+      "status": "ok",
+      "teams": 11
+    },
+    {
+      "competitionId": "661279",
+      "competitionName": "U16 Junior Nationals",
+      "ageGroup": "U16",
+      "kind": "national",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652460",
+      "competitionName": "U16 North 1",
+      "ageGroup": "U16",
+      "kind": "league",
+      "status": "ok",
+      "teams": 9
+    },
+    {
+      "competitionId": "652465",
+      "competitionName": "U16 North 2",
+      "ageGroup": "U16",
+      "kind": "league",
+      "status": "ok",
+      "teams": 10
+    },
+    {
+      "competitionId": "652466",
+      "competitionName": "U16 South 1",
+      "ageGroup": "U16",
+      "kind": "league",
+      "status": "ok",
+      "teams": 11
+    },
+    {
+      "competitionId": "652469",
+      "competitionName": "U16 South 2",
+      "ageGroup": "U16",
+      "kind": "league",
+      "status": "ok",
+      "teams": 9
+    },
+    {
+      "competitionId": "661280",
+      "competitionName": "U19 Junior Nationals",
+      "ageGroup": "U19",
+      "kind": "national",
+      "status": "no_ladder",
+      "teams": 0
+    },
+    {
+      "competitionId": "652481",
+      "competitionName": "U19 National",
+      "ageGroup": "U19",
+      "kind": "national",
+      "status": "ok",
+      "teams": 10
+    },
+    {
+      "competitionId": "652472",
+      "competitionName": "U19 North 1",
+      "ageGroup": "U19",
+      "kind": "league",
+      "status": "ok",
+      "teams": 8
+    },
+    {
+      "competitionId": "652477",
+      "competitionName": "U19 North 2",
+      "ageGroup": "U19",
+      "kind": "league",
+      "status": "ok",
+      "teams": 7
+    },
+    {
+      "competitionId": "652483",
+      "competitionName": "U19 South 1",
+      "ageGroup": "U19",
+      "kind": "league",
+      "status": "ok",
+      "teams": 7
+    },
+    {
+      "competitionId": "652479",
+      "competitionName": "U19 South 2",
+      "ageGroup": "U19",
+      "kind": "league",
+      "status": "ok",
+      "teams": 5
+    }
+  ]
+}

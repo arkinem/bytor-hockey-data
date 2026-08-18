@@ -1,0 +1,21 @@
+id: slough-jets-u12a-u12
+name: Slough Jets U12A U12
+aliases:
+  - Slough Jets U12A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105882"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

@@ -1,0 +1,21 @@
+id: swindon-lynx-u16b-u16
+name: Swindon Lynx - U16B U16
+aliases:
+  - Swindon Lynx - U16B
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105870"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

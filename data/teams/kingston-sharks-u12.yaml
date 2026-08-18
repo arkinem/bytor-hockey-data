@@ -1,0 +1,21 @@
+id: kingston-sharks-u12
+name: Kingston Sharks U12
+aliases:
+  - Kingston Sharks Under 12's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27106029"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

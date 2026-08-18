@@ -1,0 +1,79 @@
+{
+  "competitionId": "652479",
+  "competitionName": "U19 South 2",
+  "seasonId": "6041164",
+  "seasonLabel": "2025/26",
+  "lastUploaded": "Mon 17-Aug-2026 10:02:12",
+  "standings": [
+    {
+      "position": 1,
+      "teamId": "27105981",
+      "teamName": "Solent Junior Devils U19's",
+      "played": 15,
+      "wins": 14,
+      "losses": 1,
+      "draws": 0,
+      "points": 42,
+      "goalsFor": 134,
+      "goalsAgainst": 28,
+      "goalDifference": 106,
+      "lastFive": "LWWWW"
+    },
+    {
+      "position": 2,
+      "teamId": "27105942",
+      "teamName": "Romford U19A",
+      "played": 16,
+      "wins": 9,
+      "losses": 6,
+      "draws": 1,
+      "points": 28,
+      "goalsFor": 113,
+      "goalsAgainst": 72,
+      "goalDifference": 41,
+      "lastFive": "WWWLW"
+    },
+    {
+      "position": 3,
+      "teamId": "27239756",
+      "teamName": "Bristol Snowdogs U19 S2",
+      "played": 13,
+      "wins": 6,
+      "losses": 7,
+      "draws": 0,
+      "points": 18,
+      "goalsFor": 53,
+      "goalsAgainst": 77,
+      "goalDifference": -24,
+      "lastFive": "LWLLL"
+    },
+    {
+      "position": 4,
+      "teamId": "27167739",
+      "teamName": "Invicta Broncos U19",
+      "played": 14,
+      "wins": 5,
+      "losses": 7,
+      "draws": 2,
+      "points": 17,
+      "goalsFor": 77,
+      "goalsAgainst": 66,
+      "goalDifference": 11,
+      "lastFive": "WWWLD"
+    },
+    {
+      "position": 5,
+      "teamId": "27105856",
+      "teamName": "MK Storm U19",
+      "played": 16,
+      "wins": 1,
+      "losses": 14,
+      "draws": 1,
+      "points": 4,
+      "goalsFor": 23,
+      "goalsAgainst": 157,
+      "goalDifference": -134,
+      "lastFive": "LLLLD"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+id: solent-junior-devils-u12
+name: Solent Junior Devils U12
+aliases:
+  - Solent Junior Devils U12's
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+status: active
+role: age_group
+rinkIds: []
+externalIds:
+  - system: gameday
+    value: "27105874"
+sourceIds:
+  - england-ice-hockey
+sourceUrls: []

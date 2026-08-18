@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { EntityIdSchema, EntityStatusSchema } from "./common.js";
+import { EntityIdSchema, EntityStatusSchema, ExternalIdSchema } from "./common.js";
 
 export const CompetitionGroupSchema = z.object({
 	id: EntityIdSchema,
@@ -12,6 +12,8 @@ export const CompetitionGroupSchema = z.object({
 	status: EntityStatusSchema,
 
 	sourceIds: z.array(EntityIdSchema).default([]),
+
+	externalIds: z.array(ExternalIdSchema).default([]),
 
 	notes: z.string().optional(),
 });
