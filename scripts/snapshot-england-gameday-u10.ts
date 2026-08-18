@@ -5,12 +5,12 @@ import { join } from "node:path";
 import {
 	fetchGameDayCompetitionPage,
 	type GameDayCompetition,
-} from "./importers/england-ice-hockey/gameday.js";
+} from "../providers/england-ice-hockey/gameday/client.js";
 
 import {
 	parseGameDayFixtures,
 	type RawGameDayFixture,
-} from "./importers/england-ice-hockey/parse-gameday-fixture-payload.js";
+} from "../providers/england-ice-hockey/gameday/parse-fixtures.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

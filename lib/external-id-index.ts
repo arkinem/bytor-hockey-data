@@ -3,7 +3,7 @@ import { extname, join } from "node:path";
 
 import { parse } from "yaml";
 
-import { RinkSchema, type Rink } from "../../schema/index.js";
+import { RinkSchema, type Rink } from "../schema/index.js";
 
 type ExternalIdKey = `${string}:${string}`;
 

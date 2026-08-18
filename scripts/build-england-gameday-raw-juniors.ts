@@ -2,11 +2,11 @@ import { readFile, writeFile } from "node:fs/promises";
 
 import { join } from "node:path";
 
-import type { GameDayCompetition } from "./importers/england-ice-hockey/gameday.js";
+import type { GameDayCompetition } from "../providers/england-ice-hockey/gameday/client.js";
 
-import type { RawGameDayLadder } from "./importers/england-ice-hockey/parse-gameday-ladder.js";
+import type { RawGameDayLadder } from "../providers/england-ice-hockey/gameday/parse-ladder.js";
 
-import type { RawGameDayJuniorSnapshot } from "./importers/england-ice-hockey/gameday-types.js";
+import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

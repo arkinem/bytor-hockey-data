@@ -5,8 +5,8 @@ import { join } from "node:path";
 import { stringify } from "yaml";
 
 import { TeamSchema, type Team } from "../schema/index.js";
-import { buildExternalIdIndex } from "./lib/external-id-index.js";
-import { classifyWebsite } from "./lib/classify-website.js";
+import { buildExternalIdIndex } from "../lib/external-id-index.js";
+import { classifyWebsite } from "../lib/classify-website.js";
 
 const IMPORT_DATE = "2026-08-17";
 

@@ -6,7 +6,7 @@ import { parse } from "yaml";
 
 import { CompetitionSchema } from "../schema/index.js";
 
-import { normalizeEntityName } from "./lib/normalize-name.js";
+import { normalizeEntityName } from "../lib/normalize-name.js";
 
 type Proposal = {
 	gameDayCompetitionId: string;

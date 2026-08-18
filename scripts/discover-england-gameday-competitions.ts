@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 import { join } from "node:path";
 
-import { fetchGameDayCompetitions } from "./importers/england-ice-hockey/gameday.js";
+import { fetchGameDayCompetitions } from "../providers/england-ice-hockey/gameday/client.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

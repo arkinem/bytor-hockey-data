@@ -15,7 +15,7 @@ import {
 	type TeamParticipation,
 } from "../schema/index.js";
 
-import type { RawGameDayJuniorSnapshot } from "./importers/england-ice-hockey/gameday-types.js";
+import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

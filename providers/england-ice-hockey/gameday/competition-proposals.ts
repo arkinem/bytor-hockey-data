@@ -1,4 +1,4 @@
-import type { RawGameDayJuniorSnapshot } from "./gameday-types.js";
+import type { RawGameDayJuniorSnapshot } from "./types.js";
 
 export type GameDayCompetitionProposalKind = "competition" | "competition_group" | "deferred_event";
 

@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 import { join } from "node:path";
 
-import type { RawGameDayJuniorSnapshot } from "./importers/england-ice-hockey/gameday-types.js";
+import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

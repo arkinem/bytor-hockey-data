@@ -6,12 +6,12 @@ import { parse } from "yaml";
 
 import { TeamSchema, type Team } from "../schema/index.js";
 
-import { normalizeEntityName } from "./lib/normalize-name.js";
+import { normalizeEntityName } from "../lib/normalize-name.js";
 
 import type {
 	RawGameDayJuniorSnapshot,
 	RawGameDayJuniorTeam,
-} from "./importers/england-ice-hockey/gameday-types.js";
+} from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 

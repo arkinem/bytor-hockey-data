@@ -4,7 +4,7 @@ import { extname, join } from "node:path";
 import { parse } from "yaml";
 
 import { OrganisationSchema, RinkSchema, TeamSchema } from "../schema/index.js";
-import { EntityNameIndex } from "./lib/entity-name-index.js";
+import { EntityNameIndex } from "../lib/entity-name-index.js";
 
 async function loadYamlDirectory(directory: string): Promise<unknown[]> {
 	const files = await readdir(join("data", directory));
