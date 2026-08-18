@@ -20,6 +20,8 @@ export const TeamParticipationSchema = z.object({
 
 	competitionSeasonId: EntityIdSchema,
 
+	competitionGroupId: EntityIdSchema.optional(),
+
 	status: TeamParticipationStatusSchema,
 
 	displayName: z.string().min(1).optional(),

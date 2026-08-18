@@ -1,0 +1,33 @@
+id: junior-u12
+
+name: England Junior U12
+
+aliases:
+  - U12 Junior League
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 12
+    label: U12
+
+status: active
+
+parentCompetitionId: junior-ice-hockey-league
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/juniors-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

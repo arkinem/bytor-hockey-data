@@ -1,0 +1,20 @@
+id: haringey-hounds-s1-u14
+name: Haringey Hounds S1 U14
+aliases:
+  - Haringey Hounds S1
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 14
+    label: U14
+status: unknown
+role: age_group
+rinkIds: []
+externalIds: []
+sourceIds:
+  - england-ice-hockey
+sourceUrls:
+  - https://englandicehockey.com/under-14s-league-tables/

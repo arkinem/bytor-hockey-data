@@ -1,0 +1,30 @@
+id: nihl-national
+
+name: NIHL National
+
+aliases:
+  - National Division
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: senior
+
+status: active
+
+parentCompetitionId: nihl
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/nihl-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

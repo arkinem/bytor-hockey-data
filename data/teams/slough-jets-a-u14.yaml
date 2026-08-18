@@ -1,0 +1,20 @@
+id: slough-jets-a-u14
+name: Slough Jets A U14
+aliases:
+  - Slough Jets A
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 14
+    label: U14
+status: unknown
+role: age_group
+rinkIds: []
+externalIds: []
+sourceIds:
+  - england-ice-hockey
+sourceUrls:
+  - https://englandicehockey.com/under-14s-league-tables/

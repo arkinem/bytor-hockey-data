@@ -1,0 +1,18 @@
+id: mk-storm
+
+name: MK Storm
+
+aliases:
+  - Milton Keynes Storm
+
+historicalNames: []
+
+types:
+  - club
+
+country: GB
+
+status: active
+
+sourceIds:
+  - england-ice-hockey

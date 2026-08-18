@@ -1,0 +1,28 @@
+id: junior-ice-hockey-league
+
+name: Junior Ice Hockey League
+
+aliases:
+  - Junior League
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+
+status: active
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/juniors-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

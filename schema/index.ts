@@ -6,3 +6,4 @@ export * from "./team.js";
 export * from "./competition.js";
 export * from "./competition-season.js";
 export * from "./team-participation.js";
+export * from "./competition-group.js";

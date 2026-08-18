@@ -1,0 +1,30 @@
+id: nihl-division-1-north
+
+name: NIHL Division 1 North
+
+aliases:
+  - NIHL 1 North
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: senior
+
+status: active
+
+parentCompetitionId: nihl
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/nihl-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

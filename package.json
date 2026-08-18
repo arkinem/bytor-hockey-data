@@ -10,13 +10,21 @@
 		"data-audit": "tsx scripts/audit.ts",
 		"import:eiharec:rinks": "tsx scripts/import-eiharec-rinks.ts",
 		"import:eiharec:teams": "tsx scripts/import-eiharec-teams.ts",
-		"migrate:eiharec:team-roles": "tsx scripts/migrate-eiharec-team-roles.ts"
+		"migrate:eiharec:team-roles": "tsx scripts/migrate-eiharec-team-roles.ts",
+		"scrape:england:u14": "tsx scripts/scrape-england-juniors-u14.ts",
+		"resolve:england:u14": "tsx scripts/resolve-england-u14-teams.ts",
+		"propose:england:u14": "tsx scripts/propose-england-u14-teams.ts",
+		"import:england:u14:teams": "tsx scripts/import-england-u14-teams.ts",
+		"check:england:u14": "tsx scripts/check-england-u14-config.ts",
+		"import:england:u14:participations": "tsx scripts/import-england-u14-participations.ts",
+		"test:gameday": "tsx scripts/test-gameday-fetch.ts"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"packageManager": "pnpm@9.9.0+sha1.3edbe440f4e570aa8f049adbd06b9483d55cc2d2",
 	"dependencies": {
+		"cheerio": "^1.2.0",
 		"yaml": "^2.9.0",
 		"zod": "^4.4.3"
 	},

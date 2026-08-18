@@ -1,0 +1,30 @@
+id: nihl-division-2-south
+
+name: NIHL Division 2 South
+
+aliases:
+  - NIHL 2 South
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: senior
+
+status: active
+
+parentCompetitionId: nihl
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/nihl-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

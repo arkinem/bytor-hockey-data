@@ -1,0 +1,20 @@
+id: england-ice-hockey
+
+name: England Ice Hockey
+
+aliases:
+  - EIH
+  - English Ice Hockey Association
+
+historicalNames: []
+
+types:
+  - governing_body
+  - league_operator
+
+country: GB
+
+status: active
+
+sourceIds:
+  - england-ice-hockey

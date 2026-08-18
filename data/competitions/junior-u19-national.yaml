@@ -1,0 +1,33 @@
+id: junior-u19-national
+
+name: England Junior U19 National Division
+
+aliases:
+  - U19 National Division
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 19
+    label: U19
+
+status: active
+
+parentCompetitionId: junior-u19
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/junior-fixtures-confirmed-for-2025-26-season/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

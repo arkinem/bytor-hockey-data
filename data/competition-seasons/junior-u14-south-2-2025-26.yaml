@@ -1,0 +1,13 @@
+id: junior-u14-south-2-2025-26
+
+competitionId: junior-u14-south-2
+
+season:
+  startYear: 2025
+  endYear: 2026
+  label: "2025/26"
+
+status: active
+
+sourceIds:
+  - england-ice-hockey

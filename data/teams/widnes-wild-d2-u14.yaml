@@ -1,0 +1,20 @@
+id: widnes-wild-d2-u14
+name: Widnes Wild D2 U14
+aliases:
+  - Widnes Wild D2
+historicalNames: []
+country: GB
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 14
+    label: U14
+status: unknown
+role: age_group
+rinkIds: []
+externalIds: []
+sourceIds:
+  - england-ice-hockey
+sourceUrls:
+  - https://englandicehockey.com/under-14s-league-tables/

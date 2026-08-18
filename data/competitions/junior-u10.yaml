@@ -1,0 +1,33 @@
+id: junior-u10
+
+name: England Junior U10
+
+aliases:
+  - U10 Junior League
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 10
+    label: U10
+
+status: active
+
+parentCompetitionId: junior-ice-hockey-league
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/juniors-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

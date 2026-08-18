@@ -1,0 +1,33 @@
+id: junior-u16
+
+name: England Junior U16
+
+aliases:
+  - U16 Junior League
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 16
+    label: U16
+
+status: active
+
+parentCompetitionId: junior-ice-hockey-league
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/juniors-leagues/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey

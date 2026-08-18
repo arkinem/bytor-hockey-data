@@ -37,6 +37,8 @@ export const CompetitionSchema = z.object({
 
 	status: EntityStatusSchema,
 
+	parentCompetitionId: EntityIdSchema.optional(),
+
 	organiserIds: z.array(EntityIdSchema).default([]),
 
 	website: z.url().optional(),

@@ -5,6 +5,7 @@ import { parse } from "yaml";
 import type { ZodType } from "zod";
 
 import {
+	CompetitionGroupSchema,
 	CompetitionSchema,
 	CompetitionSeasonSchema,
 	OrganisationSchema,
@@ -122,6 +123,7 @@ async function validateReferences(): Promise<void> {
 	const competitionRecords = await loadYamlDirectory("competitions");
 	const competitionSeasonRecords = await loadYamlDirectory("competition-seasons");
 	const teamParticipationRecords = await loadYamlDirectory("team-participations");
+	const competitionGroupRecords = await loadYamlDirectory("competition-groups");
 
 	const sources = sourceRecords.map(({ data }) => SourceSchema.parse(data));
 
@@ -141,6 +143,10 @@ async function validateReferences(): Promise<void> {
 		CompetitionSeasonSchema.parse(data),
 	);
 
+	const competitionGroups = competitionGroupRecords.map(({ data }) =>
+		CompetitionGroupSchema.parse(data),
+	);
+
 	const teamParticipations = teamParticipationRecords.map(({ data }) =>
 		TeamParticipationSchema.parse(data),
 	);
@@ -152,6 +158,8 @@ async function validateReferences(): Promise<void> {
 	const teamIds = new Set(teams.map((team) => team.id));
 
 	const competitionSeasonIds = new Set(competitionSeasons.map((season) => season.id));
+
+	const competitionGroupIds = new Set(competitionGroups.map((group) => group.id));
 
 	for (const rink of rinks) {
 		for (const sourceId of rink.sourceIds) {
@@ -188,6 +196,14 @@ async function validateReferences(): Promise<void> {
 	}
 
 	for (const competition of competitions) {
+		if (competition.parentCompetitionId && !competitionIds.has(competition.parentCompetitionId)) {
+			console.error(
+				`✗ competition "${competition.id}" references unknown parent competition "${competition.parentCompetitionId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
 		for (const sourceId of competition.sourceIds) {
 			if (!sourceIds.has(sourceId)) {
 				console.error(`✗ competition "${competition.id}" references unknown source "${sourceId}"`);
@@ -227,6 +243,24 @@ async function validateReferences(): Promise<void> {
 		}
 	}
 
+	for (const group of competitionGroups) {
+		if (!competitionSeasonIds.has(group.competitionSeasonId)) {
+			console.error(
+				`✗ competition group "${group.id}" references unknown competition season "${group.competitionSeasonId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
+		for (const sourceId of group.sourceIds) {
+			if (!sourceIds.has(sourceId)) {
+				console.error(`✗ competition group "${group.id}" references unknown source "${sourceId}"`);
+
+				process.exitCode = 1;
+			}
+		}
+	}
+
 	for (const participation of teamParticipations) {
 		if (!teamIds.has(participation.teamId)) {
 			console.error(
@@ -242,6 +276,32 @@ async function validateReferences(): Promise<void> {
 			);
 
 			process.exitCode = 1;
+		}
+
+		if (
+			participation.competitionGroupId &&
+			!competitionGroupIds.has(participation.competitionGroupId)
+		) {
+			console.error(
+				`✗ team participation "${participation.id}" references unknown competition group "${participation.competitionGroupId}"`,
+			);
+
+			process.exitCode = 1;
+		}
+
+		if (participation.competitionGroupId) {
+			const group = competitionGroups.find(
+				(group) => group.id === participation.competitionGroupId,
+			);
+
+			if (group && group.competitionSeasonId !== participation.competitionSeasonId) {
+				console.error(
+					`✗ team participation "${participation.id}" references group ` +
+						`"${group.id}" from a different competition season`,
+				);
+
+				process.exitCode = 1;
+			}
 		}
 
 		for (const sourceId of participation.sourceIds) {
@@ -283,6 +343,8 @@ await validateDirectory("competitions", CompetitionSchema, "competition");
 await validateDirectory("competition-seasons", CompetitionSeasonSchema, "competition season");
 
 await validateDirectory("team-participations", TeamParticipationSchema, "team participation");
+
+await validateDirectory("competition-groups", CompetitionGroupSchema, "competition group");
 
 await validateReferences();
 

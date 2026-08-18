@@ -1,0 +1,34 @@
+id: junior-u14-south-1
+
+name: England Junior U14 South Division 1
+
+aliases:
+  - U14 South1
+  - U14 South 1
+
+historicalNames: []
+
+type: league
+
+country: GB
+
+categories:
+  gender: open
+  age: junior
+  ageBand:
+    max: 14
+    label: U14
+
+status: active
+
+parentCompetitionId: junior-u14
+
+organiserIds:
+  - england-ice-hockey
+
+website: https://englandicehockey.com/under-14s-league-tables/
+
+externalIds: []
+
+sourceIds:
+  - england-ice-hockey
