@@ -15,19 +15,18 @@ import {
 	type TeamParticipation,
 } from "../schema/index.js";
 
-import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
+import type { NormalizedGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 
-const RAW_JUNIORS_FILE = join(
+const SNAPSHOT_FILE = join(
 	"imports",
 	"england-ice-hockey",
 	SNAPSHOT_DATE,
 	"gameday",
-	"raw-juniors.json",
+	"normalized",
+	"snapshot.json",
 );
-
-const RAW_U10_FILE = join("imports", "england-ice-hockey", SNAPSHOT_DATE, "gameday", "u10.json");
 
 const TEAMS_DIR = join("data", "teams");
 
@@ -41,52 +40,6 @@ const U14_MAPPING_FILE = join("data", "mappings", "england-ice-hockey", "gameday
 
 type U14MappingFile = {
 	anomalies?: Record<string, unknown>;
-};
-
-type RawU10Team = {
-	id: string;
-
-	names: string[];
-
-	competitionIds: string[];
-};
-
-type RawU10Participation = {
-	teamId: string;
-
-	teamName: string;
-
-	competitionId: string;
-
-	competitionName: string;
-};
-
-type RawU10Competition = {
-	id: string;
-
-	name: string;
-
-	fixtureRecords: number;
-
-	realGames: number;
-
-	byes: number;
-
-	teamIds: string[];
-};
-
-type RawU10Snapshot = {
-	source: "gameday";
-
-	snapshotDate: string;
-
-	ageGroup: "U10";
-
-	competitions: RawU10Competition[];
-
-	teams: RawU10Team[];
-
-	participations: RawU10Participation[];
 };
 
 type Destination = {
@@ -183,9 +136,9 @@ function participationKey(
 }
 
 async function main(): Promise<void> {
-	const juniors = JSON.parse(await readFile(RAW_JUNIORS_FILE, "utf8")) as RawGameDayJuniorSnapshot;
-
-	const u10 = JSON.parse(await readFile(RAW_U10_FILE, "utf8")) as RawU10Snapshot;
+	const snapshot = JSON.parse(
+		await readFile(SNAPSHOT_FILE, "utf8"),
+	) as NormalizedGameDayJuniorSnapshot;
 
 	const teams = (await loadYamlDirectory(TEAMS_DIR)).map((data) => TeamSchema.parse(data));
 
@@ -213,9 +166,7 @@ async function main(): Promise<void> {
 		participations.map((participation) =>
 			participationKey(
 				participation.teamId,
-
 				participation.competitionSeasonId,
-
 				participation.competitionGroupId,
 			),
 		),
@@ -223,165 +174,112 @@ async function main(): Promise<void> {
 
 	/*
 	 * --------------------------------
-	 * U10 teams
+	 * Teams
 	 * --------------------------------
 	 */
 
-	let u10ResolvedTeams = 0;
-	let u10MissingTeams = 0;
+	let resolvedTeams = 0;
+	let excludedTeams = 0;
+	let missingTeams = 0;
 
-	for (const rawTeam of u10.teams) {
+	for (const rawTeam of snapshot.teams) {
+		if (anomalyIds.has(rawTeam.id)) {
+			excludedTeams += 1;
+
+			continue;
+		}
+
 		const canonical = teamByGameDayId.get(rawTeam.id);
 
 		if (!canonical) {
 			console.error(
-				`Missing U10 canonical Team for GameDay ${rawTeam.id}: ${rawTeam.names.join(" / ")}`,
-			);
-
-			u10MissingTeams += 1;
-
-			continue;
-		}
-
-		if (canonical.categories.ageBand?.label?.toUpperCase() !== "U10") {
-			console.error(
-				`U10 GameDay team ${rawTeam.id} resolves to non-U10 canonical Team ${canonical.id}.`,
-			);
-
-			u10MissingTeams += 1;
-
-			continue;
-		}
-
-		u10ResolvedTeams += 1;
-	}
-
-	/*
-	 * --------------------------------
-	 * U10 competitions
-	 * --------------------------------
-	 */
-
-	let u10MappedCompetitions = 0;
-	let u10UnmappedCompetitions = 0;
-
-	for (const competition of u10.competitions) {
-		if (destinationByGameDayId.has(competition.id)) {
-			u10MappedCompetitions += 1;
-		} else {
-			console.error(
-				`Missing canonical U10 competition destination for GameDay ${competition.id}: ${competition.name}`,
-			);
-
-			u10UnmappedCompetitions += 1;
-		}
-	}
-
-	/*
-	 * --------------------------------
-	 * U10 participations
-	 * --------------------------------
-	 */
-
-	let u10ResolvedParticipations = 0;
-	let u10MissingParticipations = 0;
-
-	for (const rawParticipation of u10.participations) {
-		const team = teamByGameDayId.get(rawParticipation.teamId);
-
-		const destination = destinationByGameDayId.get(rawParticipation.competitionId);
-
-		if (!team || !destination) {
-			console.error(
-				`Cannot resolve U10 provider participation: ${rawParticipation.teamId} / ${rawParticipation.competitionId}`,
-			);
-
-			u10MissingParticipations += 1;
-
-			continue;
-		}
-
-		const key = participationKey(
-			team.id,
-
-			destination.competitionSeasonId,
-
-			destination.competitionGroupId,
-		);
-
-		if (canonicalParticipationKeys.has(key)) {
-			u10ResolvedParticipations += 1;
-		} else {
-			console.error(`Missing canonical U10 TeamParticipation: ${key}`);
-
-			u10MissingParticipations += 1;
-		}
-	}
-
-	/*
-	 * --------------------------------
-	 * U12-U19 teams
-	 * --------------------------------
-	 */
-
-	let juniorResolvedTeams = 0;
-	let juniorExcludedTeams = 0;
-	let juniorMissingTeams = 0;
-
-	for (const rawTeam of juniors.teams) {
-		if (anomalyIds.has(rawTeam.id)) {
-			juniorExcludedTeams += 1;
-
-			continue;
-		}
-
-		if (teamByGameDayId.has(rawTeam.id)) {
-			juniorResolvedTeams += 1;
-		} else {
-			console.error(
 				`Missing canonical Team for GameDay ${rawTeam.id}: ${rawTeam.names.join(" / ")}`,
 			);
 
-			juniorMissingTeams += 1;
+			missingTeams += 1;
+
+			continue;
 		}
+
+		/*
+		 * Extra semantic safety:
+		 * if provider has exactly one age context,
+		 * canonical ageBand should agree when present.
+		 */
+		if (rawTeam.ageGroups.length === 1) {
+			const rawAge = rawTeam.ageGroups[0];
+
+			const canonicalAge = canonical.categories.ageBand?.label;
+
+			if (rawAge && canonicalAge && rawAge.toUpperCase() !== canonicalAge.toUpperCase()) {
+				console.error(
+					`Age mismatch for GameDay ${rawTeam.id}: provider=${rawAge}, canonical=${canonicalAge} (${canonical.id})`,
+				);
+
+				missingTeams += 1;
+
+				continue;
+			}
+		}
+
+		resolvedTeams += 1;
 	}
 
 	/*
 	 * --------------------------------
-	 * U12-U19 ladder competitions
+	 * Competitions
 	 * --------------------------------
+	 *
+	 * Only provider competitions represented as
+	 * canonical league structures are expected to
+	 * have destinations.
+	 *
+	 * Deferred tournament/challenge entries are
+	 * deliberately excluded from this requirement.
 	 */
 
-	const ladderCompetitions = juniors.competitions.filter((competition) => competition.hasLadder);
+	const deferredCompetitionIds = new Set(
+		snapshot.competitions
+			.filter(
+				(competition) =>
+					competition.kind === "challenge" ||
+					(competition.kind === "national" && /Junior Nationals?$/i.test(competition.name)),
+			)
+			.map((competition) => competition.id),
+	);
 
-	let juniorMappedCompetitions = 0;
-	let juniorUnmappedCompetitions = 0;
+	const mappedProviderCompetitions = snapshot.competitions.filter(
+		(competition) => !deferredCompetitionIds.has(competition.id),
+	);
 
-	for (const competition of ladderCompetitions) {
+	let mappedCompetitions = 0;
+	let unmappedCompetitions = 0;
+
+	for (const competition of mappedProviderCompetitions) {
 		if (destinationByGameDayId.has(competition.id)) {
-			juniorMappedCompetitions += 1;
+			mappedCompetitions += 1;
 		} else {
 			console.error(
 				`Missing canonical competition destination for GameDay ${competition.id}: ${competition.name}`,
 			);
 
-			juniorUnmappedCompetitions += 1;
+			unmappedCompetitions += 1;
 		}
 	}
 
 	/*
 	 * --------------------------------
-	 * U12-U19 participations
+	 * Participations
 	 * --------------------------------
 	 */
 
-	let juniorResolvedParticipations = 0;
-	let juniorExcludedParticipations = 0;
-	let juniorMissingParticipations = 0;
+	let resolvedParticipations = 0;
+	let excludedParticipations = 0;
+	let missingParticipations = 0;
 
-	for (const rawParticipation of juniors.participations) {
+	for (const rawParticipation of snapshot.participations) {
 		if (anomalyIds.has(rawParticipation.teamId)) {
-			juniorExcludedParticipations += 1;
+			excludedParticipations += 1;
 
 			continue;
 		}
@@ -395,121 +293,112 @@ async function main(): Promise<void> {
 				`Cannot resolve provider participation: ${rawParticipation.teamId} / ${rawParticipation.competitionId}`,
 			);
 
-			juniorMissingParticipations += 1;
+			missingParticipations += 1;
 
 			continue;
 		}
 
 		const key = participationKey(
 			team.id,
-
 			destination.competitionSeasonId,
-
 			destination.competitionGroupId,
 		);
 
 		if (canonicalParticipationKeys.has(key)) {
-			juniorResolvedParticipations += 1;
+			resolvedParticipations += 1;
 		} else {
 			console.error(`Missing canonical TeamParticipation: ${key}`);
 
-			juniorMissingParticipations += 1;
+			missingParticipations += 1;
 		}
 	}
 
 	/*
 	 * --------------------------------
-	 * Combined totals
+	 * Age-group breakdown
 	 * --------------------------------
 	 */
 
-	const providerTeams = u10.teams.length + juniors.teams.length;
+	const ageGroups = ["U10", "U12", "U14", "U16", "U19"];
 
-	const resolvedTeams = u10ResolvedTeams + juniorResolvedTeams;
+	const ageBreakdown = Object.fromEntries(
+		ageGroups.map((ageGroup) => {
+			const teamCount = snapshot.teams.filter((team) => team.ageGroups.includes(ageGroup)).length;
 
-	const excludedTeams = juniorExcludedTeams;
+			const participationCount = snapshot.participations.filter(
+				(participation) => participation.ageGroup === ageGroup,
+			).length;
 
-	const missingTeams = u10MissingTeams + juniorMissingTeams;
+			const competitionCount = snapshot.competitions.filter(
+				(competition) => competition.ageGroup === ageGroup,
+			).length;
 
-	const providerCompetitions = u10.competitions.length + ladderCompetitions.length;
+			return [
+				ageGroup,
+				{
+					teams: teamCount,
 
-	const mappedCompetitions = u10MappedCompetitions + juniorMappedCompetitions;
+					competitions: competitionCount,
 
-	const unmappedCompetitions = u10UnmappedCompetitions + juniorUnmappedCompetitions;
+					participations: participationCount,
+				},
+			];
+		}),
+	);
 
-	const providerParticipations = u10.participations.length + juniors.participations.length;
-
-	const resolvedParticipations = u10ResolvedParticipations + juniorResolvedParticipations;
-
-	const excludedParticipations = juniorExcludedParticipations;
-
-	const missingParticipations = u10MissingParticipations + juniorMissingParticipations;
+	const failures = missingTeams + unmappedCompetitions + missingParticipations;
 
 	console.log("");
 	console.log("GameDay Junior Provider Integrity Audit");
 	console.log("=======================================");
 
 	console.log("");
-	console.log("U10");
-	console.log("---");
 
-	console.log(`Teams: ${u10.teams.length}`);
+	console.log(`Snapshot: ${snapshot.snapshotDate}`);
 
-	console.log(`Resolved teams: ${u10ResolvedTeams}`);
-
-	console.log(`Missing teams: ${u10MissingTeams}`);
+	console.log(`Season: ${snapshot.seasonLabel} (${snapshot.seasonId})`);
 
 	console.log("");
 
-	console.log(`Competitions: ${u10.competitions.length}`);
+	console.log("Provider snapshot");
 
-	console.log(`Mapped competitions: ${u10MappedCompetitions}`);
+	console.log("-----------------");
 
-	console.log(`Unmapped competitions: ${u10UnmappedCompetitions}`);
+	console.log(`Competitions: ${snapshot.competitions.length}`);
 
-	console.log("");
+	console.log(`Teams: ${snapshot.teams.length}`);
 
-	console.log(`Participations: ${u10.participations.length}`);
+	console.log(`Participations: ${snapshot.participations.length}`);
 
-	console.log(`Resolved participations: ${u10ResolvedParticipations}`);
+	console.log(`Standings: ${snapshot.standings.length}`);
 
-	console.log(`Missing participations: ${u10MissingParticipations}`);
-
-	console.log("");
-	console.log("U12-U19");
-	console.log("-------");
-
-	console.log(`Teams: ${juniors.teams.length}`);
-
-	console.log(`Resolved teams: ${juniorResolvedTeams}`);
-
-	console.log(`Excluded anomalies: ${juniorExcludedTeams}`);
-
-	console.log(`Missing teams: ${juniorMissingTeams}`);
+	console.log(`Fixtures: ${snapshot.fixtures.length}`);
 
 	console.log("");
 
-	console.log(`Ladder competitions: ${ladderCompetitions.length}`);
+	console.log("Age groups");
 
-	console.log(`Mapped competitions: ${juniorMappedCompetitions}`);
+	console.log("----------");
 
-	console.log(`Unmapped competitions: ${juniorUnmappedCompetitions}`);
+	for (const ageGroup of ageGroups) {
+		const counts = ageBreakdown[ageGroup];
+
+		if (!counts) {
+			continue;
+		}
+
+		console.log(
+			`${ageGroup}: ${counts.teams} teams, ${counts.competitions} competitions, ${counts.participations} participations`,
+		);
+	}
 
 	console.log("");
 
-	console.log(`Participations: ${juniors.participations.length}`);
+	console.log("Canonical coverage");
 
-	console.log(`Resolved participations: ${juniorResolvedParticipations}`);
+	console.log("------------------");
 
-	console.log(`Excluded participations: ${juniorExcludedParticipations}`);
-
-	console.log(`Missing participations: ${juniorMissingParticipations}`);
-
-	console.log("");
-	console.log("Combined provider coverage");
-	console.log("--------------------------");
-
-	console.log(`Provider teams: ${providerTeams}`);
+	console.log(`Provider teams: ${snapshot.teams.length}`);
 
 	console.log(`Resolved teams: ${resolvedTeams}`);
 
@@ -519,7 +408,11 @@ async function main(): Promise<void> {
 
 	console.log("");
 
-	console.log(`Provider competitions: ${providerCompetitions}`);
+	console.log(`Provider competitions: ${snapshot.competitions.length}`);
+
+	console.log(`Expected canonical competitions: ${mappedProviderCompetitions.length}`);
+
+	console.log(`Deferred events: ${deferredCompetitionIds.size}`);
 
 	console.log(`Mapped competitions: ${mappedCompetitions}`);
 
@@ -527,7 +420,7 @@ async function main(): Promise<void> {
 
 	console.log("");
 
-	console.log(`Provider participations: ${providerParticipations}`);
+	console.log(`Provider participations: ${snapshot.participations.length}`);
 
 	console.log(`Resolved participations: ${resolvedParticipations}`);
 
@@ -535,9 +428,8 @@ async function main(): Promise<void> {
 
 	console.log(`Missing participations: ${missingParticipations}`);
 
-	const failures = missingTeams + unmappedCompetitions + missingParticipations;
-
 	console.log("");
+
 	console.log(`Failures: ${failures}`);
 
 	if (failures > 0) {

@@ -9,8 +9,8 @@ import { TeamSchema, type Team } from "../schema/index.js";
 import { normalizeEntityName } from "../lib/normalize-name.js";
 
 import type {
-	RawGameDayJuniorSnapshot,
-	RawGameDayJuniorTeam,
+	NormalizedGameDayJuniorSnapshot,
+	NormalizedGameDayJuniorTeam,
 } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
@@ -20,7 +20,8 @@ const INPUT_FILE = join(
 	"england-ice-hockey",
 	SNAPSHOT_DATE,
 	"gameday",
-	"raw-juniors.json",
+	"normalized",
+	"snapshot.json",
 );
 
 const OUTPUT_DIR = join("generated", "resolution", "england-ice-hockey", SNAPSHOT_DATE);
@@ -204,7 +205,7 @@ function valuesForTeam(team: Team): Array<{
 }
 
 function resolveGameDayTeam(
-	rawTeam: RawGameDayJuniorTeam,
+	rawTeam: NormalizedGameDayJuniorTeam,
 	canonicalTeams: Team[],
 ): ResolutionResult {
 	const candidates = new Map<string, Candidate>();
@@ -423,7 +424,9 @@ function resolveGameDayTeam(
 }
 
 async function main(): Promise<void> {
-	const snapshot = JSON.parse(await readFile(INPUT_FILE, "utf8")) as RawGameDayJuniorSnapshot;
+	const snapshot = JSON.parse(
+		await readFile(INPUT_FILE, "utf8"),
+	) as NormalizedGameDayJuniorSnapshot;
 
 	const canonicalTeams = await loadCanonicalTeams();
 

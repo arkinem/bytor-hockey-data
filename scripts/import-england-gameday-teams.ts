@@ -8,6 +8,14 @@ import { TeamSchema, type Team } from "../schema/index.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 
+const RESOLUTION_FILE = join(
+	"generated",
+	"resolution",
+	"england-ice-hockey",
+	SNAPSHOT_DATE,
+	"gameday-team-resolution.json",
+);
+
 const PROPOSALS_FILE = join(
 	"generated",
 	"proposals",
@@ -17,6 +25,47 @@ const PROPOSALS_FILE = join(
 );
 
 const TEAMS_DIR = join("data", "teams");
+
+type ResolutionCandidate = {
+	teamId: string;
+
+	canonicalName: string;
+
+	reason:
+		| "gameday_external_id"
+		| "canonical_name"
+		| "alias"
+		| "historical_name"
+		| "age_group_context";
+
+	matchedValue: string;
+};
+
+type ResolutionResult = {
+	gameDayTeamId: string;
+
+	sourceNames: string[];
+
+	ageGroups: string[];
+
+	competitionIds: string[];
+
+	status: "resolved" | "ambiguous" | "unresolved";
+
+	candidates: ResolutionCandidate[];
+};
+
+type ResolutionReport = {
+	total: number;
+
+	resolved: number;
+
+	ambiguous: number;
+
+	unresolved: number;
+
+	results: ResolutionResult[];
+};
 
 type Proposal = {
 	gameDayTeamId: string;
@@ -37,6 +86,8 @@ type Proposal = {
 };
 
 type ProposalReport = {
+	unresolvedInput: number;
+
 	newTeams: number;
 
 	anomalies: number;
@@ -56,12 +107,38 @@ async function loadExistingTeams(): Promise<Map<string, Team>> {
 			continue;
 		}
 
-		const team = TeamSchema.parse(parse(await readFile(join(TEAMS_DIR, file), "utf8")));
+		const raw = parse(await readFile(join(TEAMS_DIR, file), "utf8"));
+
+		const team = TeamSchema.parse(raw);
 
 		teams.set(team.id, team);
 	}
 
 	return teams;
+}
+
+function buildGameDayOwners(teams: Map<string, Team>): Map<string, string> {
+	const owners = new Map<string, string>();
+
+	for (const team of teams.values()) {
+		for (const externalId of team.externalIds) {
+			if (externalId.system !== "gameday") {
+				continue;
+			}
+
+			const existing = owners.get(externalId.value);
+
+			if (existing && existing !== team.id) {
+				throw new Error(
+					`GameDay ID ${externalId.value} belongs to both ${existing} and ${team.id}.`,
+				);
+			}
+
+			owners.set(externalId.value, team.id);
+		}
+	}
+
+	return owners;
 }
 
 function ageMaxFromGroup(ageGroup: string): number {
@@ -74,19 +151,53 @@ function ageMaxFromGroup(ageGroup: string): number {
 	return Number.parseInt(match[1], 10);
 }
 
-async function main(): Promise<void> {
-	const report = JSON.parse(await readFile(PROPOSALS_FILE, "utf8")) as ProposalReport;
+async function writeTeam(team: Team): Promise<void> {
+	const validated = TeamSchema.parse(team);
 
-	if (report.idCollisions !== 0) {
-		throw new Error(`Proposal file contains ${report.idCollisions} ID collision(s).`);
+	await writeFile(
+		join(TEAMS_DIR, `${validated.id}.yaml`),
+		stringify(validated, {
+			lineWidth: 100,
+		}),
+		"utf8",
+	);
+}
+
+async function main(): Promise<void> {
+	const resolution = JSON.parse(await readFile(RESOLUTION_FILE, "utf8")) as ResolutionReport;
+
+	const proposalReport = JSON.parse(await readFile(PROPOSALS_FILE, "utf8")) as ProposalReport;
+
+	if (resolution.ambiguous !== 0) {
+		throw new Error(
+			`Cannot import GameDay teams: resolution contains ${resolution.ambiguous} ambiguous team(s).`,
+		);
 	}
 
-	const proposals = report.proposals.filter((proposal) => proposal.status === "new_team");
-
-	if (proposals.length !== report.newTeams) {
+	if (proposalReport.idCollisions !== 0) {
 		throw new Error(
-			`Proposal count mismatch: expected ${report.newTeams}, found ${proposals.length}.`,
+			`Cannot import GameDay teams: proposal file contains ${proposalReport.idCollisions} ID collision(s).`,
 		);
+	}
+
+	const unresolvedResults = resolution.results.filter((result) => result.status === "unresolved");
+
+	if (unresolvedResults.length !== proposalReport.unresolvedInput) {
+		throw new Error(
+			`Resolution/proposal mismatch: ${unresolvedResults.length} unresolved teams but proposal report expects ${proposalReport.unresolvedInput}.`,
+		);
+	}
+
+	const proposalByGameDayId = new Map(
+		proposalReport.proposals.map((proposal) => [proposal.gameDayTeamId, proposal]),
+	);
+
+	for (const unresolved of unresolvedResults) {
+		if (!proposalByGameDayId.has(unresolved.gameDayTeamId)) {
+			throw new Error(
+				`Unresolved GameDay team ${unresolved.gameDayTeamId} has no proposal/anomaly decision.`,
+			);
+		}
 	}
 
 	await mkdir(TEAMS_DIR, {
@@ -95,36 +206,130 @@ async function main(): Promise<void> {
 
 	const existingTeams = await loadExistingTeams();
 
-	const existingGameDayIds = new Map<string, string>();
+	const gameDayOwners = buildGameDayOwners(existingTeams);
 
-	for (const team of existingTeams.values()) {
-		for (const externalId of team.externalIds) {
-			if (externalId.system !== "gameday") {
-				continue;
-			}
+	let created = 0;
+	let updated = 0;
+	let unchanged = 0;
+	let anomaliesExcluded = 0;
 
-			const owner = existingGameDayIds.get(externalId.value);
+	console.log("GameDay junior team import");
 
-			if (owner && owner !== team.id) {
+	console.log("");
+
+	for (const result of resolution.results) {
+		if (result.status === "ambiguous") {
+			throw new Error(`Unexpected ambiguous GameDay team ${result.gameDayTeamId}.`);
+		}
+
+		/*
+		 * --------------------------------
+		 * Existing canonical identity
+		 * --------------------------------
+		 */
+		if (result.status === "resolved") {
+			if (result.candidates.length !== 1) {
 				throw new Error(
-					`GameDay ID ${externalId.value} belongs to multiple canonical teams: ${owner}, ${team.id}`,
+					`Resolved GameDay team ${result.gameDayTeamId} does not have exactly one candidate.`,
 				);
 			}
 
-			existingGameDayIds.set(externalId.value, team.id);
+			const candidate = result.candidates[0];
+
+			if (!candidate) {
+				throw new Error(`Resolved GameDay team ${result.gameDayTeamId} has no candidate.`);
+			}
+
+			const existing = existingTeams.get(candidate.teamId);
+
+			if (!existing) {
+				throw new Error(`Resolved canonical Team ${candidate.teamId} does not exist.`);
+			}
+
+			const existingOwner = gameDayOwners.get(result.gameDayTeamId);
+
+			if (existingOwner && existingOwner !== existing.id) {
+				throw new Error(
+					`GameDay ID ${result.gameDayTeamId} belongs to ${existingOwner}, but resolution selected ${existing.id}.`,
+				);
+			}
+
+			const hasGameDayId = existing.externalIds.some(
+				(externalId) =>
+					externalId.system === "gameday" && externalId.value === result.gameDayTeamId,
+			);
+
+			const hasSource = existing.sourceIds.includes("england-ice-hockey");
+
+			if (hasGameDayId && hasSource) {
+				console.log(`- unchanged ${existing.id} [gameday:${result.gameDayTeamId}]`);
+
+				unchanged += 1;
+
+				continue;
+			}
+
+			const updatedTeam: Team = {
+				...existing,
+
+				externalIds: hasGameDayId
+					? existing.externalIds
+					: [
+							...existing.externalIds,
+							{
+								system: "gameday",
+
+								value: result.gameDayTeamId,
+							},
+						],
+
+				sourceIds: hasSource ? existing.sourceIds : [...existing.sourceIds, "england-ice-hockey"],
+			};
+
+			await writeTeam(updatedTeam);
+
+			const validated = TeamSchema.parse(updatedTeam);
+
+			existingTeams.set(validated.id, validated);
+
+			gameDayOwners.set(result.gameDayTeamId, validated.id);
+
+			console.log(`~ ${validated.id} <- gameday:${result.gameDayTeamId} (${candidate.reason})`);
+
+			updated += 1;
+
+			continue;
 		}
-	}
 
-	let created = 0;
-	let skipped = 0;
+		/*
+		 * --------------------------------
+		 * Unresolved provider identity
+		 * --------------------------------
+		 */
+		const proposal = proposalByGameDayId.get(result.gameDayTeamId);
 
-	for (const proposal of proposals) {
+		if (!proposal) {
+			throw new Error(`Missing proposal for unresolved GameDay team ${result.gameDayTeamId}.`);
+		}
+
+		if (proposal.status === "source_anomaly") {
+			console.log(
+				`! excluded ${proposal.gameDayTeamId} ${proposal.sourceNames.join(" / ")}: ${proposal.reason ?? "source anomaly"}`,
+			);
+
+			anomaliesExcluded += 1;
+
+			continue;
+		}
+
 		if (!proposal.proposedId || !proposal.proposedName) {
-			throw new Error(`Incomplete team proposal for GameDay ${proposal.gameDayTeamId}.`);
+			throw new Error(`Incomplete new-team proposal for GameDay ${proposal.gameDayTeamId}.`);
 		}
 
 		if (proposal.ageGroups.length !== 1) {
-			throw new Error(`Expected exactly one age group for GameDay ${proposal.gameDayTeamId}.`);
+			throw new Error(
+				`Expected exactly one age group for new GameDay team ${proposal.gameDayTeamId}.`,
+			);
 		}
 
 		const ageGroup = proposal.ageGroups[0];
@@ -135,31 +340,18 @@ async function main(): Promise<void> {
 
 		const existingById = existingTeams.get(proposal.proposedId);
 
-		const existingByGameDay = existingGameDayIds.get(proposal.gameDayTeamId);
+		const existingByGameDay = gameDayOwners.get(proposal.gameDayTeamId);
 
-		if (existingByGameDay && existingByGameDay !== proposal.proposedId) {
+		/*
+		 * Resolution said this identity was unresolved.
+		 * If canonical data changed between resolve and
+		 * import, stop and require a fresh resolution
+		 * rather than guessing.
+		 */
+		if (existingById || existingByGameDay) {
 			throw new Error(
-				`GameDay ${proposal.gameDayTeamId} already belongs to ${existingByGameDay}, proposal wants ${proposal.proposedId}.`,
+				`Canonical data changed after resolution for GameDay ${proposal.gameDayTeamId}. Run team resolution again before importing.`,
 			);
-		}
-
-		if (existingById) {
-			const ownsGameDay = existingById.externalIds.some(
-				(externalId) =>
-					externalId.system === "gameday" && externalId.value === proposal.gameDayTeamId,
-			);
-
-			if (!ownsGameDay) {
-				throw new Error(
-					`Canonical team ID collision: ${proposal.proposedId} already exists but does not own GameDay ${proposal.gameDayTeamId}.`,
-				);
-			}
-
-			console.log(`- unchanged ${proposal.proposedId} [gameday:${proposal.gameDayTeamId}]`);
-
-			skipped += 1;
-
-			continue;
 		}
 
 		const aliases = [
@@ -210,31 +402,44 @@ async function main(): Promise<void> {
 
 		const validated = TeamSchema.parse(team);
 
-		await writeFile(
-			join(TEAMS_DIR, `${validated.id}.yaml`),
-			stringify(validated, {
-				lineWidth: 100,
-			}),
-			"utf8",
-		);
+		await writeTeam(validated);
 
 		existingTeams.set(validated.id, validated);
 
-		existingGameDayIds.set(proposal.gameDayTeamId, validated.id);
+		gameDayOwners.set(proposal.gameDayTeamId, validated.id);
 
 		console.log(`+ ${validated.id} <- gameday:${proposal.gameDayTeamId}`);
 
 		created += 1;
 	}
 
+	const handled = created + updated + unchanged + anomaliesExcluded;
+
 	console.log("");
-	console.log(`Proposals: ${proposals.length}`);
+	console.log("Import summary");
+	console.log("--------------");
+
+	console.log(`Provider teams: ${resolution.total}`);
 
 	console.log(`Created: ${created}`);
 
-	console.log(`Unchanged: ${skipped}`);
+	console.log(`Updated: ${updated}`);
 
-	console.log(`Anomalies excluded: ${report.anomalies}`);
+	console.log(`Unchanged: ${unchanged}`);
+
+	console.log(`Anomalies excluded: ${anomaliesExcluded}`);
+
+	console.log(`Handled: ${handled}`);
+
+	if (handled !== resolution.total) {
+		throw new Error(`GameDay team import incomplete: handled ${handled}/${resolution.total}.`);
+	}
+
+	if (anomaliesExcluded !== proposalReport.anomalies) {
+		throw new Error(
+			`Anomaly count mismatch: excluded ${anomaliesExcluded}, proposal report contains ${proposalReport.anomalies}.`,
+		);
+	}
 }
 
 await main();

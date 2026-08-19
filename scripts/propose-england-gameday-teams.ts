@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 import { join } from "node:path";
 
-import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
+import type { NormalizedGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 
@@ -11,7 +11,8 @@ const SNAPSHOT_FILE = join(
 	"england-ice-hockey",
 	SNAPSHOT_DATE,
 	"gameday",
-	"raw-juniors.json",
+	"normalized",
+	"snapshot.json",
 );
 
 const RESOLUTION_FILE = join(
@@ -112,7 +113,9 @@ function cleanProposedName(sourceName: string, ageGroup: string): string {
 }
 
 async function main(): Promise<void> {
-	const snapshot = JSON.parse(await readFile(SNAPSHOT_FILE, "utf8")) as RawGameDayJuniorSnapshot;
+	const snapshot = JSON.parse(
+		await readFile(SNAPSHOT_FILE, "utf8"),
+	) as NormalizedGameDayJuniorSnapshot;
 
 	const resolution = JSON.parse(await readFile(RESOLUTION_FILE, "utf8")) as ResolutionReport;
 

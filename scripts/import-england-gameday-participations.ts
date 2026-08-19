@@ -15,16 +15,17 @@ import {
 	type TeamParticipation,
 } from "../schema/index.js";
 
-import type { RawGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
+import type { NormalizedGameDayJuniorSnapshot } from "../providers/england-ice-hockey/gameday/types.js";
 
 const SNAPSHOT_DATE = "2026-08-18";
 
-const RAW_FILE = join(
+const SNAPSHOT_FILE = join(
 	"imports",
 	"england-ice-hockey",
 	SNAPSHOT_DATE,
 	"gameday",
-	"raw-juniors.json",
+	"normalized",
+	"snapshot.json",
 );
 
 const TEAMS_DIR = join("data", "teams");
@@ -159,7 +160,9 @@ function buildGameDayDestinationIndex(
 }
 
 async function main(): Promise<void> {
-	const snapshot = JSON.parse(await readFile(RAW_FILE, "utf8")) as RawGameDayJuniorSnapshot;
+	const snapshot = JSON.parse(
+		await readFile(SNAPSHOT_FILE, "utf8"),
+	) as NormalizedGameDayJuniorSnapshot;
 
 	const teams = (await loadYamlDirectory(TEAMS_DIR)).map((data) => TeamSchema.parse(data));
 

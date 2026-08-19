@@ -1,3 +1,5 @@
+import type { RawGameDayFixture } from "./parse-fixtures.js";
+
 export type RawGameDayJuniorCompetition = {
 	id: string;
 
@@ -74,4 +76,48 @@ export type RawGameDayJuniorSnapshot = {
 	participations: RawGameDayJuniorParticipation[];
 
 	standings: RawGameDayJuniorStanding[];
+};
+
+export type NormalizedGameDayJuniorCompetition = RawGameDayJuniorCompetition;
+
+export type NormalizedGameDayJuniorTeam = {
+	id: string;
+
+	names: string[];
+
+	ageGroups: string[];
+
+	competitionIds: string[];
+};
+
+export type NormalizedGameDayJuniorParticipation = {
+	teamId: string;
+
+	teamName: string;
+
+	competitionId: string;
+
+	competitionName: string;
+
+	ageGroup: string;
+};
+
+export type NormalizedGameDayJuniorSnapshot = {
+	provider: "gameday";
+
+	snapshotDate: string;
+
+	seasonId: string;
+
+	seasonLabel: string;
+
+	competitions: NormalizedGameDayJuniorCompetition[];
+
+	teams: NormalizedGameDayJuniorTeam[];
+
+	participations: NormalizedGameDayJuniorParticipation[];
+
+	standings: RawGameDayJuniorStanding[];
+
+	fixtures: RawGameDayFixture[];
 };

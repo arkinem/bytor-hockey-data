@@ -1,4 +1,4 @@
-import type { RawGameDayJuniorSnapshot } from "./types.js";
+import type { NormalizedGameDayJuniorSnapshot } from "./types.js";
 
 export type GameDayCompetitionProposalKind = "competition" | "competition_group" | "deferred_event";
 
@@ -130,7 +130,7 @@ function classifyCompetition(
 }
 
 export function proposeGameDayCompetitions(
-	snapshot: RawGameDayJuniorSnapshot,
+	snapshot: NormalizedGameDayJuniorSnapshot,
 ): GameDayCompetitionProposalReport {
 	const proposals = snapshot.competitions.map((competition) =>
 		classifyCompetition(competition.id, competition.name, competition.ageGroup),
